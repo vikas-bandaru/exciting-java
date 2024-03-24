@@ -14,6 +14,7 @@ nav_order: 4
 - [Think Java](https://greenteapress.com/wp/think-java/)
 - [Programming by Doing](https://programmingbydoing.com/)
 - [Learn Java the Hard Way](https://learnjavathehardway.org/)
+- [Learn Object-Oriented Java the Hard Way](https://grahammitchell.com/learn-java-oop/)
 
 ## Java Reference Books
 
