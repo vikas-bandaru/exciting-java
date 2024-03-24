@@ -15,18 +15,15 @@ Join us on this electrifying adventure and discover the endless possibilities th
 
 ### Week 1: Foundations of OOP & Algorithmic Thinking
 
-#### Day 1: Session 1
+#### **Day 1: Session 1**
+  - Program Orientation
+  - Project Orientation
 
-#### Day 1: Session 2
-
-  [Session Content](https://tinyurl.com/day-1-session)
-
-  [Exercises](resources\exercises\day01-session02.md)
-
-  Download Projects: 
-  1. [figures](resources\projects\bluej\part01\figures.zip)
-  2. [house](resources\projects\bluej\part01\house.zip)
-  3. [lab-classes](resources\projects\bluej\part01\lab-classes.zip)
+| Day 1: Session 2 | Content | Exercises | Projects |
+|----------|--------|----------|---------|
+| **Resources** | [Session Content](https://tinyurl.com/day-1-session) | [Exercises](resources\exercises\day01-session02.md) | [figures](resources\projects\bluej\part01\figures.zip), [house](resources\projects\bluej\part01\house.zip), [lab-classes](resources\projects\bluej\part01\lab-classes.zip) |
+| Day 2: Session 1 | | | |
+| 
 
 #### Day 1: Practice Session 
 
