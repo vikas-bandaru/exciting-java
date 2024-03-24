@@ -28,16 +28,6 @@ Join us on this electrifying adventure and discover the endless possibilities th
 - Project How-To's
 - Project Tools
 
-## Reference Books
-
-- Objects-first with Java, 6th edition
-- Learn Java the Easy Way
-- Head First Java, 3rd edition
-- Think Java
-- Learn Java the Hard Way
-- Clean Code
-- The Clean Coder
-
 ## Practice Platforms
 
 - [CodingBat](https://codingbat.com/java) - Teacher Share - Java
