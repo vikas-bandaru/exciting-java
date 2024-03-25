@@ -1,12 +1,12 @@
 ---
 layout: default
-title: Day 1
+title: Day01:Session 2
 nav_order: 4
 ---
-
+<!-- [Back to Home](../../index.md) ==> not working -->
 # Session Exercises
 
-## Session 2
+## Day 1: Session 2
 
 ### Exercises on *figures* project
 
