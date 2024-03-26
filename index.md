@@ -22,7 +22,7 @@ Join us on this electrifying adventure and discover the endless possibilities th
 
 | Day & Session | Projects | Content | Experiments | Practice Session | Work From Home |
 |----------|--------|----------|---------|
-| **Day 01:** Session 02 | [figures](resources\projects\bluej\part01\figures.zip), [house](resources\projects\bluej\part01\house.zip), [lab-classes](resources\projects\bluej\part01\lab-classes.zip) | [Slides](https://tinyurl.com/day-1-session) | [D01S02](resources\exercises\day01-session02) | [D01: Challenges](resources\exercises\day01-challenges) |  |
+| **Day 01:** Session 02 | [figures](resources\projects\bluej\part01\figures.zip), [house](resources\projects\bluej\part01\house.zip), [lab-classes](resources\projects\bluej\part01\lab-classes.zip) | [Slides](https://tinyurl.com/day-1-session), [BlueJ:Download](resources\exercises\day01-instructions) | [D01S02](resources\exercises\day01-session02) | [D01: Challenges](resources\exercises\day01-challenges) |  |
 | **Day 02:** Session 01 | [naive-ticket-machine](resources\projects\bluej\part02\naive-ticket-machine.zip) | Slides | [D02S01](resources\exercises\day02-session01) |  | Horstmann L03: Cars |
 | **Day 02:** Session 02 | [better-ticket-machine](resources\projects\bluej\part02\better-ticket-machine.zip) | Slides | [D02S02]() | [D02: Challenges](resources\exercises\day02-challenges) | yet to plan |
 
