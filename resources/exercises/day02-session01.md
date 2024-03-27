@@ -20,9 +20,9 @@ nav_order: 4
 
 1. Write out what you think the outer wrappers of the `Student` and `LabClass` classes might look like; do not worry about the inner part.
 2. Does it matter whether we write  
-```public class TicketMachine```  
-or  
-```class public TicketMachine```  
+   ```public class TicketMachine```  
+   or  
+   ```class public TicketMachine```  
 in the outer wrapper of a class? Edit the source of the TicketMachine class to make the change, and then close the editor window. Do you notice a change in the class diagram?  
 What error message do you get when you now press the Compile button? Do you think this message clearly explains what is wrong?  
 Change the class back to how it was, and make sure that this clears the error when you compile it.
@@ -37,16 +37,16 @@ Change the class back to how it was, and make sure that this clears the error wh
 ### Experiments and Exercises on Fields
 
 1. What do you think is the *type* of each of the following fields?  
-  ```private int count;```  
-  ```private Student representative;```  
-  ```private Server host;```  
+   ```private int count;```  
+   ```private Student representative;```  
+   ```private Server host;```  
 2. What are the *names* of the following fields?  
-  ```private boolean alive;```  
-  ```private Person tutor;```
-  ```private Game game;```  
+   ```private boolean alive;```  
+   ```private Person tutor;```
+   ```private Game game;```  
 3. From what you know about the naming conventions for classes, which of the type names in the above two Exercises would you say are class names?
 4. In the following field declaration from the `TicketMachine` class  
-  ```private int price;```  
+   ```private int price;```  
 does it matter which order the three words appear in? Edit the `TicketMachine` class to try different orderings. After each change, close the editor. Does the appearance of the class diagram after each change give you a clue as to whether or not other orderings are possible? Check by pressing the Compile button to see if there is an error message.  
 Make sure that you reinstate the original version after your experiments!
 5. Is it always necessary to have a semicolon at the end of a field declaration? Once again, experiment via the editor. The rule you will learn here is an important one, so be sure to remember it.
@@ -55,21 +55,21 @@ Make sure that you reinstate the original version after your experiments!
 ### Experiments and Exercises on Constructors
 
 1. To what class does the following constructor belong?  
-  ```public Student(String name)```  
+   ```public Student(String name)```  
 2. How many parameters does the following constructor have, and what are their types?  
-  ```public Book(String title, double price)```
+   ```public Book(String title, double price)```
 3. Can you guess what types some of the `Book` class’s fields might be, from the parameters in its constructor? Can you assume anything about the names of its fields?
 4. Suppose that the class `Pet` has a field called `name` that is of the type `String`. Write an assignment statement in the body of the following constructor so that the `name` field will be initialized with the value of the constructor’s parameter.  
   
-  ```java
-  public Pet(String petsName)
-  {
+   ```java
+   public Pet(String petsName)
+   {
 
-  }
-  ```
+   }
+   ```
 5. The following object creation will result in the constructor of the Date class being called. Can you write the constructor’s header?  
-  ```new Date("March", 23, 1861)```  
-  Try to give meaningful names to the parameters.
+   ```new Date("March", 23, 1861)```  
+   Try to give meaningful names to the parameters.
 
 ### Experiments and Exercises on Methods
 
@@ -87,42 +87,42 @@ Make sure that you reinstate the original version after your experiments!
 
 8. Create a ticket machine with a ticket price of your choosing. Before doing anything else, call the `getBalance` method on it. Now call the `insertMoney` method and give a non-zero positive amount of money as the actual parameter. Now call `getBalance` again. The two calls to `getBalance` should show different outputs, because the call to `insertMoney` had the effect of changing the machine’s state via its `balance` field.
 9. How can we tell from just its header that `setPrice` is a method and not a constructor?  
-  `public void setPrice(int cost)`
+   `public void setPrice(int cost)`
 10. Complete the body of the `setPrice` method so that it assigns the value of its parameter to the `price` field.
 11. Complete the body of the following method, whose purpose is to add the value of its parameter to a field named `score`.  
 
-```java
-/**
-* Increase score by the given number of points.
-*/
-public void increase(int points)
-{
-  ...
-}
-```
+   ```java
+   /**
+   * Increase score by the given number of points.
+   */
+   public void increase(int points)
+   {
+      ...
+   }
+   ```
 12. Is the `increase` method a mutator? If so, how could you demonstrate this?
 13. Complete the following method, whose purpose is to subtract the value of its parameter from a field named `price`.  
 
-```java
-/**
-* Reduce price by the given amount.
-*/
-public void discount(int amount)
-{
-  ...
-}
-```
+   ```java
+   /**
+   * Reduce price by the given amount.
+   */
+   public void discount(int amount)
+   {
+      ...
+   }
+   ```
 
 ### Experiments and Exercises on Printing from Methods
 
 1. Write down exactly what will be printed by the following statement:  
-  `System.out.println("My cat has green eyes.");`
+   `System.out.println("My cat has green eyes.");`
 2. Add a method called `prompt` to the `TicketMachine` class. This should have a `void` return type and take no parameters. The body of the method should print the following single line of output:  
   **Please insert the correct amount of money.**
 3. What do you think would be printed if you altered the fourth statement of `printTicket` so that `price` also has quotes around it, as follows?  
-  `System.out.println("# " + "Rs. " + "price");`
+   `System.out.println("# " + "Rs. " + "price");`
 4. What about the following version?  
-  `System.out.println("# Rs. price");`
+   `System.out.println("# Rs. price");`
 5. Could either of the previous two versions be used to show the price of tickets in different ticket machines? Explain your answer.
 6. Add a `showPrice` method to the `TicketMachine` class. This should have a void return type and take no parameters. The body of the method should print:  
   **The price of a ticket is *xyz* cents.**  
