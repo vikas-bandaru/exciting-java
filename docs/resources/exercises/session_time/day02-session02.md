@@ -1,13 +1,16 @@
 ---
 layout: default
-title: Day02:Session 2
-nav_order: 4
+title: Session 2
+parent: Day 2
+grand_parent: Module 1 Week 1
+nav_order: 2
 ---
 
-# Session Exercises
-
-## Day 2: Session 2
-
+# Module 1: Java Foundations
+## Week 1: Foundations of OOP & Algorithmic Thinking
+### Day 2: Understanding Class Definitions
+## Session 2: Better Ticket Machines
+---
 ### Experiments with the `TicketMachine` object before and after examining the class in *better-ticket-machine* project
 1. Check that the behavior we have discussed here is accurate by creating a `TicketMachine` instance and calling `insertMoney` with various actual parameter values. Check the balance both before and after calling `insertMoney`. Does the balance ever change in the cases when an error message is printed? Try to predict what will happen if you enter the value zero as the parameter, and then see if you are right.
 2. Predict what you think will happen if you change the test in `insertMoney` to use the greater-than or equal-to operator:  

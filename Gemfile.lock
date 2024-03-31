@@ -85,6 +85,7 @@ PLATFORMS
 DEPENDENCIES
   jekyll (~> 4.3.3)
   just-the-docs (= 0.8.1)
+  webrick (~> 1.8)
 
 BUNDLED WITH
-   2.3.26
+   2.5.7

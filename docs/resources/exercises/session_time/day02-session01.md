@@ -1,14 +1,17 @@
 ---
 layout: default
-title: Day02:Session 1
-nav_order: 4
+title: Session 1
+parent: Day 2
+grand_parent: Module 1 Week 1
+nav_order: 1
 ---
 
-# Session Exercises
-
-## Day 2: Session 1
-
-### Experiments with the `TicketMachine` object before examining the class in *naive-ticket-machine* project
+# Module 1: Java Foundations
+## Week 1: Foundations of OOP & Algorithmic Thinking
+### Day 2: Understanding Class Definitions
+## Session 1: Ticket Machines
+---
+### Experiments with the `TicketMachine` object before examining it in *naive-ticket-machine* project
 
 1. Create a `TicketMachine` object on the object bench and take a look at its methods. You should see the following: `getBalance`, `getPrice`, `insertMoney`, and `printTicket`. Try out the `getPrice` method. You should see a return value containing the price of the tickets that was set when this object was created. Use the `insertMoney` method to simulate inserting an amount of money into the machine. The machine stores as a balance the amount of money inserted. Use `getBalance` to check that the machine has kept an accurate record of the amount just inserted. You can insert several separate amounts of money into the machine, just like you might insert multiple coins into a real machine. Try inserting the exact amount required for a ticket, and use `getBalance` to ensure that the balance is increased correctly. As this is a simple machine, a ticket will not be issued automatically, so once you have inserted enough money, call the `printTicket` method. A facsimile ticket should be printed in the BlueJ terminal window.
 2. What value is returned if you get the machine’s balance after it has printed a ticket?

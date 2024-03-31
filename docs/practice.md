@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Practice
+title: Practice Resources
 nav_order: 4
 ---
 
