@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Books
+title: Course Books
 nav_order: 5
 ---
 
