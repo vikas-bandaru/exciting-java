@@ -31,8 +31,9 @@ nav_order: 1
 
 ## Program Orientation
 
+- [Pre Course Knowledge Survey](https://forms.gle/uxfijnKMUUJucYaJ6)
 - Pre Course Confidence Survey
-- Program Schedule
+- [Program Schedule](../../../course-structure.md)
 - Project-based Content Delivery
 - Internship Simulation & Progression Chart
 - Target & Expectation Setting
@@ -43,8 +44,17 @@ nav_order: 1
 
 - Intro to Project
   - [Software You Need](../../instructions/software-needed.md)
-  - Expected Capstone Project Taget
+  - Expected Capstone Project Target
 - Types of Projects
+  - BlueJ Projects
+  - Text-based Java Projects
+  - JDBC Projects
+  - Enterprise Java Projects
 - Project Resources
+  - GitHub Repositories
 - Project How-To's
 - Common Project Tools
+  - Git & GitHub Desktop
+  - IDEs: BlueJ, Eclipse, VS Code, IntelliJ IDEA
+  - VS Code Extensions: Thunder Client
+  - Postman
