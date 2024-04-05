@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Test Yourself
+title: Self Review
 parent: Day 1
 grand_parent: Module 1 Week 1
 nav_order: 3
@@ -9,7 +9,7 @@ nav_order: 3
 # Module 1: Java Foundations
 ## Week 1: Foundations of OOP & Algorithmic Thinking
 ### Day 1: Program Orientation and Intro to Objects & Classes
-### Test Yourself
+### Self Review
 ---
 
 Today, we have covered a lot of new ground, and we have introduced a lot of new concepts.  

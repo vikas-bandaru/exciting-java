@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Test Yourself
+title: Self Review
 parent: Day 2
 grand_parent: Module 1 Week 1
 nav_order: 3
@@ -9,7 +9,7 @@ nav_order: 3
 # Module 1: Java Foundations
 ## Week 1: Foundations of OOP & Algorithmic Thinking
 ### Day 2: Understanding Class Definitions
-### Test Yourself
+### Self Review
 ---
 
 Today, we have covered a lot of new ground, and we have introduced a lot of new concepts.  
@@ -25,8 +25,6 @@ _It will be good practice to try things out without a compiler._
    }
    ```
 
-   <input type="text">
-
 2. List the name of this method and the name and type of its parameter:
 
    ```java
@@ -35,8 +33,6 @@ _It will be good practice to try things out without a compiler._
       credits = creditValue;
    }
    ```
-
-   <input type="text">
 
 3. Write out the outer wrapping (class header) of a class called `Person`.  
    Remember to include the curly brackets that mark the start and end of the class body, but otherwise leave the body empty.
