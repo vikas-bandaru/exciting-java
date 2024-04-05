@@ -1,10 +1,10 @@
 ---
-title: Course Structure
+title: Program Schedule
 layout: default
 nav_order: 2
 ---
 
-# Course Structure
+# Program Schedule
 
 | Day & Session | Projects | Content | Experiments | Practice Session | Work From Home |
 |----------|--------|----------|---------|

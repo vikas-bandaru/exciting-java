@@ -31,9 +31,9 @@ nav_order: 1
 
 ## Program Orientation
 
-- [Pre Course Knowledge Survey](https://forms.gle/uxfijnKMUUJucYaJ6)
-- Pre Course Confidence Survey
-- [Program Schedule](../../../course-structure.md)
+- [Pre Program Knowledge Survey](https://forms.gle/uxfijnKMUUJucYaJ6)
+- Pre Program Confidence Survey
+- [Program Schedule](../../../course-structure)
 - Project-based Content Delivery
 - Internship Simulation & Progression Chart
 - Target & Expectation Setting
@@ -43,7 +43,7 @@ nav_order: 1
 ## Project Orientation
 
 - Intro to Project
-  - [Software You Need](../../instructions/software-needed.md)
+  - [Software You Need](../../instructions/software-needed)
   - Expected Capstone Project Target
 - Types of Projects
   - BlueJ Projects

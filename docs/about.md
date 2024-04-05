@@ -15,7 +15,7 @@ Educator 👨‍🏫. Dreamer 💭. Thinker 💡🤔. Booklover 📖. Coder 👨
 - _Change by Design_, Tim Brown
 - _The Multiplayer Classroom_, Lee Sheldon
 - _Creative Schools_, Ken Robinson
-- _The World School_, Sal Khan
+- _The One World Schoolhouse_, Sal Khan
 - _The Code of the Extraordinary Mind_, Vishen Lakhiani
 - _Limitless_, Jim Kwik
 - _Indistractable_, Nir Eyal

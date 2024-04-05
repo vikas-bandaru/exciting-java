@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Software U Need
+title: Software You Need
 nav_order: 4
 ---
 
@@ -28,7 +28,7 @@ nav_order: 4
 
 ## Installing JDK
 
-![How to Install Java on Windows 64 bit Machine](https://howtodoinjava.com/java/basics/install-java-on-64-bit-windows/)
+[How to Install Java on Windows 64 bit Machine](https://howtodoinjava.com/java/basics/install-java-on-64-bit-windows/)
 
 ## Installing Eclipse IDE for Enterprise Java and Web Developers
 
