@@ -1,9 +1,5 @@
 ---
-<<<<<<< Updated upstream:docs/course-structure.md
 title: Program Schedule
-=======
-title: Course Schedule
->>>>>>> Stashed changes:docs/course-schedule.md
 layout: default
 nav_order: 2
 ---

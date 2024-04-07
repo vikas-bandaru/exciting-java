@@ -11,13 +11,7 @@ nav_order: 3
 ## Week 1: Foundations of OOP & Algorithmic Thinking
 
 ### Day 2: Understanding Class Definitions
-<<<<<<< Updated upstream
 ### Self Review
-=======
-
-### Test Yourself
-
->>>>>>> Stashed changes
 ---
 
 Today, we have covered a lot of new ground, and we have introduced a lot of new concepts.  
