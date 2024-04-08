@@ -1,7 +1,8 @@
 ---
 layout: default
 title: Operators
-parent: Handouts
+parent: Java
+grand_parent: Handouts
 nav_order: 2
 ---
 

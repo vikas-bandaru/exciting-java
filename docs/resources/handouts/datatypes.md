@@ -1,7 +1,8 @@
 ---
 layout: default
 title: Data Types
-parent: Handouts
+parent: Java
+grand_parent: Handouts
 nav_order: 1
 ---
 
