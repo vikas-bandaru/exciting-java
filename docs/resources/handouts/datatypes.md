@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Data Types
-parent: Cheatsheets
+parent: Handouts
 nav_order: 1
 ---
 

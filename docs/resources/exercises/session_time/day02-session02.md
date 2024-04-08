@@ -13,7 +13,7 @@ nav_order: 2
 ### Day 2: Understanding Class Definitions
 
 ## Session 2: Better Ticket Machines
-
+---
 ### Experiments with the `TicketMachine` object before and after examining the class in _better-ticket-machine_ project
 
 1. Check that the behavior we have discussed here is accurate by creating a `TicketMachine` instance and calling `insertMoney` with various actual parameter values. Check the balance both before and after calling `insertMoney`. Does the balance ever change in the cases when an error message is printed? Try to predict what will happen if you enter the value zero as the parameter, and then see if you are right.

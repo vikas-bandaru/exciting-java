@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Practice Resources
-nav_order: 4
+nav_order: 5
 ---
 
 ## Practice Platforms

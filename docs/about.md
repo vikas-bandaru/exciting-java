@@ -1,7 +1,7 @@
 ---
 layout: about
 title: About Me
-nav_order: 6
+nav_order: 8
 ---
 
 # About Author

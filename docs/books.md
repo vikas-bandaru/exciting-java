@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Books for your Reference
-nav_order: 5
+nav_order: 7
 ---
 
 ## Project-oriented Java Books
