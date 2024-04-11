@@ -1,13 +1,14 @@
 ---
 layout: default
-title: Pomodoro 1
-parent: Day 6
+title: Practice
+parent: Day 5
 grand_parent: Module 1 Week 1
-nav_order: 1
+nav_order: 4
 ---
 
 # Module 1: Java Foundations
 ## Week 1: Foundations of OOP & Algorithmic Thinking
-### Day 6: 
-## Session 1: 
+### Day 5: 
+## Practice Session
 ---
+### Challenges on 

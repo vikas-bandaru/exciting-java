@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Pomodoro 2
+title: Session 2
 parent: Day 1
 grand_parent: Module 1 Week 1
 nav_order: 2

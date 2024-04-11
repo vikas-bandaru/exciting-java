@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Pomodoro 2
-parent: Day 6
+title: Session 2
+parent: Day 2
 grand_parent: Module 1 Week 1
 nav_order: 2
 ---
@@ -10,7 +10,7 @@ nav_order: 2
 
 ## Week 1: Foundations of OOP & Algorithmic Thinking
 
-### Day 6: 
+### Day 2: 
 
 ## Session 2: 
 ---
