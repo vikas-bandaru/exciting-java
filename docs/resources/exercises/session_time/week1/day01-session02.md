@@ -2,7 +2,7 @@
 layout: default
 title: Session 2
 parent: Day 1
-grand_parent: Module 1 Week 1
+grand_parent: Week 1
 nav_order: 2
 ---
 

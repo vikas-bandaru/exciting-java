@@ -1,11 +1,11 @@
 ---
 layout: default
-title: Day 3
-parent: Module 1 Week 1
-nav_order: 2
+# title: Java
+parent: Handouts
+nav_order: 1
 has_children: true
 ---
 
 # Module 1: Java Foundations
 ## Week 1: Foundations of OOP & Algorithmic Thinking
-### Day 3: Understanding Class Definitions
+### Day 1: Program Orientation and Intro to Objects & Classes

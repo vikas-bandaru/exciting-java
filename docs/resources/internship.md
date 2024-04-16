@@ -70,14 +70,17 @@ Let's code, create, and conquer together! 💻✨
 ## Progression Table
 ### Week 0
 
-| Day | Activity | Duration (in Minutes) | XP (Experience Points) |
-|:--|:--|:--|:--|
-| 1 | Welcome and Introduction | 20 | 50 |
-| 2 | Icebreaker Activity | 20 | 75 |
-| 3 | Team-building Exercise | 15 | 100 |
-| 4 | Group Discussion | 15 | 100 |
-| 5 | Introduction to Tools | 20 | 75 |
-| 6 | Q&A Session | 10 | 50 |
-| | TOTAL | 100 | 450 |
+| Day | Session | Activity | Duration (in Minutes) | XP (Experience Points) |
+|:--|:--|:--|:--|:--|
+| 1 | 2 | Welcome and Introduction | 20 | 50 |
+|   | Practice | Visual Coding : Classic Maze | 60 | 50 (25%), 100 (50%), 150 (75%), 200 (100%) |
+|   | Work from Home | Visual Coding : Artist | 60 | 50 (25%), 100 (50%), 150 (75%), 200 (100%) |
+|   |  | Prepare for Talk | 5-10 | 50 |
+| | | TOTAL | 100 | 200 - 500 |
 
+<!-- |   |    | Icebreaker Activity | 20 | 75 |
+|   |    | Team-building Exercise | 15 | 100 |
+|   |    | Group Discussion | 15 | 100 |
+|   |    | Introduction to Tools | 20 | 75 |
+|   |    | Q&A Session | 10 | 50 | -->
 ### Week 1

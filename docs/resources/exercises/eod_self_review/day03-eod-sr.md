@@ -2,7 +2,7 @@
 layout: default
 title: Self Review
 parent: Day 3
-grand_parent: Module 1 Week 1
+grand_parent: Week 1
 nav_order: 3
 ---
 
