@@ -68,19 +68,31 @@ Are you ready to embark on this exciting journey into the world of software deve
 Let's code, create, and conquer together! 💻✨
 
 ## Progression Table
-### Week 0
+### Module 0: Day 1
 
-| Day | Session | Activity | Duration (in Minutes) | XP (Experience Points) |
-|:--|:--|:--|:--|:--|
-| 1 | 2 | Welcome and Introduction | 20 | 50 |
-|   | Practice | Visual Coding : Classic Maze | 60 | 50 (25%), 100 (50%), 150 (75%), 200 (100%) |
-|   | Work from Home | Visual Coding : Artist | 60 | 50 (25%), 100 (50%), 150 (75%), 200 (100%) |
-|   |  | Prepare for Talk | 5-10 | 50 |
-| | | TOTAL | 100 | 200 - 500 |
+| Session | Activity | Duration (in Minutes) | XP (Experience Points) |
+|:--|:--|:--|:--|
+| 2 | Welcome and Introduction | 20 | 50 |
+| Practice | Visual Coding : **Classic Maze** | 60 | 50 (25%), 100 (50%), 150 (75%), 200 (100%) |
+| Work from Home | Visual Coding : **Artist** | 60 | 50 (25%), 100 (50%), 150 (75%), 200 (100%) |
+| Work from Home | Prepare for Talk | 5-10 | 50 |
+| | **TOTAL** | **100** | **200 - 500** |
+
+### Module 0: Day 2
+
+| Session | Activity | Duration (in Minutes) | XP (Experience Points) |
+|:--|:--|:--|:--|
+| 1 | Talk on Hardware & Software | 10 | 50 |
+| 1 | Note taking on More about Software | 60 | 50 |
+| 2 | Finish Visual Coding : **Artist** | 60 | 50 (25%), 100 (50%), 150 (75%), 200 (100%) |
+| Practice | Setup Google Classroom account | 20 | 50 |
+| Practice | Practice "Learning with ChatGPT" | 60 | 100 |
+| | **TOTAL** | **100** | **300 - 450** |
 
 <!-- |   |    | Icebreaker Activity | 20 | 75 |
 |   |    | Team-building Exercise | 15 | 100 |
 |   |    | Group Discussion | 15 | 100 |
 |   |    | Introduction to Tools | 20 | 75 |
-|   |    | Q&A Session | 10 | 50 | -->
+|   |    | Q&A Session | 10 | 50 |
 ### Week 1
+ -->
