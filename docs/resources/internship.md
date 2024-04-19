@@ -75,19 +75,20 @@ Let's code, create, and conquer together! 💻✨
 | 2 | Welcome and Introduction | 20 | 50 |
 | Practice | Visual Coding : **Classic Maze** | 60 | 50 (25%), 100 (50%), 150 (75%), 200 (100%) |
 | Work from Home | Visual Coding : **Artist** | 60 | 50 (25%), 100 (50%), 150 (75%), 200 (100%) |
-| Work from Home | Prepare for Talk | 5-10 | 50 |
-| | **TOTAL** | **100** | **200 - 500** |
+| Work from Home | Prepare for Talk | 30 | 50 |
+| | **TOTAL** | **170** | **200 - 500** |
 
 ### Module 0: Day 2
 
 | Session | Activity | Duration (in Minutes) | XP (Experience Points) |
 |:--|:--|:--|:--|
 | 1 | Talk on Hardware & Software | 10 | 50 |
-| 1 | Note taking on More about Software | 60 | 50 |
+| 1 | Note taking on More about Software | 15 | 25 |
 | 2 | Finish Visual Coding : **Artist** | 60 | 50 (25%), 100 (50%), 150 (75%), 200 (100%) |
 | Practice | Setup Google Classroom account | 20 | 50 |
 | Practice | Practice "Learning with ChatGPT" | 60 | 100 |
-| | **TOTAL** | **100** | **300 - 450** |
+| Work from Home | Practice "Learning with ChatGPT" and prepare a 5-min talk on today's topics | 30 | 50 |
+| | **TOTAL** | **240** | **350 - 500** |
 
 <!-- |   |    | Icebreaker Activity | 20 | 75 |
 |   |    | Team-building Exercise | 15 | 100 |

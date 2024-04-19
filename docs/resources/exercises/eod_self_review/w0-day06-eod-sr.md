@@ -1,17 +1,15 @@
 ---
 layout: default
-# title: Self Review
+title: Self Review
 parent: Day 6
 grand_parent: Week 1
 nav_order: 3
 ---
 
 # Module 1: Java Foundations
-## Week 1: Foundations of OOP & Algorithmic Thinking
-### Day 1: Program Orientation and Intro to Objects & Classes
+## Day 5: Introduction to Java through BlueJ
 ### Self Review
 ---
-
 Today, we have covered a lot of new ground, and we have introduced a lot of new concepts.  
 We will be building on these in future sessions, so it is important that you are comfortable with them. Try the following **pencil-and-paper exercises** as a way of checking that you are becoming used to the terminology that we have introduced today. Don’t be put off by the fact that we suggest that you do these on paper rather than within BlueJ.  
 _It will be good practice to try things out without a compiler._

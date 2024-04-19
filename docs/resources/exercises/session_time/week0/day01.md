@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Day 1
-parent: Week 0
+parent: Module 0
 nav_order: 1
 ---
 

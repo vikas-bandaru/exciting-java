@@ -1,17 +1,15 @@
 ---
 layout: default
-# title: Self Review
-parent: Day 6
+title: Self Review
+parent: Day 5
 grand_parent: Week 1
 nav_order: 3
 ---
 
 # Module 1: Java Foundations
-## Week 1: Foundations of OOP & Algorithmic Thinking
-### Day 1: Program Orientation and Intro to Objects & Classes
+## Day 5: Introduction to Java through BlueJ
 ### Self Review
 ---
-
 Today, we have covered a lot of new ground, and we have introduced a lot of new concepts.  
 We will be building on these in future sessions, so it is important that you are comfortable with them. Try the following **pencil-and-paper exercises** as a way of checking that you are becoming used to the terminology that we have introduced today. Don’t be put off by the fact that we suggest that you do these on paper rather than within BlueJ.  
 _It will be good practice to try things out without a compiler._
@@ -26,8 +24,3 @@ _It will be good practice to try things out without a compiler._
    `true`
    `"33"`
    `3.1415`
-3. What would you have to do to add a new field, for example one called name, to a circle object?
-4. Write the header for a method named `send` that has one parameter of type `String`, and does not return a value.
-5. Write the header for a method named `average` that has two parameters, both of type `int`, and returns an `int` value.
-6. Look at the book you are reading right now. Is it an object or a class? If it is a class, name some objects. If it is an object, name its class.
-7. Can an object have several different classes? Discuss.

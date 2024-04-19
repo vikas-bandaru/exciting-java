@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Practice
-parent: Day 5
+# title: Practice
+# parent: Day 5
 grand_parent: Week 1
 nav_order: 4
 ---

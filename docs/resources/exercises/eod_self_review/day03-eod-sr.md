@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Self Review
+# title: Self Review
 parent: Day 3
 grand_parent: Week 1
 nav_order: 3
