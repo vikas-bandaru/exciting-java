@@ -35,9 +35,9 @@ nav_order: 2
 
 ### Download Week 1 BlueJ projects
 
-   1. [**figures**](resources\projects\bluej\part01\figures.zip)
-   2. [**house**](resources\projects\bluej\part01\house.zip)
-   3. [**lab-classes**](resources\projects\bluej\part01\lab-classes.zip)
+   1. [**figures**](../../../projects/bluej/part01/figures.zip)
+   2. [**house**](../../../projects/bluej/part01/house.zip)
+   3. [**lab-classes**](../../../projects/bluej/part01/lab-classes.zip)
 
 ### Exercises on _figures_ project
 
