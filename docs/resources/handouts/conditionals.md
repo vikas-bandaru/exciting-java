@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Conditionals
+# title: Conditionals
 parent: Java
 grand_parent: Handouts
 nav_order: 3

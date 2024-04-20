@@ -43,18 +43,22 @@ nav_order: 2
    Refer to the Objects & Classes presentation shared in your Classroom to revise the concepts discussed in the session.
 2. Create an object of `Circle`. Inspect the object. Note down the properties of the object. Then try all methods on the objects. While trying the methods, take note of which methods of an object is affecting which properties.
 
+[Back to Top](#top)
+
 ## Session 2
 *Repeat the Work from Home Challenge from yesterday and finish one of your chosen challenge diagrams as fast as you can.*
 
 1. Select *Show Terminal* from the *View* menu. This shows another window that BlueJ uses for text output. Then select *Record method calls* from the terminal’s *Options* menu. This function will cause all our method calls (in their textual form) to be written to the terminal. Now create a few objects, call some of their methods, and observe the output in the terminal window.
 2. Let's now save this code somewhere safe and we will revisit it later.
-3. Select *Show Code Pad* from the *View* menu. This should display a new pane next to the object bench in your main BlueJ window. This pane is the *Code Pad*. You can type Java code here. In the Code Pad, type the code shown in the Terminal window to create a `Person` object and call its `makeVisible` and `moveRight` methods. Then go on to create some other objects and call their methods using *Code Pad*.
-4. Let's experiment more with data types you learned yesterday.
+3. Select *Show Code Pad* from the *View* menu. This should display a new pane next to the object bench in your main BlueJ window. This pane is the *Code Pad*. You can type Java code here.
+4. Try copying the recorded lines one-by-one and paste in Code Pad and observe how those instructions are doing the same thing what we did using *mouse-clicks*.
 
 ### Exercises on _house_ project
 
 0. Go to Day 5, download the _house_ project ==> extract it to your projects folder.
 1. Open the _house_ project. Create an instance of class `Picture` and invoke its `draw` method. Also, try out the `setBlackAndWhite` and `setColor` methods. How do you think the `Picture` class draws the picture?
+
+[Back to Top](#top)
 
 <!-- ## Session 2
 ### Observing Picture class

@@ -4,7 +4,7 @@ title: Practice Session
 parent: Day 5
 grand_parent: Week 1
 has_children: true
-nav_order: 2
+nav_order: 1
 ---
 
 # Module 1: Java Foundations
@@ -51,6 +51,7 @@ nav_order: 2
 **Discuss:** How is it different from `moveRight` or `moveLeft` ?
 4. Try invoking the `moveVertical`, `slowMoveVertical`, and `changeSize` methods before you move on.
 5. **Challenge:** Find out how you can use `moveHorizontal` to move the circle 70 pixels to the left.
+   Experiment if `moveVertical` moves the circle up in the same way.
 6. Try invoking the `changeColor` method and see what happens when you specify a color that is not known.
 7. Invoke the `changeColor` method, and write the color into the parameter field without the quotes. What happens?
 8. Create several circle objects on the object bench. You can do so by selecting `new Circle()` from the pop-up menu of the `Circle` class. Make them visible, then move them around on the screen using the "move" methods. Make one big and yellow; make another one small and green. Try the other shapes too: create a few triangles, squares, and persons. Change their positions, sizes, and colors.  

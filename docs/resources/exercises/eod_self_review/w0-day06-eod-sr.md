@@ -16,16 +16,16 @@ _It will be good practice to try things out without a compiler._
 
 1. Today we have mentioned the data types `int` and `String`. Java has more predefined data types. Find out what they are and what they are used for. To do this, you can look it up in any Java book or in an online Java language manual. One such manual is at  
    [Java Data Types](http://download.oracle.com/javase/tutorial/java/nutsandbolts/datatypes.html)
-2. What are the types of the following values?
-   `0`
-   `"hello"`
-   `101`
-   `-1`
-   `true`
-   `"33"`
+2. What are the types of the following values? (To do this, refer to the above link)  
+   `0`  
+   `"hello"`  
+   `101`  
+   `-1`  
+   `true`  
+   `"33"`  
    `3.1415`
-3. What would you have to do to add a new field, for example one called name, to a circle object?
-4. Write the header for a method named `send` that has one parameter of type `String`, and does not return a value.
-5. Write the header for a method named `average` that has two parameters, both of type `int`, and returns an `int` value.
+<!-- 3. What would you have to do to add a new field, for example one called name, to a circle object? -->
+<!-- 4. Write the header for a method named `send` that has one parameter of type `String`, and does not return a value. -->
+<!-- 5. Write the header for a method named `average` that has two parameters, both of type `int`, and returns an `int` value. -->
 6. Look at the book you are reading right now. Is it an object or a class? If it is a class, name some objects. If it is an object, name its class.
 7. Can an object have several different classes? Discuss.

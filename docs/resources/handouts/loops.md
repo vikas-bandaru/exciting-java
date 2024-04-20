@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Loops
+# title: Loops
 parent: Java
 grand_parent: Handouts
 nav_order: 4
