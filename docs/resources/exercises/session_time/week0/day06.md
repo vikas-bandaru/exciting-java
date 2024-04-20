@@ -23,8 +23,6 @@ nav_order: 2
    {:toc}
 2. [Session 2](#session-2)
    {:toc}
-3. [Practice Session](#practice-session)
-   {:toc}
 </details>
 
 ## Session 1
