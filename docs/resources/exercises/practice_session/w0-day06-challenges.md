@@ -10,6 +10,7 @@ nav_order: 4
 ## Day 5: Introduction to Java through BlueJ
 ### Work from Home
 
-1. Choose one of these images and recreate it using the shapes from the _figures_ project. Now that you are aware of what statements are written while you tried to invoke methods in earlier exercise, try to reduce the number of lines to get the same effect.
-    ![House Challenge](../session_time/images/session01-challenge01.png "A House with Sun")
-    ![Couple](../session_time/images/session01-challenge02.png "A Couple seeing Sunset")
+1. Similar to class work, take note of all properties of objects of other classes: `Square`, `Triangle`, and `Person`. And observe which methods of these objects are affecting which properties of these classes.
+2. Add a sunset to the single-sun version of `Picture`. That is, make the sun go down slowly. Remember: The circle has a method `slowMoveVertical` that you can use to do this.
+3. If you added your sunset to the end of the `draw` method (so that the sun goes down automatically when the picture is drawn), change this now. We now want the sunset in a separate method, so that we can call `draw` and see the picture with the sun up, and then call `sunset` (a separate method!) to make the sun go down.
+4. Make a person walk up to the house after the sunset.

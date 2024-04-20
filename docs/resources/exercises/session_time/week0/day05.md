@@ -34,13 +34,11 @@ nav_order: 2
    - Rename the short on Desktop to a meaningful name, "BlueJ Standalone 5.3"
 
 ### Download Week 1 BlueJ projects
-
    1. [**figures**](../../../projects/bluej/part01/figures.zip)
    2. [**house**](../../../projects/bluej/part01/house.zip)
    3. [**lab-classes**](../../../projects/bluej/part01/lab-classes.zip)
 
 ### Exercises on _figures_ project
-
 1. Start BlueJ and open the project named _figures_.
    Right-click on one of the circle objects (not the class!), Choose `makeVisible` from the menu. Observe what happens…  
    Try:  
@@ -58,3 +56,4 @@ nav_order: 2
 8. Create several circle objects on the object bench. You can do so by selecting `new Circle()` from the pop-up menu of the `Circle` class. Make them visible, then move them around on the screen using the "move" methods. Make one big and yellow; make another one small and green. Try the other shapes too: create a few triangles, squares, and persons. Change their positions, sizes, and colors.  
 **Discuss:** Does changing an attribute of one object affect another object?
 9. **Experiment:** Make sure you have several objects on the object bench, and then inspect each of them in turn. Try changing the state of an object (for example, by calling the moveLeft method) while the object inspector is open. You should see the values in the object inspector change.
+10. Create an object of `Circle`. Inspect the object. Note down the properties of the object. Then try all methods on the objects. While trying the methods, take note of which methods of an object is affecting which properties.
