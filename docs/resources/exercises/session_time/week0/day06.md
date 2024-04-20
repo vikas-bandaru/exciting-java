@@ -28,6 +28,24 @@ nav_order: 2
 </details>
 
 ## Session 1
+
+1. Repeat yesterday's class work and homework exercises to understand the following concepts:
+   - Method
+   - Parameter
+   - Type
+   - Method header
+   - Method signature
+   - Parenthesis - curve brackets - ()
+   - int - integers
+   - String - values stored in between a pair of ""
+   - properties of an object
+   - inspect window
+   - State
+
+   Refer to the Objects & Classes presentation shared in your Classroom to revise the concepts discussed in the session.
+2. Create an object of `Circle`. Inspect the object. Note down the properties of the object. Then try all methods on the objects. While trying the methods, take note of which methods of an object is affecting which properties.
+
+## Session 2
 *Repeat the Work from Home Challenge from yesterday and finish one of your chosen challenge diagrams as fast as you can.*
 
 1. Select *Show Terminal* from the *View* menu. This shows another window that BlueJ uses for text output. Then select *Record method calls* from the terminal’s *Options* menu. This function will cause all our method calls (in their textual form) to be written to the terminal. Now create a few objects, call some of their methods, and observe the output in the terminal window.
@@ -40,7 +58,7 @@ nav_order: 2
 0. Go to Day 5, download the _house_ project ==> extract it to your projects folder.
 1. Open the _house_ project. Create an instance of class `Picture` and invoke its `draw` method. Also, try out the `setBlackAndWhite` and `setColor` methods. How do you think the `Picture` class draws the picture?
 
-## Session 2
+<!-- ## Session 2
 ### Observing Picture class
 
 1. Look at the pop-up menu of class `Picture` again. You will see an option labeled _Open Editor_. Select it. This will open a text editor displaying the source code of the class.
@@ -79,4 +97,4 @@ nav_order: 2
    Then enter all three into a lab and print a list to the screen.
 
 8. Use the inspector on a `LabClass` object to discover what fields it has.
-9. Set the instructor, room, and time for a lab, and print the list to the terminal window to check that these new details appear.
+9. Set the instructor, room, and time for a lab, and print the list to the terminal window to check that these new details appear. -->
