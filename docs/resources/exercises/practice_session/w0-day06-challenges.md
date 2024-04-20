@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Work from Home
-parent: Day 5
+parent: Day 6
 grand_parent: Week 1
 nav_order: 4
 ---
@@ -10,7 +10,6 @@ nav_order: 4
 ## Day 5: Introduction to Java through BlueJ
 ### Work from Home
 
-1. 
-    Choose one of these images and recreate it using the shapes from the _figures_ project. While you are doing this, write down what you have to do to achieve this. Could it be done in different ways?
+1. Choose one of these images and recreate it using the shapes from the _figures_ project. Now that you are aware of what statements are written while you tried to invoke methods in earlier exercise, try to reduce the number of lines to get the same effect.
     ![House Challenge](../session_time/images/session01-challenge01.png "A House with Sun")
     ![Couple](../session_time/images/session01-challenge02.png "A Couple seeing Sunset")

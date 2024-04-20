@@ -58,10 +58,3 @@ nav_order: 2
 8. Create several circle objects on the object bench. You can do so by selecting `new Circle()` from the pop-up menu of the `Circle` class. Make them visible, then move them around on the screen using the "move" methods. Make one big and yellow; make another one small and green. Try the other shapes too: create a few triangles, squares, and persons. Change their positions, sizes, and colors.  
 **Discuss:** Does changing an attribute of one object affect another object?
 9. **Experiment:** Make sure you have several objects on the object bench, and then inspect each of them in turn. Try changing the state of an object (for example, by calling the moveLeft method) while the object inspector is open. You should see the values in the object inspector change.
-10. **Challenges:**
-    Choose one of these images and recreate it using the shapes from the _figures_ project. While you are doing this, write down what you have to do to achieve this. Could it be done in different ways?
-    ![House Challenge](../images/session01-challenge01.png "A House with Sun")
-    ![Couple](../images/session01-challenge02.png "A Couple seeing Sunset")
-
-11. Select *Show Terminal* from the *View* menu. This shows another window that BlueJ uses for text output. Then select *Record method calls* from the terminal’s *Options* menu. This function will cause all our method calls (in their textual form) to be written to the terminal. Now create a few objects, call some of their methods, and observe the output in the terminal window.
-12. Select *Show Code Pad* from the *View* menu. This should display a new pane next to the object bench in your main BlueJ window. This pane is the *Code Pad*. You can type Java code here. In the Code Pad, type the code shown in the Terminal window to create a `Person` object and call its `makeVisible` and `moveRight` methods. Then go on to create some other objects and call their methods using *Code Pad*.
