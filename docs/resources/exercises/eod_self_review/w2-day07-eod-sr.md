@@ -7,7 +7,7 @@ nav_order: 3
 ---
 
 # Module 1: Java Foundations
-## Day 5: Introduction to Java through BlueJ
+## Day 7: Objects & Classes Contd.
 ### Self Review
 ---
 Today, we have covered a lot of new ground, and we have introduced a lot of new concepts.  
