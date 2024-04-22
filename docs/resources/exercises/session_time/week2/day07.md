@@ -84,6 +84,37 @@ Go to your Classroom and find today's Quiz and submit it within deadline.
 
 ## Practice Session
 
+Practice writing method headers:
+
+1. *Method:* `findMax`
+   *Details:* Write a method named `findMax` that takes two integers as parameters and returns the larger of the two.  
+   What's the method header for `findMax`?
+2. *Method:* `isPalindrome`
+   *Details:* Create a method named `isPalindrome` that takes a String as a parameter and returns true if the string is a palindrome (reads the same forwards and backwards), and false otherwise.  
+   What's the method header for `isPalindrome`?
+3. *Method:* `countOccurrences`
+   *Details:* Implement a method called `countOccurrences` that takes two parameters: a String representing a sentence and a char representing a character to count occurrences of within the sentence. It should return the number of occurrences of the character in the sentence.  
+   What's the method header for `countOccurrences`?
+4. *Method:* `reverseString`
+   *Details:* Write a method named `reverseString` that takes a String as a parameter and returns a new String with the characters in reverse order.  
+   What's the method header for `reverseString`?
+5. *Method:* `calculateBMI`
+   *Details:* Implement a method called `calculateBMI` that calculates the Body Mass Index (BMI) using the formula: BMI = weight / (height * height), where weight is in kilograms and height is in meters. The method should take two parameters: `weight` (int) and `height` (double), and return the BMI as a double.  
+   What's the method header for `calculateBMI`?
+
+Let's now practice writing some method headers in a given sceanario:
+
+1. **Scenario:** You are building a library management system. Create a method named `calculateFine` that calculates the fine for late book returns. The method should take two parameters: `daysLate`, an integer representing the number of days late, and `finePerDay`, an integer representing the fine amount per day. It should return the total fine amount as an integer.  
+   What's the method header for `calculateFine`?
+2. **Scenario:** You are developing a banking application. Implement a method called `isEligibleForLoan` to determine if a customer is eligible for a loan based on their credit score and income. The method should take two parameters: `creditScore`, an integer representing the customer's credit score, and `income`, an integer representing the customer's monthly income. It should return true if the customer is eligible for a loan, and false otherwise.  
+   What's the method header for `isEligibleForLoan`?
+3. **Scenario:** You're working on a student grading system. Create a method named `isPassing` to determine if a student has passed a course based on their score. The method should take one parameter: `score`, an integer representing the student's score. It should return true if the student has passed (score >= 60), and false otherwise.  
+   What's the method header for `isPassing`?
+4. **Scenario:** You are developing a simple calculator application. Implement a method called `isOperatorValid` to check if a given string represents a valid arithmetic operator (+, -, *, /). The method should take one parameter: `operator`, a String representing the arithmetic operator. It should return true if the operator is valid, and false otherwise.  
+   What's the method header for `isOperatorValid`?
+5. **Scenario:** You are building a car rental system. Create a method named `generateRentalContract` to generate a rental contract for a customer. The method should take three parameters: `customerName`, a String representing the customer's name, `carModel`, a String representing the model of the rented car, and `rentalDays`, an integer representing the number of days the car is rented. It should return a String containing the rental contract details.  
+   What's the method header for `generateRentalContract`?
+
 Let's do some practice of writing code inside the methods in CodingBat.
 
 [CodingBat](https://www.codingbat.com)
