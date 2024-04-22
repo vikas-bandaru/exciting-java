@@ -107,4 +107,32 @@ Let's do some practice of writing code inside the methods in CodingBat.
 
 [CodingBat](https://www.codingbat.com)
 
+**String-1**  
+1. helloName
+2. makeAbba
+
+
+Let's try writing the insides of some of these methods:
+
+1. *Method:* `calculateAreaOfRectangle`  
+   *Details:* Write a method named `calculateAreaOfRectangle` that takes two integers representing the length and width of a rectangle as parameters and returns the area of the rectangle.
+2. *Method:* `calculateAverage`  
+   *Details:* Write a method named `calculateAverage` that takes three integers as parameters and returns the average of the three numbers.
+3. *Method:* `calculateSimpleInterest`  
+   *Details:* Write a method named `calculateSimpleInterest` that takes three doubles representing the principal amount, rate of interest (in percentage), and time (in years) as parameters and returns the simple interest earned.
+4. *Method:* `calculatePerimeterOfCircle`  
+   *Details:* Create a method named `calculatePerimeterOfCircle` that takes a double representing the radius of a circle as a parameter and returns the perimeter of the circle.
+5. *Method:* `calculateVolumeOfCylinder`  
+   *Details:* Implement a method called `calculateVolumeOfCylinder` that takes two doubles representing the radius and height of a cylinder as parameters and returns the volume of the cylinder.
+6. *Method:* `calculatePower`  
+   *Details:* Create a method named `calculatePower` that takes two integers representing the base and exponent as parameters and returns the result of raising the base to the power of the exponent.
+7. *Method:* `calculateCompoundInterest`  
+   *Details:* Implement a method called `calculateCompoundInterest` that takes three doubles representing the principal amount, rate of interest (in percentage), and time (in years) as parameters and returns the compound interest earned.
+8. *Method:* `calculateHypotenuse`  
+   *Details:* Implement a method called `calculateHypotenuse` that takes two doubles representing the lengths of the two shorter sides of a right-angled triangle as parameters and returns the length of the hypotenuse.
+9. *Method:* `calculateDistance`  
+   *Details:* Create a method named `calculateDistance` that takes four integers representing the coordinates (x1, y1) and (x2, y2) of two points in a 2D plane as parameters and returns the distance between the two points.
+<!-- 10. *Method:* `calculateFactorial`  
+   *Details:* Write a method named `calculateFactorial` that takes an integer as a parameter and returns the factorial of that number. -->
+
 [Back to Top](#top)
