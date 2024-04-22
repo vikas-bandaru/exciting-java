@@ -6,7 +6,7 @@ grand_parent: Handouts
 nav_order: 1
 ---
 
-# Cheatsheets
+# Handouts
 
 ## Java Data Types
 
