@@ -40,6 +40,8 @@ Go to your Classroom and find today's Quiz and submit it within deadline.
    **Practice:** Change them to any colors of your choice. Then turn it back to black and white.
 3. In the source code of class `Picture`, find the part that actually draws the picture. Change it so that the sun will be blue rather than yellow.
 
+[Back to Top](#top)
+
 ## Session 2
 ### Observing Picture class
 
@@ -78,8 +80,12 @@ Go to your Classroom and find today's Quiz and submit it within deadline.
 8. Use the inspector on a `LabClass` object to discover what fields it has.
 9. Set the instructor, room, and time for a lab, and print the list to the terminal window to check that these new details appear.
 
+[Back to Top](#top)
+
 ## Practice Session
 
 Let's do some practice of writing code inside the methods in CodingBat.
 
 [CodingBat](https://www.codingbat.com)
+
+[Back to Top](#top)
