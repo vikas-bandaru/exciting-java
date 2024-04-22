@@ -1,20 +1,36 @@
 ---
 layout: default
 title: Session 1
-parent: Day 3
-grand_parent: Module 1 Week 1
-nav_order: 1
+parent: Day 8
+grand_parent: Week 2
+has_children: true
+nav_order: 2
 ---
 
 # Module 1: Java Foundations
-## Week 1: Foundations of OOP & Algorithmic Thinking
-### Day 3: Understanding Class Definitions
+{: .no_toc }
+## Day 8: Understanding Class Definitions
+{: .no_toc }
 
-Quiz on Previous Day Content - 10 minutes
+<details open markdown="block">
+  <summary>
+    Table of contents
+  </summary>
+  {: .text-delta }
+1. [Pomodoro 1](#pomodoro-1)
+   {:toc}
+2. [Pomodoro 2](#pomodoro-2)
+   {:toc}
+3. [Pomodoro 3](#pomodoro-3)
+   {:toc}
+4. [Pomodoro 4](#pomodoro-4)
+   {:toc}
+</details>
 
 ## Session 1  
 
-### Today's Standup: Pomodoro 1 (15 minutes)
+### Pomodoro 1
+#### Today's Standup (15 minutes)
   - First proper look at the source code of a class  
   - Discuss the basic elements of class definitions: *fields*, *constructors*, and *methods*  
   - Methods contain statements  
@@ -29,8 +45,15 @@ Quiz on Previous Day Content - 10 minutes
   Train stations often provide ticket machines that print a ticket when a customer inserts the correct money for their fare. In this chapter, we shall define a class that models something like these ticket machines. As we shall be looking inside our first Java example classes, we shall keep our simulation fairly simple to start with. That will give us the opportunity to ask some questions about how these models differ from the real-world versions, and how we might change our classes to make the objects they create more like the real thing.  
   Our ticket machines work by customers “inserting” money into them and then requesting a ticket to be printed. Each machine keeps a running total of the amount of money it has collected throughout its operation. In real life, it is often the case that a ticket machine offers a selection of different types of ticket, from which customers choose the one they want. Our simplified machines print tickets for only a single price. It turns out to be significantly more complicated to program a class to be able to issue tickets of different values, than it does to offer a single price. On the other hand, with object-oriented programming it is very easy to create multiple instances of the class, each with its own price setting, to fulfill a need for different types of tickets.
 
-### Pomodoro 2 (25 minutes)
-Open the *naíve-ticket-machine* project in BlueJ. This project contains only one class — `TicketMachine` — which you will be able to explore in a similar way to the examples we discussed in Day 1. When you create a `TicketMachine` instance, you will be asked to supply a number that corresponds to the price of tickets that will be issued by that particular machine. The price is taken to be an amount of Rupees, so a positive whole number such as 50 would be appropriate as a value to work with.
+### Download Week 2 BlueJ projects
+   1. [**naive-ticket-machine**](../../../projects/bluej/part02/naive-ticket-machine.zip)
+   2. [**better-ticket-machine**](../../../projects/bluej/part02/better-ticket-machine.zip)
+   3. [**book-exercise**](../../../projects/bluej/part02/book-exercise.zip)
+
+### Pomodoro 2
+#### (25 minutes)
+Open the *naíve-ticket-machine* project in BlueJ.  
+This project contains only one class — `TicketMachine` — which you will be able to explore in a similar way to the examples we discussed in `Student` class.
 
 **Let's Experiment**  
 1. Create a `TicketMachine` object on the object bench and take a look at its methods. You should see the following: `getBalance`, `getPrice`, `insertMoney`, and `printTicket`.  
@@ -41,7 +64,7 @@ Open the *naíve-ticket-machine* project in BlueJ. This project contains only on
      - Try inserting the exact amount required for a ticket, and use `getBalance` 
    - As this is a simple machine, a ticket will not be issued automatically, so once you have inserted enough money, call the `printTicket` method.
 2. What value is returned if you get the machine’s balance after it has printed a ticket?  
-**Discuss:** Experiment with inserting different amounts of money before printing tickets. Do you notice anything strange about the machine’s behavior? What happens if you insert too much money into the machine—do you receive any refund? What happens if you do not insert enough and then try to print a ticket?
+   **Discuss:** Experiment with inserting different amounts of money before printing tickets. Do you notice anything strange about the machine’s behavior? What happens if you insert too much money into the machine—do you receive any refund? What happens if you do not insert enough and then try to print a ticket?
 3. Create another ticket machine for tickets of a different price; remember that you have to supply this value when you create the machine object. Buy a ticket from that machine. Does the printed ticket look any different from those printed by the first machine?
 4. Try to obtain a good understanding of a ticket machine’s behavior by interacting with it on the object bench before we move forward, at how the `TicketMachine` class is implemented. 
 
@@ -75,7 +98,8 @@ Change the class back to how it was, and make sure that this clears the error wh
    - There are around 50 of these in Java, and you will soon be able to recognize most of them.
    - Java keywords never contain uppercase letters, whereas the words we choose (like “TicketMachine”) are often a mix of uppercase and lowercase letters.
 
-### Pomodoro 3 (25 minutes)
+### Pomodoro 3
+#### (25 minutes)
 
 #### Fields, constructors, and methods
 
@@ -168,8 +192,9 @@ From the definitions of fields we have seen so far, we can begin to put a patter
 Remembering this pattern will help you when you write your own classes.  
 Indeed, as we look closely at the source code of different classes, you will see patterns such as this one emerging over and over again. Part of the process of learning to program involves looking out for such patterns and then using them in your own programs. That is one reason why studying source code in detail is so useful at this stage.  
 
-### Pomodoro 4 (25 minutes)
-#### Constructors
+### Pomodoro 4
+#### (25 minutes)
+### Constructors
 Constructors have a special role to fulfill. They are responsible for ensuring that an object
 is set up properly when it is first created; in other words, for ensuring that an object is
 ready to be used immediately following its creation. This construction process is also
@@ -273,3 +298,33 @@ This same rule **also applies** between *formal parameters* and *actual paramete
 2. The following object creation will result in the constructor of the Date class being called. Can you write the constructor’s header?  
    ```new Date("March", 23, 1861)```  
    Try to give meaningful names to the parameters.
+[Back to Top](#top)
+
+## Session 2
+
+[Back to Top](#top)
+
+## Practice Session
+
+Let's try writing the insides of some of these methods:
+
+1. *Method:* `calculateAreaOfRectangle`  
+   *Details:* Write a method named `calculateAreaOfRectangle` that takes two integers representing the length and width of a rectangle as parameters and returns the area of the rectangle.
+2. *Method:* `calculateAverage`  
+   *Details:* Write a method named `calculateAverage` that takes three integers as parameters and returns the average of the three numbers.
+3. *Method:* `calculateSimpleInterest`  
+   *Details:* Write a method named `calculateSimpleInterest` that takes three doubles representing the principal amount, rate of interest (in percentage), and time (in years) as parameters and returns the simple interest earned.
+4. *Method:* `calculatePerimeterOfCircle`  
+   *Details:* Create a method named `calculatePerimeterOfCircle` that takes a double representing the radius of a circle as a parameter and returns the perimeter of the circle.
+5. *Method:* `calculateVolumeOfCylinder`  
+   *Details:* Implement a method called `calculateVolumeOfCylinder` that takes two doubles representing the radius and height of a cylinder as parameters and returns the volume of the cylinder.
+6. *Method:* `calculatePower`  
+   *Details:* Create a method named `calculatePower` that takes two integers representing the base and exponent as parameters and returns the result of raising the base to the power of the exponent.
+7. *Method:* `calculateCompoundInterest`  
+   *Details:* Implement a method called `calculateCompoundInterest` that takes three doubles representing the principal amount, rate of interest (in percentage), and time (in years) as parameters and returns the compound interest earned.
+8. *Method:* `calculateHypotenuse`  
+   *Details:* Implement a method called `calculateHypotenuse` that takes two doubles representing the lengths of the two shorter sides of a right-angled triangle as parameters and returns the length of the hypotenuse.
+9. *Method:* `calculateDistance`  
+   *Details:* Create a method named `calculateDistance` that takes four integers representing the coordinates (x1, y1) and (x2, y2) of two points in a 2D plane as parameters and returns the distance between the two points.
+<!-- 10. *Method:* `calculateFactorial`  
+   *Details:* Write a method named `calculateFactorial` that takes an integer as a parameter and returns the factorial of that number. -->
