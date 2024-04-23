@@ -171,6 +171,10 @@ The definitions of the three fields are quite similar:
 
 - Fields can store values that can vary over time, so they are also known as *variables*. The value stored in a field can be changed from its initial value if required.
 
+[Back to Top](#top)
+
+## Practice Session
+
 **Let's Experiment:**  
 
 1. What do you think is the *type* of each of the following fields?  
@@ -186,8 +190,8 @@ The definitions of the three fields are quite similar:
    ```private int price;```  
 does it matter which order the three words appear in? Edit the `TicketMachine` class to try different orderings. After each change, close the editor. Does the appearance of the class diagram after each change give you a clue as to whether or not other orderings are possible? Check by pressing the Compile button to see if there is an error message.  
 Make sure that you reinstate the original version after your experiments!
-5. Is it always necessary to have a semicolon at the end of a field declaration? Once again, experiment via the editor. The rule you will learn here is an important one, so be sure to remember it.
-6. Write in full the declaration for a field of type `int` whose name is `status`.
+5. Is it always necessary to have a semicolon at the end of a field definition? Once again, experiment via the editor. The rule you will learn here is an important one, so be sure to remember it.
+6. Write in full the definition for a field of type `int` whose name is `status`.
 
 From the definitions of fields we have seen so far, we can begin to put a pattern together that will apply whenever we define a field variable in a class:
 - They usually start with the reserved word `private`.
@@ -197,8 +201,6 @@ From the definitions of fields we have seen so far, we can begin to put a patter
 Remembering this pattern will help you when you write your own classes.  
 Indeed, as we look closely at the source code of different classes, you will see patterns such as this one emerging over and over again. Part of the process of learning to program involves looking out for such patterns and then using them in your own programs. That is one reason why studying source code in detail is so useful at this stage.  
 
-### Pomodoro 4
-#### (25 minutes)
 ### Constructors
 Constructors have a special role to fulfill. They are responsible for ensuring that an object
 is set up properly when it is first created; in other words, for ensuring that an object is
@@ -251,20 +253,6 @@ Parameters are another sort of variable, just as fields are, so they are also us
 `public TicketMachine(int cost)`  
 This constructor has a single parameter, `cost`, which is of type `int` — the same type as the `price` field it will be used to set. A parameter is used as a sort of temporary messenger, carrying data originating from outside the constructor or method, and making it available inside it.  
 
-**Formal Parameters:** The parameter names inside a constructor or method.  
-**Acutal Parameters:** The parameter values outside.  
-So `cost` is a formal parameter, and a user-supplied value such as `50` is an actual parameter.  
-
-**Variable Scope:**  
-A formal parameter is available to an object only within the body of a constructor or method that declares it. We say that the *scope of a parameter* is restricted to the body of the constructor or method in which it is declared.  
-In contrast, the *scope of a field* is the whole of the class definition – it can be accessed from anywhere in the same class.  
-This is a **very important difference** between these two sorts of variables.  
-
-**Variable Lifetime:**  
-The *lifetime of a parameter* is limited to a single call of a constructor or method. When a constructor or method is called, the extra space for the parameter variables is created, and the external values copied into
-that space. Once that call has completed its task, the formal parameters disappear and the values they held are lost. In other words, when the constructor has finished executing, the whole constructor space is removed, along with the parameter variables held within it.  
-In contrast, the *lifetime of a field* is the same as the lifetime of the object to which it belongs. When an object is created, so are the fields, and they persist for the lifetime of the object. It follows that if we want to remember the cost of tickets held in the `cost` parameter, we must store the value somewhere persistent — that is, in the `price` field.  
-
 **Let's Experiment:**  
 
 1. To what class does the following constructor belong?  
@@ -305,11 +293,7 @@ This same rule **also applies** between *formal parameters* and *actual paramete
    Try to give meaningful names to the parameters.
 [Back to Top](#top)
 
-## Session 2
-
-[Back to Top](#top)
-
-## Practice Session
+### Let's Practice
 
 Let's try writing the insides of some of these methods:
 
