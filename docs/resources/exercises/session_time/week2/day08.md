@@ -273,11 +273,10 @@ The right-hand side is called an expression. In their most general form, express
 
 **One rule about assignment statements**  
 
-The type of the expression on the right-hand side must match the type of the variable to which its value is assigned. We have already met three different, commonly used types: `int`, `String`, and (very briefly) `boolean`. This rule means that we are not allowed to store an `int`-type expression in a `String`-type variable, for instance.  
-This same rule **also applies** between *formal parameters* and *actual parameters*: the type of an actual-parameter expression must match the type of the formal-parameter variable.  
+The type of the expression on the right-hand side must match the type of the variable to which its value is assigned. We have already met three different, commonly used types: `int`, `String`, and (very briefly) `boolean`. This rule means that we are not allowed to store an `int`-type expression in a `String`-type variable, for example.  
 
 **Note:**  
-> For now, we can say that the types of both must be the same, although we shall see in later chapters that this is not the whole truth.
+> For now, we can say that the types of both must be the same, although we shall see in later weeks that this is not the whole truth.
 
 **Let's Experiment:**  
 1. Suppose that the class `Pet` has a field called `name` that is of the type `String`. Write an assignment statement in the body of the following constructor so that the `name` field will be initialized with the value of the constructor’s parameter.  

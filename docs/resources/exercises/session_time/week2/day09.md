@@ -7,6 +7,8 @@
 **Acutal Parameters:** The parameter values outside.  
 So `cost` is a formal parameter, and a user-supplied value such as `50` is an actual parameter.  
 
+This same rule **also applies** between *formal parameters* and *actual parameters*: the type of an actual-parameter expression must match the type of the formal-parameter variable.  
+
 **Variable Scope:**  
 A formal parameter is available to an object only within the body of a constructor or method that declares it. We say that the *scope of a parameter* is restricted to the body of the constructor or method in which it is declared.  
 In contrast, the *scope of a field* is the whole of the class definition – it can be accessed from anywhere in the same class.  
