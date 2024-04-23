@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Session 1
+title: Sessions
 parent: Day 8
 grand_parent: Week 2
 has_children: true
@@ -17,24 +17,24 @@ nav_order: 2
     Table of contents
   </summary>
   {: .text-delta }
-1. [Pomodoro 1](#pomodoro-1)
+1. [Session 1](#session-1)
    {:toc}
-2. [Pomodoro 2](#pomodoro-2)
+2. [Session 2](#session-2)
    {:toc}
-3. [Pomodoro 3](#pomodoro-3)
-   {:toc}
-4. [Pomodoro 4](#pomodoro-4)
+   - [Download Week2 BlueJ Projects](#download-week-2-bluej-projects)
+     {:toc}
+3. [Practice Session](#practice-session)
    {:toc}
 </details>
 
 ## Session 1  
 
-### Pomodoro 1
-#### Revision & Discussion of Yesterday's Assignment (90 minutes)
+### Pomodoro 1: Revision & Discussion of Yesterday's Assignment (120 minutes)
 1. [Self Review](../../eod_self_review/w2-day07-eod-sr)
 2. [Work from Home](../../practice_session/w2-day07-challenges)
 
-#### Today's Standup (15 minutes)
+## Session 2
+#### Pomodoro 1: Today's Standup (15 minutes)
   - First proper look at the source code of a class  
   - Discuss the basic elements of class definitions: *fields*, *constructors*, and *methods*  
   - Methods contain statements  
