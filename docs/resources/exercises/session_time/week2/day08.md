@@ -28,9 +28,9 @@ nav_order: 1
 </details>
 
 ## Session 1  
-### Pomodoro 1: Revision & Discussion of Yesterday's Assignment (120 minutes)
+### Revision & Discussion of Yesterday's Assignment (120 minutes)
 1. [Self Review](../../eod_self_review/w2-day07-eod-sr)
-2. [Work from Home](../../practice_session/w2-day07-challenges)
+2. [Work from Home](../../practice_session/w2-day07-wfh)
 
 ## Session 2
 #### Pomodoro 1: Today's Standup (15 minutes)
