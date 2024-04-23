@@ -261,9 +261,9 @@ This constructor has a single parameter, `cost`, which is of type `int` — the 
    ```public Book(String title, double price)```
 3. Can you guess what types some of the `Book` class’s fields might be, from the parameters in its constructor? Can you assume anything about the names of its fields?
 
-**Choosing Variable Names:**  
+**Choosing Variable Names:** A little advice  
 
-One of the things you might have noticed is that the variable names we use for fields and parameters have a close connection with the purpose of the variable. Names such as `price`, `cost`, `title`, and `alive` all tell you something useful about the information being stored in that variable. This, makes it easier to understand what is going on in the program. Given that we have a large degree of freedom in our choice of variable names, it is worth following this principle of choosing names that communicate a sense of purpose rather than arbitrary and meaningless combinations of letters and numbers.
+> One of the things you might have noticed is that the variable names we use for fields and parameters have a close connection with the purpose of the variable. Names such as `price`, `cost`, `title`, and `alive` all tell you something useful about the information being stored in that variable. This, makes it easier to understand what is going on in the program. Given that we have a large degree of freedom in our choice of variable names, it is worth following this principle of choosing names that communicate a sense of purpose rather than arbitrary and meaningless combinations of letters and numbers.
 
 #### Assignment Statement
 **Assignment statements** store the value represented by the righthand side of the statement in the variable named on the left.  
@@ -277,6 +277,9 @@ The type of the expression on the right-hand side must match the type of the var
 
 **Note:**  
 > For now, we can say that the types of both must be the same, although we shall see in later weeks that this is not the whole truth.
+
+**Object Diagram Drawing Practice Exercise**  
+Draw an Object Diagram of Student class about how it's constructor initializes the fields.
 
 **Let's Experiment:**  
 1. Suppose that the class `Pet` has a field called `name` that is of the type `String`. Write an assignment statement in the body of the following constructor so that the `name` field will be initialized with the value of the constructor’s parameter.  
