@@ -4,7 +4,7 @@ title: Sessions
 parent: Day 8
 grand_parent: Week 2
 has_children: true
-nav_order: 2
+nav_order: 1
 ---
 
 # Module 1: Java Foundations
@@ -28,7 +28,6 @@ nav_order: 2
 </details>
 
 ## Session 1  
-
 ### Pomodoro 1: Revision & Discussion of Yesterday's Assignment (120 minutes)
 1. [Self Review](../../eod_self_review/w2-day07-eod-sr)
 2. [Work from Home](../../practice_session/w2-day07-challenges)
@@ -55,8 +54,7 @@ nav_order: 2
    2. [**better-ticket-machine**](../../../projects/bluej/part02/better-ticket-machine.zip)
    3. [**book-exercise**](../../../projects/bluej/part02/book-exercise.zip)
 
-### Pomodoro 2
-#### (25 minutes)
+#### Pomodoro 2 (25 minutes)
 Open the *naíve-ticket-machine* project in BlueJ.  
 This project contains only one class — `TicketMachine` — which you will be able to explore in a similar way to the examples we discussed in `Student` class.
 
@@ -73,7 +71,7 @@ This project contains only one class — `TicketMachine` — which you will be a
 3. Create another ticket machine for tickets of a different price; remember that you have to supply this value when you create the machine object. Buy a ticket from that machine. Does the printed ticket look any different from those printed by the first machine?
 4. Try to obtain a good understanding of a ticket machine’s behavior by interacting with it on the object bench before we move forward, at how the `TicketMachine` class is implemented. 
 
-#### Examining a Class Definition
+### Examining a Class Definition
 Take a look at the source code of the `TicketMachine` class.
 
 **The class header**  
@@ -103,10 +101,9 @@ Change the class back to how it was, and make sure that this clears the error wh
    - There are around 50 of these in Java, and you will soon be able to recognize most of them.
    - Java keywords never contain uppercase letters, whereas the words we choose (like “TicketMachine”) are often a mix of uppercase and lowercase letters.
 
-### Pomodoro 3
-#### (25 minutes)
+#### Pomodoro 3 (25 minutes)
 
-#### Fields, constructors, and methods
+## Fields, constructors, and methods
 
 ```java
 public class ClassName {
@@ -127,7 +124,7 @@ The inner part of the class is where we define the *fields*, *constructors*, and
 1. From your earlier experimentation with the ticket machine objects within BlueJ, you can probably remember the names of some of the methods — printTicket, for example. Look at the class definition of `TicketMachine` class and use this knowledge, along with the additional information about ordering we have given you, to make a list of the names of the fields, constructors, and methods in the TicketMachine class. Hint: There is only one constructor in the class.
 2. What are the two features of the constructor that make it look significantly different from the methods of the class?
 
-#### Fields
+### Fields
 - The word *variable* is used as a general term for things that store data in a program.
 - Fields store data persistently within an object. Means, Fields store data for an object to use.
 - Fields are also known as *instance variables*.
@@ -155,16 +152,32 @@ public class TicketMachine {
 private int price;
 ```
 - **Comments** are inserted into the source code of a class to provide explanations to human readers. They have no effect on the functionality of the class.
-- More-detailed comments, often spanning several lines, are usually written in the form of multiline comments. These start with the character pair “/\*” and end with the pair “\*/”. There is a good example preceding the header of the class
+- More-detailed comments, often spanning several lines, are usually written in the form of multiline comments. These start with the character pair “/\*” and end with the pair “\*/”. There is a good example preceding the header of the class:
 
-```java
-/**
-* Return the price of a ticket.
-*/
-public int getPrice() {
-   // code omitted
-}
-```
+  ```java
+  /**
+   * TicketMachine models a naive ticket machine that issues
+   * flat-fare tickets.
+   * The price of a ticket is specified via the constructor.
+   * It is a naive machine in the sense that it trusts its users
+   * to insert enough money before trying to print a ticket.
+   * It also assumes that users enter sensible amounts.
+   *
+   * @author Vikas
+   * @version 2024.03.25
+   */
+  public class TicketMachine
+  {
+      // The price of a ticket from this machine.
+      private int price;
+      // The amount of money entered by a customer so far.
+      private int balance;
+      // The total amount of money collected by this machine.
+      private int total;
+
+      // all other content is omitted
+  }
+  ```
 The definitions of the three fields are quite similar:
 - All definitions indicate that they are *private* fields of the object; we shall have more to say about what this means in Next Week, but for the time being we will simply say that we always define fields to be private.
 - All three fields are of type `int`. `int` is another keyword and represents the data type integer. This indicates that each can store a single whole-number value, which is reasonable given that we wish them to store numbers that represent amounts of money in Rupees.
@@ -175,7 +188,7 @@ The definitions of the three fields are quite similar:
 
 ## Practice Session
 
-**Let's Experiment:**  
+**Let's Check Our Knowledge of Fields:**  
 
 1. What do you think is the *type* of each of the following fields?  
    ```private int count;```  
@@ -193,6 +206,7 @@ Make sure that you reinstate the original version after your experiments!
 5. Is it always necessary to have a semicolon at the end of a field definition? Once again, experiment via the editor. The rule you will learn here is an important one, so be sure to remember it.
 6. Write in full the definition for a field of type `int` whose name is `status`.
 
+### Let's Summarise Fields
 From the definitions of fields we have seen so far, we can begin to put a pattern together that will apply whenever we define a field variable in a class:
 - They usually start with the reserved word `private`.
 - They include a type name (such as `int`, `String`, `Person`, etc.)
@@ -201,7 +215,7 @@ From the definitions of fields we have seen so far, we can begin to put a patter
 Remembering this pattern will help you when you write your own classes.  
 Indeed, as we look closely at the source code of different classes, you will see patterns such as this one emerging over and over again. Part of the process of learning to program involves looking out for such patterns and then using them in your own programs. That is one reason why studying source code in detail is so useful at this stage.  
 
-### Constructors
+## Constructors
 Constructors have a special role to fulfill. They are responsible for ensuring that an object
 is set up properly when it is first created; in other words, for ensuring that an object is
 ready to be used immediately following its creation. This construction process is also
@@ -224,7 +238,6 @@ The constructor of the `TicketMachine` class:
 public class TicketMachine
 {
     // Fields omitted
-
     /**
      * Create a machine that issues tickets of the given price.
      * Note that the price must be greater than zero, and there
@@ -236,9 +249,7 @@ public class TicketMachine
         balance = 0;
         total = 0;
     }
-
     // Methods omitted
-
 }
 ```  
 
@@ -298,27 +309,3 @@ Draw an Object Diagram of Student class about how it's constructor initializes t
 
 [Back to Top](#top)
 
-### Let's Practice
-
-Let's try writing the insides of some of these methods:
-
-1. *Method:* `calculateAreaOfRectangle`  
-   *Details:* Write a method named `calculateAreaOfRectangle` that takes two integers representing the length and width of a rectangle as parameters and returns the area of the rectangle.
-2. *Method:* `calculateAverage`  
-   *Details:* Write a method named `calculateAverage` that takes three integers as parameters and returns the average of the three numbers.
-3. *Method:* `calculateSimpleInterest`  
-   *Details:* Write a method named `calculateSimpleInterest` that takes three doubles representing the principal amount, rate of interest (in percentage), and time (in years) as parameters and returns the simple interest earned.
-4. *Method:* `calculatePerimeterOfCircle`  
-   *Details:* Create a method named `calculatePerimeterOfCircle` that takes a double representing the radius of a circle as a parameter and returns the perimeter of the circle.
-5. *Method:* `calculateVolumeOfCylinder`  
-   *Details:* Implement a method called `calculateVolumeOfCylinder` that takes two doubles representing the radius and height of a cylinder as parameters and returns the volume of the cylinder.
-6. *Method:* `calculatePower`  
-   *Details:* Create a method named `calculatePower` that takes two integers representing the base and exponent as parameters and returns the result of raising the base to the power of the exponent.
-7. *Method:* `calculateCompoundInterest`  
-   *Details:* Implement a method called `calculateCompoundInterest` that takes three doubles representing the principal amount, rate of interest (in percentage), and time (in years) as parameters and returns the compound interest earned.
-8. *Method:* `calculateHypotenuse`  
-   *Details:* Implement a method called `calculateHypotenuse` that takes two doubles representing the lengths of the two shorter sides of a right-angled triangle as parameters and returns the length of the hypotenuse.
-9. *Method:* `calculateDistance`  
-   *Details:* Create a method named `calculateDistance` that takes four integers representing the coordinates (x1, y1) and (x2, y2) of two points in a 2D plane as parameters and returns the distance between the two points.
-<!-- 10. *Method:* `calculateFactorial`  
-   *Details:* Write a method named `calculateFactorial` that takes an integer as a parameter and returns the factorial of that number. -->

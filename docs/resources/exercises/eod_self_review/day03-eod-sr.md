@@ -15,7 +15,7 @@ nav_order: 3
 ---
 
 Today, we have covered a lot of new ground, and we have introduced a lot of new concepts.  
-We will be building on these in future sessions, so it is important that you are comfortable with them. Try the following **pencil-and-paper exercises** as a way of checking that you are becoming used to the terminology that we have introduced in this chapter. Don’t be put off by the fact that we suggest that you do these on paper rather than within BlueJ.  
+We will be building on these in future sessions, so it is important that you are comfortable with them. Try the following **pen-and-paper exercises** as a way of checking that you are becoming used to the terminology that we have introduced in this chapter. Don’t be put off by the fact that we suggest that you do these on paper rather than within BlueJ.  
 _It will be good practice to try things out without a compiler._
 
 1. List the name and return type of this method:
@@ -43,8 +43,8 @@ _It will be good practice to try things out without a compiler._
    - a field of type `int` called `age`
    - a field of type `String` called `code`
    - a field called `credits` of type `int`
-5. Write out a constructor for a class called `Module`. The constructor should take a single parameter of type `String` called `moduleCode`. The body of the constructor should assign the value of its parameter to a field called `code`. You don’t have to include the definition for `code`, just the text of the constructor.
-6. Write out a constructor for a class called `Person`. The constructor should take two parameters. The first is of type `String` and is called `myName`. The second is of type `int` and is called `myAge`. The first parameter should be used to set the value of a field called `name`, and the second should set a field called `age`. You don’t have to include the definitions for the fields, just the text of the constructor.
+5. Write out a constructor for a class called `Module`. The constructor should take a single parameter of type `String` called `moduleCode`. The body of the constructor should assign the value of its parameter to a field called `code`. You don’t have to include the field definition for `code`, just the text of the constructor.
+6. Write out a constructor for a class called `Person`. The constructor should take two parameters. The first is of type `String` and is called `myName`. The second is of type `int` and is called `myAge`. The first parameter should be used to set the value of a field called `name`, and the second should set a field called `age`. You don’t have to include the field definitions for the fields, just the text of the constructor.
 7. Correct the error in this method:
 
    ```java

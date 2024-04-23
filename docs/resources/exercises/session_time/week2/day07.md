@@ -4,7 +4,7 @@ title: Sessions
 parent: Day 7
 grand_parent: Week 2
 has_children: true
-nav_order: 2
+nav_order: 1
 ---
 
 # Module 1: Java Foundations

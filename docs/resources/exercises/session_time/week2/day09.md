@@ -18,3 +18,20 @@ This is a **very important difference** between these two sorts of variables.
 The *lifetime of a parameter* is limited to a single call of a constructor or method. When a constructor or method is called, the extra space for the parameter variables is created, and the external values copied into
 that space. Once that call has completed its task, the formal parameters disappear and the values they held are lost. In other words, when the constructor has finished executing, the whole constructor space is removed, along with the parameter variables held within it.  
 In contrast, the *lifetime of a field* is the same as the lifetime of the object to which it belongs. When an object is created, so are the fields, and they persist for the lifetime of the object. It follows that if we want to remember the cost of tickets held in the `cost` parameter, we must store the value somewhere persistent — that is, in the `price` field.  
+
+## Practice Session
+
+### Let's Practice Methods More
+
+Let's try writing the insides of some of these methods:
+
+6. *Method:* `calculatePower`  
+   *Details:* Create a method named `calculatePower` that takes two integers representing the base and exponent as parameters and returns the result of raising the base to the power of the exponent.
+7. *Method:* `calculateCompoundInterest`  
+   *Details:* Implement a method called `calculateCompoundInterest` that takes three doubles representing the principal amount, rate of interest (in percentage), and time (in years) as parameters and returns the compound interest earned.
+8. *Method:* `calculateHypotenuse`  
+   *Details:* Implement a method called `calculateHypotenuse` that takes two doubles representing the lengths of the two shorter sides of a right-angled triangle as parameters and returns the length of the hypotenuse.
+9. *Method:* `calculateDistance`  
+   *Details:* Create a method named `calculateDistance` that takes four integers representing the coordinates (x1, y1) and (x2, y2) of two points in a 2D plane as parameters and returns the distance between the two points.
+<!-- 10. *Method:* `calculateFactorial`  
+   *Details:* Write a method named `calculateFactorial` that takes an integer as a parameter and returns the factorial of that number. -->
