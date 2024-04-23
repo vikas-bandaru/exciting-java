@@ -10,7 +10,7 @@ nav_order: 3
 
 ## Week 2: Foundations of OOP & Algorithmic Thinking
 
-### Day 3: Understanding Class Definitions
+### Day 8: Understanding Class Definitions
 ### Self Review
 ---
 

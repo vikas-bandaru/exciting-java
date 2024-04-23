@@ -3,7 +3,7 @@ layout: default
 title: Data Types
 parent: Java
 grand_parent: Handouts
-nav_order: 1
+nav_order: 2
 ---
 
 # Handouts
