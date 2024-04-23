@@ -30,6 +30,10 @@ nav_order: 2
 ## Session 1  
 
 ### Pomodoro 1
+#### Revision & Discussion of Yesterday's Assignment (10 minutes)
+1. Self Review
+2. Work from Home
+
 #### Today's Standup (15 minutes)
   - First proper look at the source code of a class  
   - Discuss the basic elements of class definitions: *fields*, *constructors*, and *methods*  
