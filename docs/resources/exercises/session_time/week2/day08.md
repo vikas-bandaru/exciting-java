@@ -292,7 +292,10 @@ Draw an Object Diagram of Student class about how it's constructor initializes t
    ```
 2. The following object creation will result in the constructor of the Date class being called. Can you write the constructor’s header?  
    ```new Date("March", 23, 1861)```  
-   Try to give meaningful names to the parameters.
+   Try to give meaningful names to the parameters.  
+
+[Log Your Confidence Level](https://forms.gle/QN7sxgpDsfrdc5ri9)
+
 [Back to Top](#top)
 
 ### Let's Practice
