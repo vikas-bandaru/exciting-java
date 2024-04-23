@@ -23,12 +23,34 @@ nav_order: 4
    `greetWithName("Bob") --> "Hello, Bob"`  
    `greetWithName("Charlie") --> "Hello, Charlie"`
 
+   <!-- <details>
+     <summary> Solution </summary>
+     
+     ```java
+     public String greetWithName(String name)
+     {
+         return "Hello, " + name ;
+     }
+     ```
+   </details> -->
 2. Write a method header called `createFullName` that takes two String parameters representing a first name and a last name, and returns the full name by concatenating them.
    Your method should meet at least the following test cases:  
    `createFullName("John", "Doe") --> "John Doe"`  
    `createFullName("Jane", "Smith") --> "Jane Smith"`  
    `createFullName("Michael", "Johnson") --> "Michael Johnson"`
 
+   <!-- <details>
+     <summary>
+       Solution
+     </summary>
+
+     ```java
+     public String createFullName(String firstName, String lastName)
+     {
+         return firstName + " " + lastName;
+     }
+     ```
+   </details> -->
 3. Write a method header named `addSuffix` that takes two String parameters representing a word and a suffix, and returns the word with the suffix appended to it.
    Your method should meet at least the following test cases:  
    `addSuffix("play", "ing") --> "playing"`  
@@ -53,7 +75,7 @@ nav_order: 4
    `createMessage("Alice", "Bob", "Hey Bob, what's up?") --> "From: Alice\nTo: Bob\nMessage: Hey Bob, what's up?"`  
    `createMessage("Bob", "Charlie", "Good morning Charlie!") --> "From: Bob\nTo: Charlie\nMessage: Good morning Charlie!"`  
 
-7. Write a method header named `appendText` that takes two String parameters representing a base text and additional text, and returns the base text with the additional text appended to it.
+7. Write a method header named `appendText` that takes three String parameters representing a base text, an additional text, and a suffix text, and returns the base text with all text appended.
    Your method should meet at least the following test cases:  
    `appendText("Hello", "World", " ") --> "Hello World"`  
    `appendText("Open", "AI", "") --> "OpenAI"`  

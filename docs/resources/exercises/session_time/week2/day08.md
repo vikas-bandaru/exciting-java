@@ -30,9 +30,9 @@ nav_order: 2
 ## Session 1  
 
 ### Pomodoro 1
-#### Revision & Discussion of Yesterday's Assignment (10 minutes)
-1. Self Review
-2. Work from Home
+#### Revision & Discussion of Yesterday's Assignment (90 minutes)
+1. [Self Review](../../eod_self_review/w2-day07-eod-sr)
+2. [Work from Home](../../practice_session/w2-day07-challenges)
 
 #### Today's Standup (15 minutes)
   - First proper look at the source code of a class  
