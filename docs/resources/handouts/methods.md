@@ -37,12 +37,15 @@ Here's a breakdown of Java methods focusing on the parts of a method header:
 > The method body is the remainder of the method after the header. It is always enclosed by a matching pair of curly brackets: “{“ and “}”. Method bodies contain the *declarations* and *statements* that define what an object does when that method is called. Declarations are used to create additional, temporary variable space, while statements describe the actions of the method. In `getPrice`, the method body contains a single statement, but we shall soon see examples where the method body consists of many lines of both declarations and statements.  
 - Any set of declarations and statements between a pair of matching curly brackets is known as a *block*. So the body of the `TicketMachine` class, the bodies of the constructor, and all of the methods within the class are blocks.
 
+![field def vs method def](../exercises/session_time/images/field%20vs%20method%20def.PNG)
+
 **Return statement**  
 Within the body of `getPrice` there is a single statement:  
 `return price;`  
 This is called a *return statement*.
 - It is always the final statement of that method, because no further statements in the method will be executed once the return statement is executed.
 - Return types and return statements work together. The `int` return type of `getPrice` is a form of promise that the body of the method will do something that ultimately results in an integer value being calculated and returned as the method’s result. You might like to think of a method call as being a form of question to an object, and the return value from the method being the object’s answer to that question. In this case, when the `getPrice` method is called on a ticket machine, the question is, What do tickets cost? A ticket machine does not need to perform any calculations to be able to answer that, because it keeps the answer in its `price` field. So the method answers by just returning the value of that variable. As we gradually develop more-complex classes, we shall inevitably encounter more-complex questions that require more work to supply their answers.
+  ![return statement](../exercises/session_time/images/return%20stmt.PNG)
 - "returning a value" means that some information is passed internally between two different parts of the
 program. One part of the program has requested information from an object via a method call, and the return value is the way the object passes that information back to the caller.
 - People often think it means that something is printed by the program. This is not the case at all — we

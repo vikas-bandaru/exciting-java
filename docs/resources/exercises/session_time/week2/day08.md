@@ -130,27 +130,27 @@ The inner part of the class is where we define the *fields*, *constructors*, and
 - Fields are also known as *instance variables*.
 - The `TicketMachine` class has three fields: `price`, `balance`, and `total`.
 
-```java
-public class TicketMachine {
-   private int price;
-   private int balance;
-   private int total;
+  ```java
+  public class TicketMachine {
+     private int price;
+     private int balance;
+     private int total;
 
-   // Constructors and Methods are omitted
-}
-```
-  - `price` stores the fixed price of a ticket
-  - `balance` stores the amount of money inserted into the machine by a user prior to asking for a ticket to be printed
-  - `total` stores the total amount of money inserted into the machine by all users since the machine object was constructed (excluding any current balance). The idea is that, when a ticket is printed, any money in the balance is transferred to the total.
+     // Constructors and Methods are omitted
+  }
+  ```  
+- `price` stores the fixed price of a ticket
+- `balance` stores the amount of money inserted into the machine by a user prior to asking for a ticket to be printed
+- `total` stores the total amount of money inserted into the machine by all users since the machine object was constructed (excluding any current balance). The idea is that, when a ticket is printed, any money in the balance is transferred to the total.
 
 - Fields are small amounts of space inside an object that can be used to store data persistently. Every object will have space for each field declared in its class.
 - Maintaining an Object Diagram for each object with spaces for each of it's fields is a *good practice* for beginners.
 - A single-line *comment* is introduced by the two characters "//", which are written with no spaces between them.
 
-```java
-// The price of a ticket from this machine.
-private int price;
-```
+  ```java
+  // The price of a ticket from this machine.
+  private int price;
+  ```  
 - **Comments** are inserted into the source code of a class to provide explanations to human readers. They have no effect on the functionality of the class.
 - More-detailed comments, often spanning several lines, are usually written in the form of multiline comments. These start with the character pair “/\*” and end with the pair “\*/”. There is a good example preceding the header of the class:
 
