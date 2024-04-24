@@ -12,27 +12,6 @@ nav_order: 2
 
 ## Work from Home
 
-### Object Diagram Practice - How Constructors work
-
-Check the following class and draw how its constructor works.  
-
-```java
-public class Product {
-    private String name;
-    private double price;
-    private String category;
-    private boolean available;
-    
-    public Product(String prodName, double prodPrice) {
-        name = prodName;
-        price = prodPrice;
-        category = "Uncategorized";
-        available = false;
-    }
-    // Other methods
-}
-```
-
 ### Let's Practice Methods More
 
 Let's try writing the insides of these methods:

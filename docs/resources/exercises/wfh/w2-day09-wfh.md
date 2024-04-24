@@ -12,7 +12,28 @@ nav_order: 2
 
 ## Work from Home
 
-### Read and Learning Exercises using ChatGPT
+### Object Diagram Practice - How Constructors work
+
+Check the following class and draw how its constructor works.  
+
+```java
+public class Product {
+    private String name;
+    private double price;
+    private String category;
+    private boolean available;
+    
+    public Product(String prodName, double prodPrice) {
+        name = prodName;
+        price = prodPrice;
+        category = "Uncategorized";
+        available = false;
+    }
+    // Other methods
+}
+```
+
+### Reading and Learning Exercises using ChatGPT
 
 1. Learn about Simple Interest & Compound Interest in detail. Learn what they are, when to use them, which real world applications use them, what are the formula, examples to understand how to calculate each of them.  
    **How to check if you understood it well:** Ask ChatGPT to give you questions to check your knowledge on this. Try to answer those questions. If you get at least 70% of the questions right, then you can say you understood the concepts.  
@@ -20,23 +41,22 @@ nav_order: 2
 
 ### Write your own Class Exercise
 
-Create a new project, car-exercise. Edit the details in the project description — the text note you see in the diagram. Create a class, Car, that contains the following fields:
+1. Create a new project, *car-exercise*. Create a class, `Car`, that contains the following fields:  
+   - `make`: a String representing the make of the car.
+   - `model`: a String representing the model of the car.
+   - `year`: an integer representing the manufacturing year of the car.
+   - `mileage`: a double representing the mileage of the car.
+   - `distanceTravelled`: a double representing the amount of distance the car has travelled.  
 
-Make: a String representing the make of the car.
-Model: a String representing the model of the car.
-Year: an integer representing the manufacturing year of the car.
-Mileage: a double representing the mileage of the car.
-Define a constructor that takes parameters for make, model, year, and mileage, and initializes the respective fields.
+   Define a constructor that takes parameters for `make`, `model`, `year`, and `mileage`, and initializes the respective fields.  
+   Define a method named `drive` that takes a double parameter representing the distance traveled, and updates the `distanceTravelled` field by adding the distance traveled to the current value of `distanceTravelled`.  
+   Define accessor methods to retrieve the values of `make`, `model`, `year`, `mileage`, and `distanceTravelled` fields.  
 
-Define a method named "drive" that takes a double parameter representing the distance traveled, and updates the mileage field by adding the distance traveled to the current mileage.
+   *Before proceeding further with this exercise, check that everything works as before.*  
 
-Define accessor methods to retrieve the values of make, model, year, and mileage fields.
-
-Modify your Car class to define two new double-precision floating point fields: fuelCapacity and fuelConsumption. The values of fuelCapacity and fuelConsumption should be set by parameters passed to the constructor.
-
-Define a method named "refuel" that takes a double parameter representing the amount of fuel added to the car's tank, and updates the fuelCapacity field by adding the amount of fuel added.
-
-Define a method named "calculateFuelConsumed" that takes a double parameter representing the distance traveled and calculates the amount of fuel consumed based on the fuel consumption rate.
+   Modify your `Car` class to define two new double-precision floating point fields: `fuelInTank` and `fuelConsumption`. The values of `fuelInTank` and `fuelConsumption` should be set by parameters passed to the constructor.  
+   Define a method named `refuel` that takes a double parameter representing the amount of fuel added to the car's tank, and updates the `fuelInTank` field by adding the amount of fuel added.  
+   Define a method named `calculateFuelConsumed` that takes a double parameter representing the distance traveled and calculates the amount of fuel consumed based on the fuel consumption rate.
 
 ### More Methods Practice
 
