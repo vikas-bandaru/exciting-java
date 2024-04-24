@@ -8,7 +8,7 @@ nav_order: 2
 
 # Module 1: Java Foundations
 ## Week 2: Foundations of OOP & Algorithmic Thinking
-### Day 8: Understanding Class Definitions
+### Day 8: Understanding Class Definitions (Fields, Constructors, and Methods)
 
 ## Work from Home
 

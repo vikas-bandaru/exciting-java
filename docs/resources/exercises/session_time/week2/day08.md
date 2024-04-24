@@ -9,7 +9,7 @@ nav_order: 1
 
 # Module 1: Java Foundations
 {: .no_toc }
-## Day 8: Understanding Class Definitions
+## Day 8: Understanding Class Definitions (Fields, Constructors, and Methods)
 {: .no_toc }
 
 <details open markdown="block">
