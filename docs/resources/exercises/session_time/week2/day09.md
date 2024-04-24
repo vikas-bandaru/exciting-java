@@ -1,6 +1,6 @@
 ---
 layout: default
-# title: Sessions
+title: Sessions
 parent: Day 9
 grand_parent: Week 2
 has_children: true

@@ -54,7 +54,7 @@ shall see how printing is done when we look at the `printTicket` method.
 - A `void` return type means that the method does not return any value to its caller. This is significantly different from all other return types.
 - Within the body of a `void` method, this difference is reflected in the fact that there is *no return statement*.
 
-### Forms of Methods
+### Different Ways Methods can be written
 1. **Method without parameters and return type `void`**
 
     ```java
