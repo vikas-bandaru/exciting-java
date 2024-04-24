@@ -31,7 +31,6 @@ nav_order: 1
 
 ## Session 1
 
-### Revision and Discussion of Yesterday's Assignments
 ### Revision & Discussion of Yesterday's Assignment (60 minutes)
 1. [Self Review](../../eod_self_review/w2-day08-eod-sr)
 2. [Work from Home](../../practice_session/w2-day08-wfh)
@@ -152,6 +151,8 @@ behavior before and after it is called.
 - In the body of `insertMoney`, there is a single statement that is *another form of assignment statement*.
 - We always consider assignment statements by first examining the calculation on the right-hand side of the assignment symbol. Here, its effect is to calculate a value that is the sum of the number in the amount parameter and the number in the balance field. This combined value is then assigned to the balance field. So the effect is to increase the value in balance by the value in amount.
 
+![assignment with expression](../images/assignment%20with%20expression.png)
+
 **Let's Experiment**  
 1. How can we tell from just its header that `setPrice` is a method and not a constructor?  
    `public void setPrice(int cost)`
@@ -192,20 +193,4 @@ Before proceeding further with this exercise, check that everything works as bef
    <!-- Before proceeding further with this exercise, check that everything works as before.   -->
    <!-- Now modify the `warmer` method so that it will not allow the temperature to be set to a value greater than `max`. Similarly modify `cooler` so that it will not allow `temperature` to be set to a value less than `min`. Check that the class works properly. Now add a method, `setIncrement`, that takes a single parameter of the appropriate type and uses it to set the value of `increment`. Once again, test that the class works as you would expect it to by creating some `Heater` objects within BlueJ. Do things still work as expected if a negative value is passed to the `setIncrement` method? Add a check to this method to prevent a negative value from being assigned to `increment`. -->
 
-
-### Let's Practice Methods More
-
-Let's try writing the insides of some of these methods:
-
-6. *Method:* `calculatePower`  
-   *Details:* Create a method named `calculatePower` that takes two integers representing the base and exponent as parameters and returns the result of raising the base to the power of the exponent.
-7. *Method:* `calculateCompoundInterest`  
-   *Details:* Implement a method called `calculateCompoundInterest` that takes three doubles representing the principal amount, rate of interest (in percentage), and time (in years) as parameters and returns the compound interest earned.
-8. *Method:* `calculateHypotenuse`  
-   *Details:* Implement a method called `calculateHypotenuse` that takes two doubles representing the lengths of the two shorter sides of a right-angled triangle as parameters and returns the length of the hypotenuse.
-9. *Method:* `calculateDistance`  
-   *Details:* Create a method named `calculateDistance` that takes four integers representing the coordinates (x1, y1) and (x2, y2) of two points in a 2D plane as parameters and returns the distance between the two points.
-<!-- 10. *Method:* `calculateFactorial`  
-   *Details:* Write a method named `calculateFactorial` that takes an integer as a parameter and returns the factorial of that number. -->
-   
 [Back to Top](#top)

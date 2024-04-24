@@ -8,7 +8,7 @@ nav_order: 2
 
 # Module 1: Java Foundations
 ## Week 2: Foundations of OOP & Algorithmic Thinking
-### Day 9: Understanding Class Definitions (More about Methods, Conditional Statements)
+### Day 9: Understanding Class Definitions (More about Methods)
 
 ## Work from Home
 
@@ -33,35 +33,48 @@ public class Product {
 }
 ```
 
-### Reading and Learning Exercises using ChatGPT
-
-1. Learn about Simple Interest & Compound Interest in detail. Learn what they are, when to use them, which real world applications use them, what are the formula, examples to understand how to calculate each of them.  
-   **How to check if you understood it well:** Ask ChatGPT to give you questions to check your knowledge on this. Try to answer those questions. If you get at least 70% of the questions right, then you can say you understood the concepts.  
-   **Note:** Check Day 2 in Google Classroom for ChatGPT material.
-
 ### Write your own Class Exercise
 
-1. Create a new project, *car-exercise*. Create a class, `Car`, that contains the following fields:  
-   - `make`: a String representing the make of the car.
-   - `model`: a String representing the model of the car.
-   - `year`: an integer representing the manufacturing year of the car.
-   - `mileage`: a double representing the mileage of the car.
-   - `distanceTravelled`: a double representing the amount of distance the car has travelled.  
+1. Create a class called `Book` that contains the following fields:  
+   - `title`: a String representing the title of the book.  
+   - `author`: a String representing the author of the book.  
+   - `yearPublished`: an integer representing the year the book was published.  
 
-   Define a constructor that takes parameters for `make`, `model`, `year`, and `mileage`, and initializes the respective fields.  
-   Define a method named `drive` that takes a double parameter representing the distance traveled, and updates the `distanceTravelled` field by adding the distance traveled to the current value of `distanceTravelled`.  
-   Define accessor methods to retrieve the values of `make`, `model`, `year`, `mileage`, and `distanceTravelled` fields.  
+   Define a constructor that takes parameters for new title, new author, and new yearPublished, and initializes the respective fields.  
+   Define accessor methods to get the values of `title`, `author`, and `yearPublished` fields.  
 
-   *Before proceeding further with this exercise, check that everything works as before.*  
+2. Create a class called `Rectangle` that contains the following fields:  
+   - `length`: a double representing the length of the rectangle.  
+   - `width`: a double representing the width of the rectangle.  
 
-   Modify your `Car` class to define two new double-precision floating point fields: `fuelInTank` and `fuelConsumption`. The values of `fuelInTank` and `fuelConsumption` should be set by parameters passed to the constructor.  
-   Define a method named `refuel` that takes a double parameter representing the amount of fuel added to the car's tank, and updates the `fuelInTank` field by adding the amount of fuel added.  
-   Define a method named `calculateFuelConsumed` that takes a double parameter representing the distance traveled and calculates the amount of fuel consumed based on the fuel consumption rate.
+   Define a constructor that takes parameters for new length and new width, and initializes the respective fields.  
+   Define accessor methods to get the values of `length` and `width` fields.  
+   Define a mutator method named `scale` that takes a double parameter representing the scaling factor, and updates both `length` and `width` by multiplying them with the scaling factor.  
 
-### More Methods Practice
+   **Note:** Scaling factor refers to a value by which the dimensions (length and width) of the rectangle are multiplied.  
+   For example, if the scaling factor is 2, then both the length and width of the rectangle would be doubled. Similarly, if the scaling factor is 0.5, then both the length and width would be halved, effectively reducing the size of the rectangle.
 
-1. **Age in Five Years:** A method, `ageInFiveYears`, receives two parameters called `name` and `age`. It returns a String with name then what their age would be five years from now, then what their age was five years ago.  
-   Check the test cases below to write your code:  
+3. Create a class called `Employee` that contains the following fields:  
+   - `name`: a String representing the name of the employee.  
+   - `department`: a String representing the department of the employee.  
+   - `salary`: a double representing the salary of the employee.  
+
+   Define a constructor that takes parameters for new name, new department, and new salary, and initializes the respective fields.  
+   Define accessor methods to get the values of `name`, `department`, and `salary` fields.  
+   Define a mutator method named `increaseSalary` that takes a double parameter representing the percentage increase in salary, and updates the salary field accordingly.
+
+4. Create a class called `Circle` that contains the following fields:  
+   - `radius`: a double representing the radius of the circle.  
+   - `diameter`: a double representing the diameter of the circle.  
+
+   Define a constructor that takes a parameter for new radius, calculates the `diameter` (2 * radius), and initializes both `radius` and `diameter` fields.  
+   Define accessor methods to get the values of `radius` and `diameter` fields.  
+   Define a mutator method named `setRadius` that takes a double parameter representing the new radius value and updates both radius and diameter accordingly.
+
+### More Methods Practice on String Concatenation with Numbers
+
+1. **Age in Five Years:** Write a method, `ageInFiveYears`, that receives two parameters called `name` and `age`. It returns a String with name then what their age would be five years from now, then what their age was five years ago.  
+   Refer to the test cases below to write your code:  
    `ageInFiveYears("Raju", 23) --> "Hey Raju, do you know that in five years you will be 28 years old? And five years ago you were 18 years old!!"`  
    `ageInFiveYears("Hema", 87) --> "Hey Hema, do you know that in five years you will be 92 years old? And five years ago you were 82 years old!!"`  
    `ageInFiveYears("Bunny", 8) --> "Hey Bunny, do you know that in five years you will be 13 years old? And five years ago you were 3 years old!!"`  

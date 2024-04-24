@@ -113,3 +113,7 @@ shall see how printing is done when we look at the `printTicket` method.
 - The `void` return type indicates that the method does not return any value.
 - Methods can have any number of parameters including zero.
 - The return statement is used to exit the method and return a value if the method has a return type other than `void`.
+
+### Types of Methods
+
+![types of methods](../exercises/session_time/images/types%20of%20methods.png)

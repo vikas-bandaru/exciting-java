@@ -22,6 +22,8 @@ The main **binary arithmetic operations** are:
 `/` *division*  
 `%` *modulus*, or *remainder after division*  
 
+![addition vs concatenation operator](../exercises/session_time/images/addtion%20vs%20concatenation%20operator.png)
+
 **Note:** The results of both division and modulus operations depend on whether their operands are integers
 or floating-point values. Between two integer values, division yields an integer result and
 discards any remainder, but between floating-point values, a floating-point value is the result:  
