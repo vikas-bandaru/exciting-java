@@ -1,5 +1,39 @@
+---
+layout: default
+title: Sessions
+parent: Day 11
+grand_parent: Week 2
+has_children: true
+nav_order: 1
+---
 
+# Module 1: Java Foundations
+{: .no_toc }
+## Day 10: Understanding Class Definitions (Expressions, Conditional Statements)
+{: .no_toc }
 
+<details open markdown="block">
+  <summary>
+    Table of contents
+  </summary>
+  {: .text-delta }
+1. [Session 1](#session-1)
+   {:toc}
+2. [Session 2](#session-2)
+   {:toc}
+3. [Practice Session](#practice-session)
+   {:toc}
+</details>
+
+## Session 1
+
+### Few more Problems
+
+1. Questions from yesterday's Assignment (Q14, Q15, Q13, Q6)
+2. 2-digit reverse
+3. 3-digit palindrome
+
+## Practice Session
 
 ### Printing from Methods
 The most complex method of the class: `printTicket`
@@ -48,7 +82,7 @@ The most complex method of the class: `printTicket`
    `System.out.println("# Rs. price");`
 5. Could either of the previous two versions be used to show the price of tickets in different ticket machines? Explain your answer.
 6. Add a `showPrice` method to the `TicketMachine` class. This should have a void return type and take no parameters. The body of the method should print:  
-  **The price of a ticket is *xyz* cents.**  
+  **The price of a ticket is Rs. *xyz*.**  
 where `xyz` should be replaced by the value held in the `price` field when the method is called.
 7. Create two ticket machines with differently priced tickets. Do calls to their `showPrice` methods show the same output, or different? How do you explain this effect?
 
@@ -93,8 +127,9 @@ _Before attempting these exercises, be sure that you have a good understanding o
 From our study of the internals of the `TicketMachine` class, you should have come to appreciate how inadequate it would be in the real world. It is deficient in several ways:
 - It contains no check that the customer has entered enough money to pay for a ticket.
 - It does not refund any money if the customer pays too much for a ticket.
-- It does not check to ensure that the customer inserts sensible amounts of money. Experiment with what happens if a negative amount is entered, for instance.
+- It does not check to ensure that the customer inserts sensible amounts of money. Experiment with what happens if a negative amount is entered, for example.
 - It does not check that the ticket price passed to its constructor is sensible.  
+
 If we could remedy these problems, then we would have a much more functional piece of software that might serve as the basis for operating a real-world ticket machine.  
 In the next few sections, we shall examine the implementation of an improved ticket machine class that attempts to deal with some of the inadequacies of the naïve implementation. Open the better-ticket-machine project. As before, this project contains a single class: `TicketMachine`. Before looking at the internal details of the class, experiment with it by creating some instances and see whether you notice any differences in behavior between this version and the previous naíve version.
 One specific difference is that the new version has an additional method, refund Balance.

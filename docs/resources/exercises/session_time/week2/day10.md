@@ -19,11 +19,10 @@ nav_order: 1
   {: .text-delta }
 1. [Session 1](#session-1)
    {:toc}
-
-<!-- 2. [Session 2](#session-2)
+2. [Session 2](#session-2)
    {:toc}
 3. [Practice Session](#practice-session)
-   {:toc} -->
+   {:toc}
 </details>
 
 ## Session 1
@@ -60,9 +59,35 @@ nav_order: 1
    - Assignment operator (=)
    - Addition operator (+)
 
-### Simple Exercises on Writing a Class
+### Simple Experimnents on Arithmetic Operators using Code Pad
 
-<!-- Let's give a lot of exercises on writing classes to build the confidence -->
+1. 56 + 89
+2. 1923 + 343
+3. 1 + 2
+4. -3 + 3
+5. 3 - -3
+6. 3--3 (check if this works? - discuss)
+7. -5- -47
+8. 10 * 2
+9. 13 * 29
+10. 10 * 23 * 10
+11. Some complex-looking Mathematics expressions using arithmetic operators
+12. 65 / 5
+13. 70 / 10
+14. 11 / 70
+15. 5 / 65
+16. 70 % 10
+17. 73 % 39
+18. 15 % 4
+19. 39 % 73
+20. 4 % 15
+
+### Some Experiments using Math class methods using Code Pad
+
+1. Math.sqrt
+2. Math.pow
+3. Math.abs
+4. Some complex-looking Mathematics expression using roots and powers along with arithmetic operators
 
 ### Revision & Discussion of Yesterday's Assignment (60 minutes)
 1. [Self Review](../../eod_self_review/w2-day08-eod-sr)

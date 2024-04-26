@@ -23,7 +23,7 @@ nav_order: 2
    `greetWithName("Bob") --> "Hello, Bob"`  
    `greetWithName("Charlie") --> "Hello, Charlie"`
 
-   <!-- <details>
+   <details markdown="block">
      <summary> Solution </summary>
      
      ```java
@@ -32,7 +32,7 @@ nav_order: 2
          return "Hello, " + name ;
      }
      ```
-   </details> -->
+   </details>
 2. Write a method header called `createFullName` that takes two String parameters representing a first name and a last name, and returns the full name by concatenating them.
    Your method should meet at least the following test cases:  
    `createFullName("John", "Doe") --> "John Doe"`  
