@@ -8,7 +8,7 @@ nav_order: 17
 
 ## Vikas Bandaru
 
-Educator 👨‍🏫. Dreamer 💭. Thinker 💡🤔. Booklover 📖. Coder 👨🏽‍💻. Artist 👨‍🎨. To-be-entrepreneur .
+Educator 👨‍🏫. Dreamer 💭. Thinker 💡. Booklover 📖. Coder 👨🏽‍💻. Artist 👨‍🎨. To-be-entrepreneur .
 
 ### Books that changed the way I think
 

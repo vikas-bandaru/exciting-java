@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Work from home
+title: Work from Home
 parent: Day 7
 grand_parent: Week 2
 nav_order: 2
