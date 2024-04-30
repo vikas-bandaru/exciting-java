@@ -21,10 +21,10 @@ nav_order: 2
 5. Write an if-statement that will compare the value in `price` against the value in `budget`. If `price` is greater than `budget`, then print the message “Too expensive”; otherwise print the message “Just right”.
 6. Modify your answer to the previous exercise so that the message includes the value of your budget if the price is too high.
 
-#### Local Variables
+### Local Variables
 A local variable is a variable declared and used within a single method. Its scope and lifetime are limited to that of the method.  
-**pitfall** A local variable of the same name as a field will prevent the field being accessed
-from within a constructor or method. See [this n super](../../../handouts/this%20n%20super) section of Handouts for a way around this when necessary.  
+> **pitfall** A local variable of the same name as a field will prevent the field being accessed from within a constructor or method. See [this n super](../../../resources/handouts/this-n-super) section of Handouts for a way around this when necessary.  
+
 **Let's Experiment**  
 1. Why does the following version of `refundBalance` not give the same results as the original?
 
@@ -63,14 +63,16 @@ from within a constructor or method. See [this n super](../../../handouts/this%2
 
    Try out this version in the better-ticket-machine project. Does this version compile? Create an object and then inspect its fields. Do you notice something wrong about the value of the `price` field in the inspector with this version? Can you explain why this is?
 
-#### Fields, Parameters and Local Variables
+### Fields, Parameters and Local Variables
 
 **Let's Experiment**  
 1. Add a new method, `emptyMachine`, that is designed to simulate emptying the machine of money. It should reset `total` to be zero, but also return the value that was stored in `total` before it was reset.
 2. Rewrite the `printTicket` method so that it declares a local variable, `amountLeftToPay`. This should then be initialized to contain the difference between `price` and `balance`. Rewrite the test in the conditional statement to check the value of `amountLeftToPay`. If its value is less than or equal to zero, a ticket should be printed; otherwise, an error message should be printed stating the amount left to pay. Test your version to ensure that it behaves in exactly the same way as the original version. Make sure that you call the method more than once, when the machine is in different states, so that both parts of the conditional statement will be executed on separate occasions.
 
-#### Summary of the better ticket machine
-
+### Summary of the better ticket machine
+<!-- Move this content to Google Docs and ask students to read the content and create a discussion around it.
+      Giving very high scores to those who point out the meaning correctly and boldly so that others are motivated to talk more to get that scores easily.
+ -->
 ### Experimenting with Expressions in Code Pad
 
 1. Consider the following expressions. Try to predict their results, and then type them in the Code Pad to check your answers.  
