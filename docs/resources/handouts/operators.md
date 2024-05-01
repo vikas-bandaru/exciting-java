@@ -96,6 +96,41 @@ In addition,
 
 takes a single boolean expression and changes it from `true` to `false` and vice versa.
 
+#### Truth Tables of Logical Operators
+**&&** Operator  
+
+| X | Y | `X && Y` |
+|:--|:--|:--|
+| T | T | T |
+| F | T | F |
+| T | F | F |
+| F | F | F |
+
+`||` Operator
+
+| X | Y | `X || Y` |
+|:--|:--|:--|
+| T | T | T |
+| F | T | T |
+| T | F | T |
+| F | F | F |
+
+**^** Operator
+
+| X | Y | **X^Y** |
+|:--|:--|:--|
+| T | T | F |
+| F | T | T |
+| T | F | T |
+| F | F | F |
+
+`!` Operator
+
+| X | !X |
+|:--|:--|
+| T | F |
+| F | T |
+
 ### Short-circuit Operators
 
 Both `&&` and `||` are slightly unusual in the way they are applied. If the left operand of `&&` is

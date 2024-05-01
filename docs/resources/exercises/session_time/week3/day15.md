@@ -101,10 +101,10 @@ Keep it in your *projects* folder and extract it.
 
    The error message is not actually very helpful at all. Can you work out what is incorrect about this call to `setValue`, and correct it? It would also be worth remembering this error message because it results from an easy error to make in the early stages of learning.
 
+## Practice Session
 ### Logical Operators: `setValue` method
 
-### Let's Experiment
-1. Observe the `setValue` method of `NumberDisplay` class. What do you think it is doing?
+Observe the `setValue` method of `NumberDisplay` class. What do you think it is doing?
 
 > **Logic operators** Logic operators operate on boolean values (true or false) and produce a
 new boolean value as a result. The three most important logical operators are **and**, **or**, and
@@ -120,7 +120,7 @@ new boolean value as a result. The three most important logical operators are **
     **!a**  
   is true if **a** is false and false if **a** is true.  
 
-### Let's continue experiments
+### Let's experiment
 1. What happens when the `setValue` method is called with an illegal value? Is this a good solution? Can you think of a better solution?
 2. What would happen if you replaced the "**>=**" operator in the test with "**>**" so that it reads  
    `if((replacementValue > 0) && (replacementValue < limit))`  
@@ -238,7 +238,5 @@ Go to **Logic-1** section of your CodingBat account
 6. lastDigit
 7. maxMod5
 8. shareDigit
-
-## Practice Session
 
 Try the above listed CodingBat problems

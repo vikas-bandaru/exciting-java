@@ -101,4 +101,4 @@ Implement all the methods except `toString()` method.
 10. Let's go deeper into the working of `getTime` method. Observe the time value of `ClockDisplay` object when `hour` or `minute` values are single digits. You will see that there is an extra `0` before the value. Try implementing this behavior in `getTime` method of `Time` class.
 11. Observe the source code of `getDisplayValue` method of `NumberDisplay` class. Try applying similar code to `getTime` method of `Time` class.
 12. A better way of implementing this behavior in `getTime` method of `Time` class.
-<!-- Using String variables to be updated using leading 0 when it is single digit, instead of updating the whole time format -->
+    Using String variables to be updated using leading 0 when it is single digit, instead of updating the whole time format
