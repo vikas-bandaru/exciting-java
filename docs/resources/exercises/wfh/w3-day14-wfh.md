@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Work from Home
-parent: Day 13
+parent: Day 14
 grand_parent: Week 3
 nav_order: 2
 ---
