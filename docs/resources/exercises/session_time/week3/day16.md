@@ -26,7 +26,9 @@ nav_order: 1
 </details>
 
 ## Session 1
+Addressing any issues faced in CodingBat exercises homework.
 
+## Session 2
 ### Let's Experiment with `ClockDisplay` class
 1. Open the *clock-display* project and create a `ClockDisplay` object by selecting the following constructor:  
 > `new ClockDisplay()`  
@@ -91,6 +93,9 @@ This is because the `ClockDisplay` class contains two constructors. What they pr
 1. Look at the second constructor in `ClockDisplay`’s source code. Explain what it does and how it does it.
 2. Identify the similarities and differences between the two constructors. Why is there no call to `updateDisplay` in the second constructor, for example?
 
+[Back to Top](#top)
+
+## Practice Session
 ### Method Calls
 > Methods can call other methods of the same class as part of their implementation. This is called an **internal method call**.
 
@@ -179,7 +184,9 @@ single string.
 3. List all of the external method calls that are made in the `draw` method of `Picture` on the `Triangle` object called `roof`.
 4. Does the `Picture` class contain any internal method calls?
 5. Remove the following two statements from the `draw` method of `Picture`:
-   > `window.changeColor("black");`
+   > `window.changeColor("black");`  
      `sun.changeColor("yellow");`  
      
    and make the color setting, instead, via a single call to an internal method called `setColor` (which you need to create).
+
+   [Back to Top](#top)
