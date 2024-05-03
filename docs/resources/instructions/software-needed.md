@@ -10,6 +10,7 @@ nav_order: 13
 2. [BlueJ](#installing-bluej)
 3. [Git & GitHub Desktop](#installing-git)
 4. [JDK](#installing-jdk)
+   - [Setting Classpath](#setting-classpath--java_home)
 5. [Eclipse](#installing-eclipse)
 5. [IntelliJ IDEA](#installing-intellij-idea)
 6. [Visual Studio Code](#installing-visual-studio-code)
@@ -30,23 +31,33 @@ You can use a local copy of the Java class library (API) documentation. That way
 Then open a web browser, and, using the _Open File_ . . . . (or equivalent) function, open the file _docs/api/index.html_. Once the API view is correctly displayed in the browser, copy the URL (web address) from your browser’s address field, open BlueJ, open the _Preferences_ dialog, go to the _Miscellaneous_ tab, and paste the copied URL into the field labeled _JDK documentation URL_. Using the _Java Class Libraries_ item from the *Help* menu should now open your local copy.
 
 ## Installing Git
-[Git](https://git-scm.com/downloads)
-[GitHub Desktop](https://desktop.github.com/)
+<iframe src="https://scribehow.com/embed/Download_Git_for_Windows__ynQN0jTXRQm33W2rr3n5Fg" width="100%" height="640" allowfullscreen frameborder="0"></iframe>
+
+### Installing GitHub Desktop
+<iframe src="https://scribehow.com/embed/Github_Workflow__Vz3sxse7TFG0Ov_ifg7cNA" width="100%" height="640" allowfullscreen frameborder="0"></iframe>
+
 ## Installing JDK
 ### JDK 11
-[Download](https://adoptium.net/temurin/releases/?os=windows&version=11)
+<iframe src="https://scribehow.com/embed/Download_Temurin_JDK_for_Windows_x64_through_the_website__Gfn6a7kWRyKcfp5_H7-v5w" width="100%" height="640" allowfullscreen frameborder="0"></iframe>
+
 ### JDK 17
-[Download](https://adoptium.net/temurin/releases/?os=windows&version=17)
+<iframe src="https://scribehow.com/embed/Download_Eclipse_Temurin_x64_JDK_for_Windowsinstructions__EYWeN_bPSYObwNKJWbW9Hw" width="100%" height="640" allowfullscreen frameborder="0"></iframe>
+
 ### Installation Instructions
 [Which JDK should You Choose?](https://incusdata.com/blog/which-java-jdk-should-you-use)  
 [How to Install Java on Windows 64 bit Machine](https://howtodoinjava.com/java/basics/install-java-on-64-bit-windows/)
 
+### Setting Classpath & JAVA_HOME
+<iframe width="560" height="315" src="https://www.youtube.com/embed/0y5SwMSBKNY?si=6lgJdhs6GkirXjd5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ## Installing Eclipse
-[Eclipse Downloads](https://www.eclipse.org/downloads/)
+<iframe src="https://scribehow.com/embed/Download_Eclipse_IDE_for_x8664_platform_from_website__nofPaG7ER1qEYheFWNWb8A" width="100%" height="640" allowfullscreen frameborder="0"></iframe>
+
 ### Installing Eclipse IDE for Enterprise Java and Web Developers
 
+
 ## Installing IntelliJ IDEA
-[IntelliJ IDEA Community Edition](https://www.jetbrains.com/idea/download/?section=windows)
+<iframe src="https://scribehow.com/embed/Download_IntelliJ_IDEA_Community_Edition_on_Windows__mJpygyA-SiiwlgWzHSG2Xg" width="100%" height="640" allowfullscreen frameborder="0"></iframe>
 
 ## Installing Visual Studio Code
-[Download](https://code.visualstudio.com/)
+<iframe src="https://scribehow.com/embed/Visualstudio_Workflow__GqvgWevkQz24udf7-aJWpg" width="100%" height="640" allowfullscreen frameborder="0"></iframe>
