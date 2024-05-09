@@ -56,7 +56,7 @@ of individual music tracks. There will be no separate details of title, artist, 
 That means we will just be asking the `ArrayList` to store `String` objects representing the
 file names. Keeping things simple at this stage will help to avoid obscuring the key concepts
 we are trying to illustrate, which are the creation and usage of a collection object. Later in the
-chapter, we will add further sophistication to make a more viable music organizer and player.
+discussion, we will add further sophistication to make a more viable music organizer and player.
 We will assume that each music file represents a single music track. The example files we
 have provided with the project have both the artist’s name and the track’s title embedded
 in the file name, and we will use this feature later. For the time being, here are the basic
@@ -85,3 +85,32 @@ Check that the number of files returned by `numberOfFiles` matches the number yo
 3. Create a `MusicOrganizer` and add two file names to it. Call `listFile(0)` and `listFile(1)` to show the two files. Now call `removeFile(0)` and then `listFile(0)`. What happened? Is that what you expected? Can you find an explanation of what might have happened when you removed the first file name from the collection?
 
 ### Using a library class
+
+**Importing a library class**  
+The very first line of the class file illustrates the way in which we gain access to a library
+class in Java, via an *import statement*:  
+> `import java.util.ArrayList;`  
+
+This makes the `ArrayList` class from the `java.util` package available to our class definition.
+Import statements must always be placed before class definitions in a file. Once a
+class name has been imported from a package in this way, we can use that class just as if it
+were one of our own classes. So we use `ArrayList` at the head of the `MusicOrganizer`
+class to define a `files` field:  
+> `private ArrayList<String> files;`  
+
+Here, we see a new construct: the mention of `String` in angle brackets: `<String>`. The need
+for this was alluded the previous section, where we noted that `ArrayList` is a general-purpose
+collection class—i.e., not restricted in what it can store. When we create an `ArrayList`
+object, however, we have to be specific about the type of objects that will be stored in that
+particular instance. We can store whatever type we choose, but we have to designate that type
+when declaring an `ArrayList` variable. Classes such as `ArrayList`, which get parameterized
+with a second type, are called *generic classes* (we will discuss them in more detail later).  
+When using collections, therefore, we always have to specify two types: the type of the collection
+itself (here: `ArrayList`) and the type of the elements that we plan to store in the
+collection (here: String). We can read the complete type definition `ArrayList<String>`
+as “*ArrayList of String.*” We use this type definition as the type for our files variable.  
+As you should now have come to expect, we see a close connection between the body of the
+constructor and the fields of the class, because the constructor is responsible for initializing
+the fields of each instance. So, just as the `ClockDisplay` created `NumberDisplay` objects
+for its two fields, here we see the constructor of the `MusicOrganizer` creating an object
+of type `ArrayList` and storing it in the `files` field.
