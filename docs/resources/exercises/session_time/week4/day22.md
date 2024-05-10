@@ -4,7 +4,7 @@ title: Sessions
 parent: Day 22
 grand_parent: Week 4
 has_children: true
-nav_order: 1
+nav_order: 4
 ---
 
 # Module 1: Java Foundations
@@ -65,6 +65,7 @@ operations we will have in the initial version of our organizer:
 - It has no predetermined limit on the number of tracks it can store, aside from the memory limit of the machine on which it is run.
 - It will tell us how many tracks are in the collection.
 - It will list all the tracks.  
+
 We shall find that the `ArrayList` class makes it very easy to provide this functionality
 from our own class.  
 Notice that we are not being too ambitious in this first version. These features will be sufficient
@@ -114,3 +115,5 @@ constructor and the fields of the class, because the constructor is responsible 
 the fields of each instance. So, just as the `ClockDisplay` created `NumberDisplay` objects
 for its two fields, here we see the constructor of the `MusicOrganizer` creating an object
 of type `ArrayList` and storing it in the `files` field.
+
+[Back to Top](#top)
