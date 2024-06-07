@@ -1,6 +1,6 @@
 ---
 layout: default
-title: this & super
+# title: this & super
 parent: Java
 grand_parent: Handouts
 nav_order: 4

@@ -1,12 +1,14 @@
 ---
 layout: default
-title: Objects & Classes - CR
-parent: Practice Questions
+title: Code Snippets Questions
+parent: Objects and Classes
 nav_order: 2
+grand_parent: Practice Questions
 ---
 
 # Practice Questions
-## Multiple Choice Questions (Code Snippets)
+## Soft Intro to Java (Objects & Classes)
+### Multiple Choice Questions (Code Snippets)
 
 1. Given a `Person` class with a constructor that initializes the name and age of a person and a method `getName` that returns the name, what will be the output of the following code snippet?
    ```java

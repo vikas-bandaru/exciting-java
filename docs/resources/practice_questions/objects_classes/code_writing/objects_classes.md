@@ -1,12 +1,14 @@
 ---
 layout: default
-title: Objects & Classes - CW
-parent: Practice Questions
+title: Code Writing Questions
+parent: Objects and Classes
 nav_order: 3
+grand_parent: Practice Questions
 ---
 
 # Practice Questions
-## Code Writing
+## Soft Intro to Java (Objects & Classes)
+### Code Writing
 
 1. Calculate the number of days a person lived given their birth and death dates:
    ```java

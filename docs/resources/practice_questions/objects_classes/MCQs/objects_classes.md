@@ -1,12 +1,14 @@
 ---
 layout: default
-title: Objects & Classes - MCQs
-parent: Practice Questions
+title: MCQs
+parent: Objects and Classes
 nav_order: 1
+grand_parent: Practice Questions
 ---
 
 # Practice Questions
-## Multiple Choice Questions (Concept)
+## Soft Intro to Java (Objects & Classes)
+### Multiple Choice Questions (Concept)
 
 1. What are problem domains in the context of Java programming?  
    <form>
