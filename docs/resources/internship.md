@@ -68,7 +68,7 @@ Are you ready to embark on this exciting journey into the world of software deve
 Let's code, create, and conquer together! 💻✨
 
 ## Progression Table
-### Module 0: Day 1
+<!-- ### Module 0: Day 1
 
 | Session | Activity | Duration (in Minutes) | XP (Experience Points) |
 |:--|:--|:--|:--|
@@ -88,7 +88,9 @@ Let's code, create, and conquer together! 💻✨
 | Practice | Setup Google Classroom account | 20 | 50 |
 | Practice | Practice "Learning with ChatGPT" | 60 | 100 |
 | Work from Home | Practice "Learning with ChatGPT" and prepare a 5-min talk on today's topics | 30 | 50 |
-| | **TOTAL** | **240** | **350 - 500** |
+| | **TOTAL** | **240** | **350 - 500** | -->
+Check [Activity Reference Sheet](https://docs.google.com/spreadsheets/d/1TZ1kDb4U8IU7h5_J8yDTr-ukpI48M_mKLzlWstZqSi8/edit?usp=sharing).  
+Also check [Roles and Promotion Criteria](https://docs.google.com/spreadsheets/d/1TZ1kDb4U8IU7h5_J8yDTr-ukpI48M_mKLzlWstZqSi8/edit#gid=711905628) in another sheet.  
 
 <!-- |   |    | Icebreaker Activity | 20 | 75 |
 |   |    | Team-building Exercise | 15 | 100 |
