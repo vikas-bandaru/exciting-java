@@ -249,3 +249,473 @@ grand_parent: Practice Questions
       <summary>Answer</summary>
       c) Definitions of instance variables in a class
     </details>
+
+21. What is a class in the context of Java programming?
+    <form>
+      <input type="radio" name="q1" value="a"> A blueprint for creating objects.<br>
+      <input type="radio" name="q1" value="b"> An instance of an object.<br>
+      <input type="radio" name="q1" value="c"> A method inside an object.<br>
+      <input type="radio" name="q1" value="d"> A collection of functions.<br>
+    </form>
+    <details markdown="block">
+      <summary>Answer</summary>
+      A blueprint for creating objects.
+    </details>
+
+22. In the given traffic scenario, if we refer to 'my old red car parked at home,' what are we referring to?
+    <form>
+      <input type="radio" name="q2" value="a"> A class<br>
+      <input type="radio" name="q2" value="b"> An object<br>
+      <input type="radio" name="q2" value="c"> A method<br>
+      <input type="radio" name="q2" value="d"> A parameter<br>
+    </form>
+    <details markdown="block">
+      <summary>Answer</summary>
+      An object
+    </details>
+
+23. What is the naming convention for classes in Java?
+    <form>
+      <input type="radio" name="q3" value="a"> Classes start with lowercase letters.<br>
+      <input type="radio" name="q3" value="b"> Classes start with uppercase letters.<br>
+      <input type="radio" name="q3" value="c"> Classes start with numbers.<br>
+      <input type="radio" name="q3" value="d"> Classes start with special characters.<br>
+    </form>
+    <details markdown="block">
+      <summary>Answer</summary>
+      Classes start with uppercase letters.
+    </details>
+
+24. Which of the following is an example of a Java object?
+    <form>
+      <input type="radio" name="q4" value="a"> Car<br>
+      <input type="radio" name="q4" value="b"> car1<br>
+      <input type="radio" name="q4" value="c"> int<br>
+      <input type="radio" name="q4" value="d"> public<br>
+    </form>
+    <details markdown="block">
+      <summary>Answer</summary>
+      car1
+    </details>
+
+25. What does the method signature in Java include?
+    <form>
+      <input type="radio" name="q5" value="a"> Only the method name.<br>
+      <input type="radio" name="q5" value="b"> Only the parameter types.<br>
+      <input type="radio" name="q5" value="c"> The method name and parameter types.<br>
+      <input type="radio" name="q5" value="d"> The return type and parameter values.<br>
+    </form>
+    <details markdown="block">
+      <summary>Answer</summary>
+      The method name and parameter types.
+    </details>
+
+26. What is an instance in the context of Java programming?
+    <form>
+      <input type="radio" name="q6" value="a"> A class blueprint.<br>
+      <input type="radio" name="q6" value="b"> A specific object created from a class.<br>
+      <input type="radio" name="q6" value="c"> A method definition.<br>
+      <input type="radio" name="q6" value="d"> A parameter value.<br>
+    </form>
+    <details markdown="block">
+      <summary>Answer</summary>
+      A specific object created from a class.
+    </details>
+
+27. What is the role of parameters in Java methods?
+    <form>
+      <input type="radio" name="q7" value="a"> To define the method's return type.<br>
+      <input type="radio" name="q7" value="b"> To provide additional information for the method.<br>
+      <input type="radio" name="q7" value="c"> To specify the method name.<br>
+      <input type="radio" name="q7" value="d"> To create new objects.<br>
+    </form>
+    <details markdown="block">
+      <summary>Answer</summary>
+      To provide additional information for the method.
+    </details>
+
+28. How do you start the names of objects in Java?
+    <form>
+      <input type="radio" name="q8" value="a"> With uppercase letters.<br>
+      <input type="radio" name="q8" value="b"> With lowercase letters.<br>
+      <input type="radio" name="q8" value="c"> With special characters.<br>
+      <input type="radio" name="q8" value="d"> With numbers.<br>
+    </form>
+    <details markdown="block">
+      <summary>Answer</summary>
+      With lowercase letters.
+    </details>
+
+29. What happens when you call the moveDown method twice on a circle object in BlueJ?
+    <form>
+      <input type="radio" name="q9" value="a"> The circle moves twice its original position downward.<br>
+      <input type="radio" name="q9" value="b"> The circle moves back to its original position.<br>
+      <input type="radio" name="q9" value="c"> The circle's size changes.<br>
+      <input type="radio" name="q9" value="d"> The circle becomes invisible.<br>
+    </form>
+    <details markdown="block">
+      <summary>Answer</summary>
+      The circle moves twice its original position downward.
+    </details>
+
+30. What is the return type of the method getName() in the Student class?
+    <form>
+      <input type="radio" name="q10" value="a"> int<br>
+      <input type="radio" name="q10" value="b"> double<br>
+      <input type="radio" name="q10" value="c"> String<br>
+      <input type="radio" name="q10" value="d"> void<br>
+    </form>
+    <details markdown="block">
+      <summary>Answer</summary>
+      String
+    </details>
+
+31. Which of the following defines a method that does not take any parameters?
+    <form>
+      <input type="radio" name="q11" value="a"> public void changeSize(int newSize)<br>
+      <input type="radio" name="q11" value="b"> public int getSize()<br>
+      <input type="radio" name="q11" value="c"> public void setSize(int newSize)<br>
+      <input type="radio" name="q11" value="d"> public boolean setVisible(boolean visibility)<br>
+    </form>
+    <details markdown="block">
+      <summary>Answer</summary>
+      public int getSize()
+    </details>
+
+32. What does invoking the changeColor method on a circle object do?
+    <form>
+      <input type="radio" name="q12" value="a"> It moves the circle.<br>
+      <input type="radio" name="q12" value="b"> It changes the color of the circle.<br>
+      <input type="radio" name="q12" value="c"> It makes the circle invisible.<br>
+      <input type="radio" name="q12" value="d"> It deletes the circle.<br>
+    </form>
+    <details markdown="block">
+      <summary>Answer</summary>
+      It changes the color of the circle.
+    </details>
+
+33. What is the difference between primitive types and reference types in Java?
+    <form>
+      <input type="radio" name="q13" value="a"> Primitive types store values directly, reference types store references to objects.<br>
+      <input type="radio" name="q13" value="b"> Primitive types store references to objects, reference types store values directly.<br>
+      <input type="radio" name="q13" value="c"> Primitive types are used for objects, reference types for primitive values.<br>
+      <input type="radio" name="q13" value="d"> There is no difference between primitive and reference types.<br>
+    </form>
+    <details markdown="block">
+      <summary>Answer</summary>
+      Primitive types store values directly, reference types store references to objects.
+    </details>
+
+34. Which of the following is an example of a compile-time error in Java?
+    <form>
+      <input type="radio" name="q14" value="a"> NullPointerException<br>
+      <input type="radio" name="q14" value="b"> ArrayIndexOutOfBoundsException<br>
+      <input type="radio" name="q14" value="c"> Syntax error<br>
+      <input type="radio" name="q14" value="d"> ArithmeticException<br>
+    </form>
+    <details markdown="block">
+      <summary>Answer</summary>
+      Syntax error
+    </details>
+
+35. What does the method translate(int x, int y) do in the Rectangle class?
+    <form>
+      <input type="radio" name="q15" value="a"> It creates a new rectangle.<br>
+      <input type="radio" name="q15" value="b"> It moves the rectangle by the specified x and y amounts.<br>
+      <input type="radio" name="q15" value="c"> It changes the color of the rectangle.<br>
+      <input type="radio" name="q15" value="d"> It resizes the rectangle.<br>
+    </form>
+    <details markdown="block">
+      <summary>Answer</summary>
+      It moves the rectangle by the specified x and y amounts.
+    </details>
+
+36. What type of value does the method getCredits() return in the Student class?
+    <form>
+      <input type="radio" name="q16" value="a"> String<br>
+      <input type="radio" name="q16" value="b"> double<br>
+      <input type="radio" name="q16" value="c"> int<br>
+      <input type="radio" name="q16" value="d"> boolean<br>
+    </form>
+    <details markdown="block">
+      <summary>Answer</summary>
+      int
+    </details>
+
+37. What is a parameter in the context of Java methods?
+    <form>
+      <input type="radio" name="q17" value="a"> A method name.<br>
+      <input type="radio" name="q17" value="b"> A variable passed to a method to provide input.<br>
+      <input type="radio" name="q17" value="c"> The return value of a method.<br>
+      <input type="radio" name="q17" value="d"> An instance of a class.<br>
+    </form>
+    <details markdown="block">
+      <summary>Answer</summary>
+      A variable passed to a method to provide input.
+    </details>
+
+38. Which method would you use to change the color of a rectangle in Java?
+    <form>
+      <input type="radio" name="q18" value="a"> moveHorizontal<br>
+      <input type="radio" name="q18" value="b"> changeColor<br>
+      <input type="radio" name="q18" value="c"> makeVisible<br>
+      <input type="radio" name="q18" value="d"> setSize<br>
+    </form>
+    <details markdown="block">
+      <summary>Answer</summary>
+      changeColor
+    </details>
+
+39. How do you create an object with specific RGB values in Java?
+    <form>
+      <input type="radio" name="q19" value="a"> new RGB(255, 0, 0)<br>
+      <input type="radio" name="q19" value="b"> new Color(255, 0, 0)<br>
+      <input type="radio" name="q19" value="c"> new Rectangle(255, 0, 0)<br>
+      <input type="radio" name="q19" value="d"> new Object(255, 0, 0)<br>
+    </form>
+    <details markdown="block">
+      <summary>Answer</summary>
+      new Color(255, 0, 0)
+    </details>
+
+40. What is the purpose of the main() method in Java?
+    <form>
+      <input type="radio" name="q21" value="a"> To define a class<br>
+      <input type="radio" name="q21" value="b"> To start the execution of a Java application<br>
+      <input type="radio" name="q21" value="c"> To compile the code<br>
+      <input type="radio" name="q21" value="d"> To create new objects<br>
+    </form>
+    <details markdown="block">
+      <summary>Answer</summary>
+      To start the execution of a Java application
+    </details>
+
+41. What does the method charAt(int index) return in the String class?
+    <form>
+      <input type="radio" name="q22" value="a"> The length of the string<br>
+      <input type="radio" name="q22" value="b"> The character at the specified index<br>
+      <input type="radio" name="q22" value="c"> The substring from the specified index<br>
+      <input type="radio" name="q22" value="d"> The string converted to uppercase<br>
+    </form>
+    <details markdown="block">
+      <summary>Answer</summary>
+      The character at the specified index
+    </details>
+
+42. Which statement is true about immutability of Strings in Java?
+    <form>
+      <input type="radio" name="q23" value="a"> String values can be changed after creation<br>
+      <input type="radio" name="q23" value="b"> String values cannot be changed once created<br>
+      <input type="radio" name="q23" value="c"> String values are stored in the stack<br>
+      <input type="radio" name="q23" value="d"> String values are always null<br>
+    </form>
+    <details markdown="block">
+      <summary>Answer</summary>
+      String values cannot be changed once created
+    </details>
+
+43. What is the role of the compiler in Java?
+    <form>
+      <input type="radio" name="q24" value="a"> To execute the code<br>
+      <input type="radio" name="q24" value="b"> To convert source code into machine code<br>
+      <input type="radio" name="q24" value="c"> To create new objects<br>
+      <input type="radio" name="q24" value="d"> To interpret Java bytecode<br>
+    </form>
+    <details markdown="block">
+      <summary>Answer</summary>
+      To convert source code into machine code
+    </details>
+
+44. What is the result of invoking the method setColor(Color c) on a rectangle object?
+    <form>
+      <input type="radio" name="q25" value="a"> The rectangle moves to a new position<br>
+      <input type="radio" name="q25" value="b"> The rectangle changes its color to the specified color<br>
+      <input type="radio" name="q25" value="c"> The rectangle's size changes<br>
+      <input type="radio" name="q25" value="d"> The rectangle becomes invisible<br>
+    </form>
+    <details markdown="block">
+      <summary>Answer</summary>
+      The rectangle changes its color to the specified color
+    </details>
+
+### Some New Questions for Practice
+
+1. What happens if a class does not have a main() method?
+    <form>
+      <input type="radio" name="q36" value="a"> The program runs successfully<br>
+      <input type="radio" name="q36" value="b"> The class cannot be compiled<br>
+      <input type="radio" name="q36" value="c"> The program will not start<br>
+      <input type="radio" name="q36" value="d"> The class is ignored<br>
+    </form>
+    <details markdown="block">
+      <summary>Answer</summary>
+      The program will not start
+    </details>
+
+2. What is the return type of the method getHeight() in the Rectangle class?
+    <form>
+      <input type="radio" name="q37" value="a"> void<br>
+      <input type="radio" name="q37" value="b"> int<br>
+      <input type="radio" name="q37" value="c"> double<br>
+      <input type="radio" name="q37" value="d"> boolean<br>
+    </form>
+    <details markdown="block">
+      <summary>Answer</summary>
+      int
+    </details>
+
+3. What does the method grow(int h, int v) do in the Rectangle class?
+    <form>
+      <input type="radio" name="q38" value="a"> Changes the position of the rectangle<br>
+      <input type="radio" name="q38" value="b"> Changes the size of the rectangle<br>
+      <input type="radio" name="q38" value="c"> Changes the color of the rectangle<br>
+      <input type="radio" name="q38" value="d"> Makes the rectangle invisible<br>
+    </form>
+    <details markdown="block">
+      <summary>Answer</summary>
+      Changes the size of the rectangle
+    </details>
+
+4. What is the result of calling the setColor(Color.RED) method on a circle object?
+    <form>
+      <input type="radio" name="q39" value="a"> The circle is filled with the color red<br>
+      <input type="radio" name="q39" value="b"> The circle's outline is changed to red<br>
+      <input type="radio" name="q39" value="c"> The circle becomes invisible<br>
+      <input type="radio" name="q39" value="d"> The circle's position is changed<br>
+    </form>
+    <details markdown="block">
+      <summary>Answer</summary>
+      The circle is filled with the color red
+    </details>
+
+5. What is the purpose of the draw() method in the Circle class?
+    <form>
+      <input type="radio" name="q40" value="a"> To create a new circle<br>
+      <input type="radio" name="q40" value="b"> To fill the circle with color<br>
+      <input type="radio" name="q40" value="c"> To make the circle visible<br>
+      <input type="radio" name="q40" value="d"> To move the circle<br>
+    </form>
+    <details markdown="block">
+      <summary>Answer</summary>
+      To make the circle visible
+    </details>
+
+6. What does the moveHorizontal method do in the Rectangle class?
+    <form>
+      <input type="radio" name="q41" value="a"> Moves the rectangle horizontally by a specified amount<br>
+      <input type="radio" name="q41" value="b"> Moves the rectangle vertically by a specified amount<br>
+      <input type="radio" name="q41" value="c"> Changes the width of the rectangle<br>
+      <input type="radio" name="q41" value="d"> Changes the height of the rectangle<br>
+    </form>
+    <details markdown="block">
+      <summary>Answer</summary>
+      Moves the rectangle horizontally by a specified amount
+    </details>
+
+7. Which of the following is a valid declaration of a rectangle object in Java?
+    <form>
+      <input type="radio" name="q42" value="a"> Rectangle rect = new Rectangle();<br>
+      <input type="radio" name="q42" value="b"> Rectangle rect = Rectangle();<br>
+      <input type="radio" name="q42" value="c"> Rectangle rect = new Rectangle;<br>
+      <input type="radio" name="q42" value="d"> rect = new Rectangle();<br>
+    </form>
+    <details markdown="block">
+      <summary>Answer</summary>
+      Rectangle rect = new Rectangle();
+    </details>
+
+8. What is the purpose of the setSize method in the Rectangle class?
+    <form>
+      <input type="radio" name="q43" value="a"> To change the position of the rectangle<br>
+      <input type="radio" name="q43" value="b"> To change the size of the rectangle<br>
+      <input type="radio" name="q43" value="c"> To change the color of the rectangle<br>
+      <input type="radio" name="q43" value="d"> To make the rectangle visible<br>
+    </form>
+    <details markdown="block">
+      <summary>Answer</summary>
+      To change the size of the rectangle
+    </details>
+
+9. How do you declare a method that returns an integer in Java?
+    <form>
+      <input type="radio" name="q44" value="a"> public int methodName()<br>
+      <input type="radio" name="q44" value="b"> public void methodName()<br>
+      <input type="radio" name="q44" value="c"> int methodName()<br>
+      <input type="radio" name="q44" value="d"> void methodName()<br>
+    </form>
+    <details markdown="block">
+      <summary>Answer</summary>
+      public int methodName()
+    </details>
+
+10. Which of the following methods can be used to set the color of a circle object?
+    <form>
+      <input type="radio" name="q45" value="a"> setSize<br>
+      <input type="radio" name="q45" value="b"> setColor<br>
+      <input type="radio" name="q45" value="c"> setVisible<br>
+      <input type="radio" name="q45" value="d"> setPosition<br>
+    </form>
+    <details markdown="block">
+      <summary>Answer</summary>
+      setColor
+    </details>
+
+11. What is the result of calling the fill() method on a rectangle object?
+    <form>
+      <input type="radio" name="q46" value="a"> The rectangle is moved to a new position<br>
+      <input type="radio" name="q46" value="b"> The rectangle is filled with its current color<br>
+      <input type="radio" name="q46" value="c"> The rectangle is resized<br>
+      <input type="radio" name="q46" value="d"> The rectangle is made invisible<br>
+    </form>
+    <details markdown="block">
+      <summary>Answer</summary>
+      The rectangle is filled with its current color
+    </details>
+
+12. What is a constructor in Java?
+    <form>
+      <input type="radio" name="q47" value="a"> A method that initializes a new object<br>
+      <input type="radio" name="q47" value="b"> A method that returns an integer<br>
+      <input type="radio" name="q47" value="c"> A method that sets the color of an object<br>
+      <input type="radio" name="q47" value="d"> A method that moves an object<br>
+    </form>
+    <details markdown="block">
+      <summary>Answer</summary>
+      A method that initializes a new object
+    </details>
+
+13. What does the translate method do in the Line class?
+    <form>
+      <input type="radio" name="q48" value="a"> Changes the color of the line<br>
+      <input type="radio" name="q48" value="b"> Changes the size of the line<br>
+      <input type="radio" name="q48" value="c"> Moves the line by a specified amount<br>
+      <input type="radio" name="q48" value="d"> Deletes the line<br>
+    </form>
+    <details markdown="block">
+      <summary>Answer</summary>
+      Moves the line by a specified amount
+    </details>
+
+14. Which of the following is a valid way to create a new circle object in Java?
+    <form>
+      <input type="radio" name="q49" value="a"> Circle c = new Circle();<br>
+      <input type="radio" name="q49" value="b"> Circle c = Circle();<br>
+      <input type="radio" name="q49" value="c"> c = new Circle();<br>
+      <input type="radio" name="q49" value="d"> new Circle c = Circle();<br>
+    </form>
+    <details markdown="block">
+      <summary>Answer</summary>
+      Circle c = new Circle();
+    </details>
+
+15. What is the purpose of the main method in a Java program?
+    <form>
+      <input type="radio" name="q50" value="a"> To start the execution of the program<br>
+      <input type="radio" name="q50" value="b"> To define a class<br>
+      <input type="radio" name="q50" value="c"> To compile the code<br>
+      <input type="radio" name="q50" value="d"> To create new objects<br>
+    </form>
+    <details markdown="block">
+      <summary>Answer</summary>
+      To start the execution of the program
+    </details>
