@@ -1,14 +1,26 @@
 ---
 layout: default
-title: Code Snippets Questions
+title: Code Snippets MCQs
 parent: Objects and Classes
 nav_order: 2
 grand_parent: Practice Questions
 ---
 
-# Practice Questions
-## Soft Intro to Java (Objects & Classes)
-### Multiple Choice Questions (Code Snippets)
+# Practice Questions (Code Snippet based MCQs)
+## Soft Intro to Java with BlueJ (Objects & Classes)
+
+<details open markdown="block">
+  <summary>
+    Table of contents
+  </summary>
+  {: .text-delta }
+1. [Easy Level MCQs](#easy-level-mcqs)
+   {:toc}
+2. [Slightly harder MCQs](#slightly-harder-mcqs)
+   {:toc}
+</details>
+
+### Easy Level MCQs
 
 1. Given a `Person` class with a constructor that initializes the name and age of a person and a method `getName` that returns the name, what will be the output of the following code snippet?
    ```java
@@ -23,7 +35,7 @@ grand_parent: Practice Questions
    </form>
    <details markdown="block">
      <summary>Answer</summary>
-     a) Alice
+     Alice
    </details>
 
 2. Given a `Rectangle` class with a constructor that initializes its width and height, and a method `area` that returns the area of the rectangle, what will be the return value of the given method call?
@@ -39,7 +51,7 @@ grand_parent: Practice Questions
    </form>
    <details markdown="block">
      <summary>Answer</summary>
-     b) 12
+     12
    </details>
 
 3. What will be the output of the following code snippet?
@@ -56,7 +68,7 @@ grand_parent: Practice Questions
    </form>
    <details markdown="block">
      <summary>Answer</summary>
-     b) 30101020
+     30101020
    </details>
 
 4. Given a `Calculator` class with a method `addAndPrint` that takes two integer parameters, adds them, and prints the result, what will be the return value of the given method call in the following code snippet?
@@ -72,7 +84,7 @@ grand_parent: Practice Questions
    </form>
    <details markdown="block">
      <summary>Answer</summary>
-     a) 12
+     12
    </details>
 
 5. Given a `Printer` class with a method `printGreeting` that takes a `String` parameter and prints a greeting message including the provided name, what will be the return value of the given method call in the following code snippet?
@@ -88,7 +100,7 @@ grand_parent: Practice Questions
    </form>
    <details markdown="block">
      <summary>Answer</summary>
-     a) Hello, Alice!
+     Hello, Alice!
    </details>
 6. What is the variable name in the following declaration?
    ```java
@@ -102,7 +114,7 @@ grand_parent: Practice Questions
    </form>
    <details markdown="block">
      <summary>Answer</summary>
-     b) myCar
+     myCar
    </details>
 
 7. What is the type of the variable in the following declaration?
@@ -116,7 +128,7 @@ grand_parent: Practice Questions
    </form>
    <details markdown="block">
      <summary>Answer</summary>
-     a) double
+     double
    </details>
 
 8. What is the initial value of the variable in the following declaration?
@@ -131,7 +143,7 @@ grand_parent: Practice Questions
    </form>
    <details markdown="block">
      <summary>Answer</summary>
-     c) true
+     true
    </details>
 
 9. What is the value of `result` after the following sequence of statements?
@@ -148,7 +160,7 @@ grand_parent: Practice Questions
    </form>
    <details markdown="block">
      <summary>Answer</summary>
-     b) 12
+     12
    </details>
 
 10. Identify the mistakes in the following variable declarations:
@@ -182,10 +194,10 @@ grand_parent: Practice Questions
     </form>
     <details markdown="block">
       <summary>Answer</summary>
-      a) name<br>
-      b) _age<br>
-      e) $amount<br>
-      g) accountBalance
+      name<br>
+      _age<br>
+      $amount<br>
+      accountBalance
     </details>
 
 12. Choose the best variable name to hold the radius of a circle:
@@ -198,7 +210,7 @@ grand_parent: Practice Questions
     </form>
     <details markdown="block">
       <summary>Answer</summary>
-      d) radius
+      radius
     </details>
 
 13. What is the return type of the `getArea()` method of the `Circle` class? If unsure, check its method definition.
@@ -210,7 +222,7 @@ grand_parent: Practice Questions
     </form>
     <details markdown="block">
       <summary>Answer</summary>
-      b) double
+      double
     </details>
 
 14. What does the following sequence of statements print?
@@ -227,7 +239,7 @@ grand_parent: Practice Questions
     </form>
     <details markdown="block">
       <summary>Answer</summary
-      b) 30
+      30
     </details>
 
 15. What does this program print?
@@ -251,7 +263,7 @@ grand_parent: Practice Questions
     </form>
     <details markdown="block">
       <summary>Answer</summary>
-      a) Hello World!
+      Hello World!
     </details>
 
 16. Creating a Square Using Rectangle
@@ -578,3 +590,110 @@ grand_parent: Practice Questions
      <summary>Answer</summary>
      The result of 2 + 3 is 5<br> 2 + 3
     </details>
+
+[Back to Top](#top)
+
+### Slightly harder MCQs
+
+1. Printing Statements and Combining Strings
+   ```java
+   String s1 = "3 + 4";
+   int a = 3;
+   int b = 4;
+   System.out.println(s1);
+   System.out.println(a + b);
+   System.out.println("Result: " + a + b);
+   System.out.println("Result: " + (a + b));
+   ```
+
+   What will be the output of this code?
+   <form>
+     <input type="radio" name="q1" value="a"> 3 + 4 7 Result: 34 Result: 34<br>
+     <input type="radio" name="q1" value="b"> 3 + 4 7 Result: 7 Result: 7<br>
+     <input type="radio" name="q1" value="c"> 3 + 4 7 Result: 34 Result: 7<br>
+     <input type="radio" name="q1" value="d"> 3 + 4 34 Result: 34 Result: 7
+   </form>
+   <details markdown="block">
+     <summary>Answer</summary>
+     3 + 4 7 Result: 34 Result: 7
+   </details>
+
+2. Using Rectangle and Line Classes
+   ```java
+   Rectangle rect1 = new Rectangle(20, 20, 40, 40);
+   Line line1 = new Line(20, 20, 60, 20);
+   rect1.translate(10, 10);
+   line1.translate(5, 0);
+   ```
+
+   What are the new coordinates of rect1 and line1 respectively?
+   <form>
+     <input type="radio" name="q2" value="a"> (20, 20, 40, 40) and (25, 20, 65, 20)<br>
+     <input type="radio" name="q2" value="b"> (30, 30, 40, 40) and (25, 20, 60, 20)<br>
+     <input type="radio" name="q2" value="c"> (20, 20, 50, 50) and (25, 20, 65, 20)<br>
+     <input type="radio" name="q2" value="d"> (30, 30, 40, 40) and (20, 20, 60, 20)
+   </form>
+   <details markdown="block">
+     <summary>Answer</summary>
+     (30, 30, 40, 40) and (25, 20, 60, 20)
+   </details>
+
+3. Creating and Translating a Line Object
+   ```java
+   Line line = new Line(0, 0, 100, 0);
+   line.translate(50, 50);
+   ```
+
+   What are the new coordinates of the line after translation?
+   <form>
+     <input type="radio" name="q3" value="a"> (0, 0, 100, 50)<br>
+     <input type="radio" name="q3" value="b"> (50, 50, 150, 50)<br>
+     <input type="radio" name="q3" value="c"> (50, 50, 100, 0)<br>
+     <input type="radio" name="q3" value="d"> (0, 0, 50, 50)
+   </form>
+   <details markdown="block">
+     <summary>Answer</summary>
+     (50, 50, 150, 50)
+   </details>
+
+4. Creating and Translating a Square Using Rectangle
+   ```java
+   Rectangle square = new Rectangle(0, 0, 30, 30);
+   square.setColor(Color.GREEN);
+   square.translate(20, 20);
+   square.fill();
+   ```
+
+   What will be the final position and color of the square?
+   <form>
+     <input type="radio" name="q4" value="a"> (0, 0) and GREEN<br>
+     <input type="radio" name="q4" value="b"> (20, 20) and GREEN<br>
+     <input type="radio" name="q4" value="c"> (30, 30) and BLUE<br>
+     <input type="radio" name="q4" value="d"> (20, 20) and RED
+   </form>
+   <details markdown="block">
+     <summary>Answer</summary>
+     (20, 20) and GREEN
+   </details>
+
+5. Using String Methods and Printing
+   ```java
+   String str = "Java Programming";
+   System.out.println(str.charAt(5));
+   System.out.println(str.substring(0, 4));
+   System.out.println(str.replace("Java", "C++"));
+   ```
+
+   What will be the output of this code?
+   <form>
+     <input type="radio" name="q5" value="a"> a Java C++ Programming<br>
+     <input type="radio" name="q5" value="b"> P Java C++ Programming<br>
+     <input type="radio" name="q5" value="c"> P rogramming C++ Programming<br>
+     <input type="radio" name="q5" value="d"> a Java C++ rogramming
+   </form>
+   <details markdown="block">
+     <summary>Answer</summary>
+     P Java C++ Programming
+   </details>
+
+[Back to Top](#top)

@@ -1,14 +1,28 @@
 ---
 layout: default
-title: MCQs
+title: Concept MCQs
 parent: Objects and Classes
 nav_order: 1
 grand_parent: Practice Questions
 ---
 
-# Practice Questions
-## Soft Intro to Java (Objects & Classes)
-### Multiple Choice Questions (Concept)
+# Practice Questions (Conceptual MCQs)
+## Soft Intro to Java with BlueJ (Objects & Classes)
+
+<details open markdown="block">
+  <summary>
+    Table of contents
+  </summary>
+  {: .text-delta }
+1. [Easy Level MCQs](#easy-level-mcqs)
+   {:toc}
+   a) [Some New Questions for Practice](#some-new-questions-for-practice)
+      {:toc}
+2. [Medium Level Conceptual MCQs](#medium-level-conceptual-mcqs)
+   {:toc}
+</details>
+
+### Easy Level MCQs
 
 1. What are problem domains in the context of Java programming?  
    <form>
@@ -19,7 +33,7 @@ grand_parent: Practice Questions
    </form>
    <details markdown="block">
      <summary>Answer</summary>
-     b) The subject areas that the program is intended to address
+     The subject areas that the program is intended to address
    </details>
 
 2. How do Java objects model objects from problem domains?  
@@ -31,7 +45,7 @@ grand_parent: Practice Questions
    </form>
    <details markdown="block">
      <summary>Answer</summary>
-     b) By representing real-world entities with classes and objects
+     By representing real-world entities with classes and objects
    </details>
 
 3. Which of the following is true about a class in Java?  
@@ -43,7 +57,7 @@ grand_parent: Practice Questions
    </form>
    <details markdown="block">
      <summary>Answer</summary>
-     b) It is a blueprint from which objects are created
+     It is a blueprint from which objects are created
    </details>
 
 4. Which statement correctly differentiates an object from a class?  
@@ -55,7 +69,7 @@ grand_parent: Practice Questions
    </form>
    <details markdown="block">
      <summary>Answer</summary>
-     c) A class is a general definition, while an object is a specific instance
+     A class is a general definition, while an object is a specific instance
    </details>
 
 5. What is the naming convention for a class name in Java?  
@@ -67,7 +81,7 @@ grand_parent: Practice Questions
    </form>
    <details markdown="block">
      <summary>Answer</summary>
-     c) It should start with an uppercase letter
+     It should start with an uppercase letter
    </details>
 
 6. What is another term for 'calling a method' in Java?  
@@ -79,7 +93,7 @@ grand_parent: Practice Questions
    </form>
    <details markdown="block">
      <summary>Answer</summary>
-     c) Invoking a method
+     Invoking a method
    </details>
 
 7. What is a parameter in the context of a method in Java?  
@@ -91,7 +105,7 @@ grand_parent: Practice Questions
    </form>
    <details markdown="block">
      <summary>Answer</summary>
-     b) A value that provides additional information to a method
+     A value that provides additional information to a method
    </details>
 
 8. How do you determine what kind of value a parameter accepts in Java?  
@@ -103,7 +117,7 @@ grand_parent: Practice Questions
    </form>
    <details markdown="block">
      <summary>Answer</summary>
-     b) By the data type specified in the method definition
+     By the data type specified in the method definition
    </details>
 
 9. What is the difference between a method header and a method signature in Java?  
@@ -115,7 +129,7 @@ grand_parent: Practice Questions
    </form>
    <details markdown="block">
      <summary>Answer</summary>
-     d) Method header includes return type and name; method signature includes return type, name, and parameters
+     Method header includes return type and name; method signature includes return type, name, and parameters
    </details>
 
 10. Which statement is true about the data types int and String in Java?  
@@ -127,7 +141,7 @@ grand_parent: Practice Questions
     </form>
     <details markdown="block">
       <summary>Answer</summary>
-      b) int is a primitive data type, while String is a reference data type
+      int is a primitive data type, while String is a reference data type
     </details>
 
 11. What happens if a method has no parameters in Java?  
@@ -139,7 +153,7 @@ grand_parent: Practice Questions
     </form>
     <details markdown="block">
       <summary>Answer</summary>
-      c) It does not require any arguments when called
+      It does not require any arguments when called
     </details>
 
 12. What is the correct format for entering a String value in Java?  
@@ -151,7 +165,7 @@ grand_parent: Practice Questions
     </form>
     <details markdown="block">
       <summary>Answer</summary>
-      c) Enclosed in double quotes
+      Enclosed in double quotes
     </details>
 
 13. What happens if a String value is entered without quotes for a String parameter in Java?  
@@ -163,7 +177,7 @@ grand_parent: Practice Questions
     </form>
     <details markdown="block">
       <summary>Answer</summary>
-      b) It will be treated as a variable name
+      It will be treated as a variable name
     </details>
 
 14. How many objects can be created from a single class in Java?  
@@ -175,7 +189,7 @@ grand_parent: Practice Questions
     </form>
     <details markdown="block">
       <summary>Answer</summary>
-      d) Unlimited
+      Unlimited
     </details>
 
 15. Can a method have more than one parameter in Java?  
@@ -187,7 +201,7 @@ grand_parent: Practice Questions
     </form>
     <details markdown="block">
       <summary>Answer</summary>
-      b) Yes, it can have multiple parameters separated by commas
+      Yes, it can have multiple parameters separated by commas
     </details>
 
 16. What is the state of an object in Java?  
@@ -199,7 +213,7 @@ grand_parent: Practice Questions
     </form>
     <details markdown="block">
       <summary>Answer</summary>
-      b) The values of its instance variables at a particular time
+      The values of its instance variables at a particular time
     </details>
 
 17. What is the syntax for creating an object of class Rectangle in Java?  
@@ -211,7 +225,7 @@ grand_parent: Practice Questions
     </form>
     <details markdown="block">
       <summary>Answer</summary>
-      a) Rectangle obj = new Rectangle();
+      Rectangle obj = new Rectangle();
     </details>
 
 18. Can an object call methods of other objects of the same class in Java? What about an object of one class calling a method of an object of another class?  
@@ -223,7 +237,7 @@ grand_parent: Practice Questions
     </form>
     <details markdown="block">
       <summary>Answer</summary>
-      c) Yes, objects can call methods of other objects of the same or different classes
+      Yes, objects can call methods of other objects of the same or different classes
     </details>
 
 19. What is compilation in Java?  
@@ -235,7 +249,7 @@ grand_parent: Practice Questions
     </form>
     <details markdown="block">
       <summary>Answer</summary>
-      b) Converting Java source code into bytecode
+      Converting Java source code into bytecode
     </details>
 
 20. What are field definitions in Java?  
@@ -247,7 +261,7 @@ grand_parent: Practice Questions
     </form>
     <details markdown="block">
       <summary>Answer</summary>
-      c) Definitions of instance variables in a class
+      Definitions of instance variables in a class
     </details>
 
 21. What is a class in the context of Java programming?
@@ -538,6 +552,8 @@ grand_parent: Practice Questions
       The rectangle changes its color to the specified color
     </details>
 
+[Back to Top](#top)
+
 ### Some New Questions for Practice
 
 1. What happens if a class does not have a main() method?
@@ -719,3 +735,188 @@ grand_parent: Practice Questions
       <summary>Answer</summary>
       To start the execution of the program
     </details>
+
+[Back to Top](#top)
+
+### Medium Level Conceptual MCQs
+1. Which of the following statements is true about Java objects modeling objects from problem domains?
+   <form>
+     <input type="radio" name="q1" value="a"> Java objects can only represent physical objects.<br>
+     <input type="radio" name="q1" value="b"> Java objects can represent both physical and abstract objects.<br>
+     <input type="radio" name="q1" value="c"> Java objects cannot represent abstract objects.<br>
+     <input type="radio" name="q1" value="d"> Java objects must always be created using primitive data types.
+   </form>
+   <details markdown="block">
+     <summary>Answer</summary>
+     Java objects can represent both physical and abstract objects.
+   </details>
+
+2. In a traffic simulation program, how would you categorize "Car"?
+   <form>
+     <input type="radio" name="q2" value="a"> "Car" should always be a class.<br>
+     <input type="radio" name="q2" value="b"> "Car" should always be an object.<br>
+     <input type="radio" name="q2" value="c"> "Car" can be a class, and each specific car is an object.<br>
+     <input type="radio" name="q2" value="d"> "Car" can be an object, and each specific car is a class.
+   </form>
+   <details markdown="block">
+     <summary>Answer</summary>
+     "Car" can be a class, and each specific car is an object.
+   </details>
+
+3. Which statement correctly describes how objects are created from classes in Java?
+   <form>
+     <input type="radio" name="q3" value="a"> Objects are created using the new keyword and calling the class constructor.<br>
+     <input type="radio" name="q3" value="b"> Objects are created automatically when a class is defined.<br>
+     <input type="radio" name="q3" value="c"> Objects are created using the class keyword.<br>
+     <input type="radio" name="q3" value="d"> Objects are created by declaring them without initialization.
+   </form>
+   <details markdown="block">
+     <summary>Answer</summary>
+     Objects are created using the new keyword and calling the class constructor.
+   </details>
+
+4. In BlueJ, which of the following is the correct naming convention for a class and an object?
+   <form>
+     <input type="radio" name="q4" value="a"> Class: circle, Object: Circle<br>
+     <input type="radio" name="q4" value="b"> Class: Circle, Object: Circle1<br>
+     <input type="radio" name="q4" value="c"> Class: Circle, Object: circle1<br>
+     <input type="radio" name="q4" value="d"> Class: circle1, Object: Circle
+   </form>
+   <details markdown="block">
+     <summary>Answer</summary>
+     Class: Circle, Object: circle1
+   </details>
+
+5. Which of the following methods is used to make a circle object visible in BlueJ?
+   <form>
+     <input type="radio" name="q5" value="a"> circle1.show()<br>
+     <input type="radio" name="q5" value="b"> circle1.display()<br>
+     <input type="radio" name="q5" value="c"> circle1.makeVisible()<br>
+     <input type="radio" name="q5" value="d"> circle1.setVisible()
+   </form>
+   <details markdown="block">
+     <summary>Answer</summary>
+     circle1.makeVisible()
+   </details>
+
+6. Which statement about method parameters in Java is true?
+   <form>
+     <input type="radio" name="q6" value="a"> Methods cannot have parameters.<br>
+     <input type="radio" name="q6" value="b"> Method parameters provide additional information to methods.<br>
+     <input type="radio" name="q6" value="c"> Parameters are not used in method signatures.<br>
+     <input type="radio" name="q6" value="d"> Methods with parameters cannot return values.
+   </form>
+   <details markdown="block">
+     <summary>Answer</summary>
+     Method parameters provide additional information to methods.
+   </details>
+
+7. What is the correct signature for a method named send that takes a String parameter?
+   <form>
+     <input type="radio" name="q7" value="a"> void send(String message)<br>
+     <input type="radio" name="q7" value="b"> void send(message String)<br>
+     <input type="radio" name="q7" value="c"> send(String message)<br>
+     <input type="radio" name="q7" value="d"> String send(void)
+   </form>
+   <details markdown="block">
+     <summary>Answer</summary>
+     void send(String message)
+   </details>
+
+8. Which of the following data types is used to store whole numbers in Java?
+   <form>
+     <input type="radio" name="q8" value="a"> String<br>
+     <input type="radio" name="q8" value="b"> int<br>
+     <input type="radio" name="q8" value="c"> boolean<br>
+     <input type="radio" name="q8" value="d"> float
+   </form>
+   <details markdown="block">
+     <summary>Answer</summary>
+     int
+   </details>
+
+9. What does the state of an object refer to?
+   <form>
+     <input type="radio" name="q9" value="a"> The number of methods the object has.<br>
+     <input type="radio" name="q9" value="b"> The values of the object's properties.<br>
+     <input type="radio" name="q9" value="c"> The class to which the object belongs.<br>
+     <input type="radio" name="q9" value="d"> The name of the object.
+   </form>
+   <details markdown="block">
+     <summary>Answer</summary>
+     The values of the object's properties.
+   </details>
+
+10. How do objects in Java interact with each other?
+    <form>
+      <input type="radio" name="q10" value="a"> By changing each other's classes.<br>
+      <input type="radio" name="q10" value="b"> By calling each other's methods.<br>
+      <input type="radio" name="q10" value="c"> By directly modifying each other's private fields.<br>
+      <input type="radio" name="q10" value="d"> By creating new classes.
+    </form>
+    <details markdown="block">
+      <summary>Answer</summary>
+      By calling each other's methods.
+    </details>
+
+11. What is the role of a compiler in Java?
+    <form>
+      <input type="radio" name="q11" value="a"> To execute the code line by line.<br>
+      <input type="radio" name="q11" value="b"> To convert source code into machine code.<br>
+      <input type="radio" name="q11" value="c"> To edit the source code.<br>
+      <input type="radio" name="q11" value="d"> To provide runtime environment for code execution.
+    </form>
+    <details markdown="block">
+      <summary>Answer</summary>
+      To convert source code into machine code.
+    </details>
+
+12. Which statement about return values in Java methods is correct?
+    <form>
+      <input type="radio" name="q12" value="a"> Methods cannot return any values.<br>
+      <input type="radio" name="q12" value="b"> Return values are only used in methods with parameters.<br>
+      <input type="radio" name="q12" value="c"> Return values provide information back to the calling code.<br>
+      <input type="radio" name="q12" value="d"> Methods with return values must always return an int.
+    </form>
+    <details markdown="block">
+      <summary>Answer</summary>
+      Return values provide information back to the calling code.
+    </details>
+
+13. What does the substring(int beginIndex, int endIndex) method do in Java?
+    <form>
+      <input type="radio" name="q13" value="a"> Returns the character at the specified index.<br>
+      <input type="radio" name="q13" value="b"> Replaces a part of the string.<br>
+      <input type="radio" name="q13" value="c"> Returns a new string that is a substring of the original string.<br>
+      <input type="radio" name="q13" value="d"> Converts the string to uppercase.
+    </form>
+    <details markdown="block">
+      <summary>Answer</summary>
+      Returns a new string that is a substring of the original string.
+    </details>
+
+14. What type of error is typically caused by dividing a number by zero?
+    <form>
+      <input type="radio" name="q14" value="a"> Syntax error<br>
+      <input type="radio" name="q14" value="b"> Logical error<br>
+      <input type="radio" name="q14" value="c"> ArithmeticException<br>
+      <input type="radio" name="q14" value="d"> NullPointerException
+    </form>
+    <details markdown="block">
+      <summary>Answer</summary>
+      ArithmeticException
+    </details>
+
+15. Which statement correctly describes the difference between print and println in Java?
+    <form>
+      <input type="radio" name="q15" value="a"> print outputs text without a newline, while println outputs text with a newline.<br>
+      <input type="radio" name="q15" value="b"> print outputs text with a newline, while println outputs text without a newline.<br>
+      <input type="radio" name="q15" value="c"> print can only output integers, while println can output strings.<br>
+      <input type="radio" name="q15" value="d"> There is no difference between print and println.
+    </form>
+    <details markdown="block">
+      <summary>Answer</summary>
+      print outputs text without a newline, while println outputs text with a newline.
+    </details>
+
+[Back to Top](#top)

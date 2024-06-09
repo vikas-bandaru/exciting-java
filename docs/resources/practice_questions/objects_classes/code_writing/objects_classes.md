@@ -6,9 +6,21 @@ nav_order: 3
 grand_parent: Practice Questions
 ---
 
-# Practice Questions
-## Soft Intro to Java (Objects & Classes)
-### Code Writing
+# Practice Questions (Code Writing)
+## Soft Intro to Java with BlueJ (Objects & Classes)
+
+<details open markdown="block">
+  <summary>
+    Table of contents
+  </summary>
+  {: .text-delta }
+1. [Easy Level Code Writing Questions](#easy-level-code-writing-questions)
+   {:toc}
+2. [Slightly harder MCQs](#slightly-harder-mcqs)
+   {:toc}
+</details>
+
+### Easy Level Code Writing Questions
 
 1. Calculate the number of days a person lived given their birth and death dates:
    ```java
@@ -38,9 +50,7 @@ grand_parent: Practice Questions
    int score = 10;
    ```
    Write the line of code to assign the value `50` to `score`.
-   ```java
-   score = 50;
-   ```
+   
    <details markdown="block">
      <summary>Answer</summary>
      score = 50;
@@ -88,3 +98,9 @@ grand_parent: Practice Questions
       <summary>Answer</summary>
       Triangle triangle = new Triangle(0, 0, 10, 0, 5, 8.66);
     </details>
+
+[Back to Top](#top)
+
+### Medium Level Code Writing Questions
+
+### Hard Level Code Writing Questions
