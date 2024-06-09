@@ -2,7 +2,7 @@
 layout: default
 title: Code Snippets MCQs
 parent: Objects and Classes
-nav_order: 2
+nav_order: 3
 grand_parent: Practice Questions
 ---
 

@@ -2,7 +2,7 @@
 layout: default
 title: Concept MCQs
 parent: Objects and Classes
-nav_order: 1
+nav_order: 2
 grand_parent: Practice Questions
 ---
 
