@@ -170,7 +170,7 @@ grand_parent: Practice Questions
 ### Medium Level Code Writing Questions
 1. Write a program that initializes a string with "Mississippi". Then replace all "i" with "ii" and print the length of the resulting string. In that string, replace all "ss" with "s" and print the length of the resulting string.
 
-2. Look into the API documentation of the String class and locate the trim method. Write a program demonstrating what it does. Then show how you can use the replace method to remove all spaces from a string.
+2. Look into the API documentation of the `String` class and locate the `trim` method. Write a program demonstrating what it does. Then show how you can use the `replace` method to remove all spaces from a string.
 
 3. (TEST) Write an `AreaTester` program that constructs a `Rectangle` object and then computes and prints its `area`. Use the `getWidth` and `getHeight` methods. Also print the expected answer.
 
