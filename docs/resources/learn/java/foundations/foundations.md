@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Objects
+# title: Objects
 parent: Java
 grand_parent: Learn
 nav_order: 2
@@ -8,7 +8,7 @@ nav_order: 2
 
 [Back to Module 1: Java](../java)
 
-# Learn: Let's Build a Small Application: Restaurant Ordering App - Console Flavour
+# Learn: Let's Build a Small Application: Restaurant Ordering App (Client View) - Console Flavour
 
 ## Scenario
 
