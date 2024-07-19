@@ -1,9 +1,9 @@
 ---
 layout: default
-# title: Code Writing Questions
+title: Code Writing Questions
 parent: Objects and Classes
 nav_order: 4
-grand_parent: Practice Questions
+grand_parent: Test Yourself
 ---
 
 # Practice Questions (Code Writing)
@@ -16,9 +16,13 @@ grand_parent: Practice Questions
   {: .text-delta }
 1. [Easy Level Code Writing Questions](#easy-level-code-writing-questions)
    {:toc}
-2. [Medium Level Code Writing Questions](#medium-level-code-writing-questions)
+2. [Easy CodeCheck Questions](#codecheck-questions)
    {:toc}
-3. [Hard Level Code Writing Questions](#hard-level-code-writing-questions)
+3. [Medium Level Code Writing Questions](#medium-level-code-writing-questions)
+   {:toc}
+4. [Medium CodeCheck Questions](#medium-codecheck-questions)
+   {:toc}
+5. [Hard Level Code Writing Questions](#hard-level-code-writing-questions)
    {:toc}
 </details>
 
@@ -164,6 +168,99 @@ grand_parent: Practice Questions
 
 9. Write a program that prints a two-column list of your friends’ birthdays. In the first column, print the names of your best friends; in the second, print their birthdays.
 
+### CodeCheck Questions
+1. Complete the program below to print out a filled triangle four lines high. In other words, the output of this program should match the following, exactly:  
+   ```
+        x
+       xxx
+      xxxxx
+     xxxxxxx
+   ```  
+   [Solve it here](https://codecheck.io/files/wiley/codecheck-bjlo-1-intro-103)
+
+2. Complete the program below, named Staircase.java, to print out a set of stairs, five stairs high. In other words, the output of this program should match the following, exactly:
+   ```
+     ____
+     I__I___
+     I_____I___
+     I________I___
+     I___________I___
+     I______________I___
+   ```  
+   Use the underscore character (_) and the uppercase I.  
+   [Solve it here](https://codecheck.io/files/wiley/codecheck-bjlo-1-intro-104)
+
+3. Complete the program below to print out a parallelogram, with the word Parallelogram in the middle of it. In other words, the output of this program should match the following, exactly:
+   ```
+         ______________________
+        /                     /
+       /    Parallelogram    /
+      /                     /
+     /_____________________/
+   ```  
+   Hint: Use the underscore character (_) and the slash character (/) on the American keyboard.  
+   [Solve it here](https://codecheck.io/files/wiley/codecheck-bjlo-1-intro-105)
+
+4. Complete the program below, named TreeBush.java, to print out the child-like picture of a tree and bush below. The output of this program should match the following, exactly:
+   ```
+           o
+         oooo
+       ooooooo
+       oooooooo
+        ooIIo o       ooo
+        o II         oooooo
+     _____II_________ oooo____
+   ```
+   Use lowercase o, uppercase I, and the underscore character.  
+   [Solve it here](https://codecheck.io/files/wiley/codecheck-bjlo-1-intro-106)
+
+5. Complete the program below to print out the last three lines of a poem by Robert Frost.
+   ```
+   Two roads diverged in a wood, and I --
+   I took the one less traveled by,
+   And that has made all the difference.
+       by Robert Frost
+   ```
+   [Solve it here](https://codecheck.io/files/wiley/codecheck-bjlo-1-intro-107)
+
+6. Complete the program below to print out the following four-line poem.
+   ```
+   Peter Piper picked a peck of pickled peppers.
+   A peck of pickled peppers, Peter Piper picked.
+   If Peter picked a peck of pickled peppers,
+   Where's the peck of pickled peppers Peter Piper picked?
+   ```
+   [Solve it here](https://codecheck.io/files/wiley/codecheck-bjlo-1-intro-108)
+
+7. Complete the program below to print out the following text from an algebra text:
+   ```
+   Given: f(x) = 3x - 15
+   Let x = 4
+   Then
+     f(4) = 3x4 - 15
+          = 12 - 15
+          = -3
+   ```
+   Be careful to match the spacing as given.
+   [Solve it here](https://codecheck.io/files/wiley/codecheck-bjlo-1-intro-109)
+
+8. Complete the program below to print out the following multiplication table:
+   ```
+       y | 1y | 2y | 3y | 4y | 5y 
+     ----|----|----|----|----|----
+       1 |  1 |  2 |  3 |  4 |  5
+       2 |  2 |  4 |  6 |  8 | 10
+       3 |  3 |  6 |  9 | 12 | 15
+       4 |  4 |  8 | 12 | 16 | 20
+       5 |  5 | 10 | 15 | 20 | 25
+       6 |  6 | 12 | 18 | 24 | 30
+       7 |  7 | 14 | 21 | 28 | 35
+       8 |  8 | 16 | 24 | 32 | 40
+       9 |  9 | 18 | 27 | 36 | 45
+      10 | 10 | 20 | 30 | 40 | 50
+   ```
+   Be careful to match the spacing as given.  
+   [Solve it here](https://codecheck.io/files/wiley/codecheck-bjlo-1-intro-110)
 
 [Back to Top](#top)
 
@@ -207,6 +304,32 @@ eter 42. Print the widths and heights of both rectangles.
 16. Using the `Picture` class, write a `HalfSizePicture` program that loads a picture and shows it at half the original size, centered in the window.
 
 17. Using the `Picture` class, write a `DoubleSizePicture` program that loads a picture, doubles its size, and shows the center of the picture in the window.
+
+[Back to Top](#top)
+
+### Medium CodeCheck Questions
+
+1. The "elite hackers" like to make their text look cool by replacing characters with similar-looking symbols: e becomes 3, i becomes 1, l becomes 7, and o becomes 0. Write a program to carry out these replacements with a sample string.  
+   [Solve it here](https://codecheck.io/files/wiley/codecheck-bj-4-object-101)
+
+2. Complete the following program to compute the average length of the words. Invoke the appropriate method to compute the length of each word, compute the sum of the five results, and divide by 5.0. (You will see in chapter 4 why you need to divide by 5.0 and not simply 5.)  
+   [Solve it here](https://codecheck.io/files/wiley/codecheck-bj-4-object-102)
+
+3. Your task is to construct a rectangle with area 51.  
+   [Solve it here](https://codecheck.io/files/wiley/codecheck-bj-4-object-103)
+
+4. Your task is to translate the rectangle box2 in the program below so that the intersection of box and box2 has area 100.  
+   Hint: Draw a picture that shows the positions of box1 and box2. Then move box2 so that it overlaps with box1 in a 10 by 10 square.  
+   [Solve it here](https://codecheck.io/files/wiley/codecheck-bj-4-object-104)
+
+5. Your task is to draw a simple checkerboard pattern.  
+   [Solve it here](https://codecheck.io/files/wiley/codecheck-bj-4-object-105)
+
+6. A stronger password can be created by replacing characters with similar-looking symbols: e becomes 3, i becomes 1, a becomes @, and s becomes $.  
+   [Solve it here](https://codecheck.io/files/wiley/codecheck-bj-4-object-107)
+
+7. StringBuilder is another class that provides methods to manipulate strings. Look in the StringBuilder class API for information on the reverse method and use the method to reverse a sample string. Then use the toString method to obtain the string in the StringBuilder object.  
+   [Solve it here](https://codecheck.io/files/wiley/codecheck-bj-4-object-108)
 
 [Back to Top](#top)
 

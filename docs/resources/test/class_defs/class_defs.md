@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Class Definitions
-parent: Practice Questions
+parent: Test Yourself
 nav_order: 2
 has_children: true
 ---

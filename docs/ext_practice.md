@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Practice Resources
+title: External Practice Resources
 nav_order: 15
 ---
 

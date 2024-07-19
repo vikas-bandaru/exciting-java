@@ -3,7 +3,7 @@ layout: default
 title: Code Writing Questions
 parent: Class Definitions
 nav_order: 4
-grand_parent: Practice Questions
+grand_parent: Test Yourself
 ---
 
 # Practice Questions (Code Writing)

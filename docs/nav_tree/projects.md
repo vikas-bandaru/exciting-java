@@ -1,8 +1,8 @@
 ---
 layout: default
-title: Practice
-nav_order: 6
+title: Build
+nav_order: 7
 has_children: true
 ---
 
-# Practice
+# Build Projects

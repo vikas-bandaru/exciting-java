@@ -3,7 +3,7 @@ layout: default
 # title: Code Snippets MCQs
 parent: Objects and Classes
 nav_order: 3
-grand_parent: Practice Questions
+grand_parent: Test Yourself
 ---
 
 # Practice Questions (Code Snippet based MCQs)

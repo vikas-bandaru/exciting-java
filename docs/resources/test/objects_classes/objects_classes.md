@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Objects and Classes
-parent: Practice Questions
+parent: Test Yourself
 nav_order: 1
 has_children: true
 ---

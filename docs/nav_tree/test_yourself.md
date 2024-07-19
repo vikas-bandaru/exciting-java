@@ -1,8 +1,8 @@
 ---
 layout: default
-title: Practice
-nav_order: 6
+title: Test
+nav_order: 8
 has_children: true
 ---
 
-# Practice
+# Test Yourself

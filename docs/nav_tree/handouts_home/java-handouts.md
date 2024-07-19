@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Java
+# title: Java
 parent: Handouts
 nav_order: 1
 has_children: true

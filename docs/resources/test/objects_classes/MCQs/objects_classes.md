@@ -3,7 +3,7 @@ layout: default
 title: Concept MCQs
 parent: Objects and Classes
 nav_order: 2
-grand_parent: Practice Questions
+grand_parent: Test Yourself
 ---
 
 # Practice Questions (Conceptual MCQs)

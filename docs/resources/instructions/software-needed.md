@@ -1,21 +1,37 @@
 ---
 layout: default
 title: Software You Need
-nav_order: 13
+nav_order: 3
 ---
 
 # Software You Need
 
+<details markdown="block">
+  <summary>
+    Table of contents
+  </summary>
+  {: .text-delta }
 1. [WinRAR](#installing-winrar)
+   {:toc}
 2. [BlueJ](#installing-bluej)
+   {:toc}
 3. [Git & GitHub Desktop](#installing-git)
+   {:toc}
 4. [JDK](#installing-jdk)
-   - [Setting Classpath](#setting-classpath--java_home)
+   {:toc}
 5. [Eclipse](#installing-eclipse)
-5. [IntelliJ IDEA](#installing-intellij-idea)
-6. [Visual Studio Code](#installing-visual-studio-code)
-7. [Postman](#installing-postman)
-8. [VSCode Extensions](#installing-vs-code-extensions)
+   {:toc}
+6. [IntelliJ IDEA](#installing-intellij-idea)
+   {:toc}
+7. [Visual Studio Code](#installing-visual-studio-code)
+   {:toc}
+
+<!-- 8. [Postman](#installing-postman)
+   {:toc}
+9. [VSCode Extensions](#installing-vs-code-extensions)
+   {:toc} -->
+   
+</details>
 
 ## Installing WinRAR
 [Downlaod](https://www.win-rar.com/download.html?&L=0)

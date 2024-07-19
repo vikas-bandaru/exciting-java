@@ -3,7 +3,7 @@ layout: default
 title: Self Check
 parent: Objects and Classes
 nav_order: 1
-grand_parent: Practice Questions
+grand_parent: Test Yourself
 ---
 
 # Check Your Understanding
