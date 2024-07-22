@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Build
-nav_order: 7
+title: Projects
+nav_order: 4
 has_children: true
 ---
 
