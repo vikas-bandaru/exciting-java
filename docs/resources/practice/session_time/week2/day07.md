@@ -36,8 +36,8 @@ Go to your Classroom and find today's Quiz and submit it within deadline.
 ### Observing Picture class
 
 1. Look at the pop-up menu of class `Picture` again. You will see an option labeled _Open Editor_. Select it. This will open a text editor displaying the source code of the class.
-2. In the source code of class `Picture`, find the part that actually sets the picture to black and white and change the it to red and yellow.  
-   **Practice:** Change them to any colors of your choice. Then turn it back to black and white.
+2. In the source code of class `Picture`, find the part that actually sets the picture to black and white and change it to red and yellow.  
+   **Practice:** Change them to any colors of your choice. Once satisfied and understood how it's working, then turn it back to black and white.
 3. In the source code of class `Picture`, find the part that actually draws the picture. Change it so that the sun will be blue rather than yellow.
 
 [Back to Top](#top)

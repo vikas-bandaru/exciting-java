@@ -6,7 +6,21 @@ parent: Quiz Generator
 grand_parent: Projects
 ---
 
-# Technology-Wise Main Concepts to Focus On (Objects-First Approach)
+# Experiment
+{: .no_toc}
+
+<details open markdown="block">
+  <summary>
+    Table of contents
+  </summary>
+  {: .text-delta }
+1. [Technology-Wise Main Concepts to Focus On](#technology-wise-main-concepts-to-focus-on)
+   {:toc}
+2. [Download Week 1 BlueJ projects](#download-week-1-bluej-projects)
+   {:toc}
+</details>
+
+# Technology-Wise Main Concepts to Focus On
 ## Java
 
 1. **Object-Oriented Programming (OOP) Fundamentals:**
@@ -138,9 +152,3 @@ This objects-first approach focuses on understanding and utilizing object-orient
 
 ### Download Week 1 BlueJ projects (Mac OS)
   1. [Week 1](https://drive.google.com/drive/folders/14dTwEMD6WfxoC0zpNdFWDW9ug2PdnoK9?usp=sharing)
-
-### Figures Challenge
-
-Choose any one of the following images or make your own:  
-1. ![House](../../../resources/practice/session_time/images/session01-challenge01.png)
-2. ![Couple](../../../resources/practice/session_time/images/session01-challenge02.png)
