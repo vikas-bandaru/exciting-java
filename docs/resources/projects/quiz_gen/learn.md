@@ -139,3 +139,8 @@ This objects-first approach focuses on understanding and utilizing object-orient
 ### Download Week 1 BlueJ projects (Mac OS)
   1. [Week 1](https://drive.google.com/drive/folders/14dTwEMD6WfxoC0zpNdFWDW9ug2PdnoK9?usp=sharing)
 
+### Figures Challenge
+
+Choose any one of the following images or make your own:  
+1. ![House](../../../resources/practice/session_time/images/session01-challenge01.png)
+2. ![Couple](../../../resources/practice/session_time/images/session01-challenge02.png)
