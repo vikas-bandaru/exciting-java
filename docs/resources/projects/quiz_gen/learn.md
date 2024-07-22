@@ -127,4 +127,11 @@ grand_parent: Projects
    - Migrating backend to Springboot.
    - Developing frontend with Angular.
 
+---
+
+### Download Week 1 BlueJ projects
+  1. [figures](https://github.com/vikas-bandaru/exciting-java/blob/main/docs/resources/projects/bluej/part01/figures.zip)
+  2. [house](https://github.com/vikas-bandaru/exciting-java/blob/main/docs/resources/projects/bluej/part01/house.zip)
+  3. [lab-classes](https://github.com/vikas-bandaru/exciting-java/blob/main/docs/resources/projects/bluej/part01/lab-classes.zip)
+
 This objects-first approach focuses on understanding and utilizing object-oriented principles from the beginning, gradually introducing more complex concepts and technologies as students build the Quiz Generator App.
