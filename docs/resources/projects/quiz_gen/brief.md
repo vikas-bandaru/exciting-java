@@ -6,9 +6,12 @@ parent: Quiz Generator
 grand_parent: Projects
 ---
 
+<!-- Provide a Project Design highlighting main techniques or technologies and overall expected result -->
+
 # Project Brief
 {: .no_toc}
 
+<!-- 
 <details open markdown="block">
   <summary>
     Table of contents
@@ -149,4 +152,4 @@ grand_parent: Projects
    - Migrating backend to Springboot.
    - Developing frontend with Angular.
 
-This objects-first approach focuses on understanding and utilizing object-oriented principles from the beginning, gradually introducing more complex concepts and technologies as you build the Quiz Generator App.
+This objects-first approach focuses on understanding and utilizing object-oriented principles from the beginning, gradually introducing more complex concepts and technologies as you build the Quiz Generator App. -->
