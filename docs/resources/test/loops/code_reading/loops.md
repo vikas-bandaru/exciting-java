@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Code Snippets MCQs
-parent: Class Definitions
+# title: Code Snippets MCQs
+parent: Loops
 nav_order: 3
 grand_parent: Test Yourself
 ---

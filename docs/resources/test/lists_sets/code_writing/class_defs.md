@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Code Writing Questions
-parent: Class Definitions
+# title: Code Writing Questions
+parent: Lists & Sets
 nav_order: 4
 grand_parent: Test Yourself
 ---
@@ -110,25 +110,7 @@ grand_parent: Test Yourself
    ```  
    Provide an implementation using only language features that have been introduced. The challenge is to find a data representation from which to recover the switch states.
 
-8. Write a program that displays the properties of a letter-size (8.5 × 11 inches) sheet of
-paper in millimeters. There are 25.4 millimeters per inch. The program should print:  
-   • The width and height  
-   • The perimeter  
-   • The length of the diagonal  
-   Use constants and comments in your program.
-
-9. Write a program that reads a number and displays the square, cube, and fourth
-power. Use the `Math.pow` method only for the fourth power.
-
-10. Write a program that prompts the user for two integers and then prints  
-    • The sum  
-    • The difference  
-    • The product  
-    • The average  
-    • The distance (absolute value of the difference)  
-    • The maximum (the larger of the two)  
-    • The minimum (the smaller of the two)  
-    *Hint:* The max and min functions are declared in the Math class.
+8. 
 
 [Back to Top](#top)
 
@@ -225,25 +207,6 @@ balance. Also print the expected result.
 
 8. Implement a class `Product`. A product has a name and a price, for example `new Product("Toaster", 29.95)`. Supply methods `getName`, `getPrice`, and `reducePrice`. Supply a program `ProductPrinter` that makes two products, prints each name and price, reduces their prices by 5.00, and then prints the prices again.
 
-9. What does the following method do? Give an example of how you can call the method.
-
-   ```java
-   public class BankAccount {
-      public void mystery(BankAccount that, double amount) {
-         this.balance = this.balance - amount; 
-         that.balance = that.balance + amount;
-      }
-      . . . // other BankAccount methods
-   }
-   ```
-
-   <details markdown="block">
-     <summary>Answer</summary>
-     `BankAccount account1 = new BankAccount();`  
-     `BankAccount account2 = new BankAccount();`  
-     `account1.mystery(account2, 2000);`
-   </details>
-
 [Back to Top](#top)
 
 <!-- ### Medium CodeCheck Questions
@@ -255,7 +218,7 @@ balance. Also print the expected result.
 
 [Back to Top](#top) -->
 
-<!-- ### Hard Level Code Writing Questions
+### Hard Level Code Writing Questions
 1. 
 
-[Back to Top](#top) -->
+[Back to Top](#top)

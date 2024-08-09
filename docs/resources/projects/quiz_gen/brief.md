@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Project Brief
+# title: Project Brief
 nav_order: 1
 parent: Quiz Generator
 grand_parent: Projects
