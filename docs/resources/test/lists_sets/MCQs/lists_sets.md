@@ -7,7 +7,7 @@ grand_parent: Test Yourself
 ---
 
 # Practice Questions (Code Writing)
-## Soft Intro to Java with BlueJ (Objects & Classes)
+## Lists & Sets
 
 <details open markdown="block">
   <summary>

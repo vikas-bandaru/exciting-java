@@ -1,15 +1,15 @@
 ---
 layout: default
-# title: Code Writing Questions
+title: Code Writing Questions
 parent: Loops
 nav_order: 4
 grand_parent: Test Yourself
 ---
 
 # Practice Questions (Code Writing)
-## Defining Classes
+## Loops
 
-<details open markdown="block">
+<!-- <details open markdown="block">
   <summary>
     Table of contents
   </summary>
@@ -24,9 +24,20 @@ grand_parent: Test Yourself
    {:toc}
 5. [Hard Level Code Writing Questions](#hard-level-code-writing-questions)
    {:toc}
+</details> -->
+
+<details open markdown="block">
+  <summary>
+    Table of contents
+  </summary>
+  {: .text-delta }
+2. [Easy CodeCheck Questions](#codecheck-questions)
+   {:toc}
+4. [Medium CodeCheck Questions](#medium-codecheck-questions)
+   {:toc}
 </details>
 
-### Easy Level Code Writing Questions
+<!-- ### Easy Level Code Writing Questions
 
 1. Consider the following implementation of a class `Square`:  
 
@@ -48,212 +59,67 @@ grand_parent: Test Yourself
 
    Why is it not a good idea to introduce an instance variable for the area? Rewrite the class so that area is a local variable.
 
-2. We want to add a button to the tally counter given below that allows an operator to undo an accidental button click. Provide a method  
-   `public void undo()`  
-   that simulates such a button. As an added precaution, make sure that clicking the undo button more often than the click button has no effect. (*Hint:* The call `Math.max(n, 0)` returns n if n is greater than zero, zero otherwise.)
-
-   ```java
-   /**
-      This class models a tally counter.
-   */
-   public class Counter
-   {
-      private int value;
-      /**
-         Gets the current value of this counter. 
-         @return the current value
-      */
-      public int getValue()
-      {
-         return value;
-      }
-      /**
-         Advances the value of this counter by 1
-      */
-      public void click()
-      {
-         value = value + 1;
-      }
-      /**
-         Resets the value of this counter to 0
-      */
-      public void reset()
-      {
-         value = 0;
-      }
-   }
-   ```
-
-3. Simulate a tally counter that can be used to admit a limited number of people. First, the limit is set with a call  
-   `public void setLimit(int maximum)`  
-   If the click button is clicked more often than the limit, it has no effect. (Hint: The call `Math.min(n, limit)` returns n if n is less than limit, and limit otherwise.)
-
-4. Write a class `RangeInput` that allows users to enter a value within a range of values that is provided in the constructor. An example would be a temperature control switch in a car that allows inputs between 60 and 80 degrees Fahrenheit. The input control has “up” and “down” buttons. Provide up and down methods to change the current value. The initial value is the midpoint between the limits. As with the preceding exercises, use `Math.min` and `Math.max` to limit the value. Write a sample program that simulates clicks on controls for the passenger and driver seats.
-
-5. Simulate a circuit for controlling a hallway light that has switches at both ends of the hallway. Each switch can be up or down, and the light can be on or off. Toggling either switch turns the lamp on or off.
-   Provide methods
-
-   ```java
-   public int getFirstSwitchState() // 0 for down, 1 for up public int getSecondSwitchState()
-   public int getLampState() // 0 for off, 1 for on public void toggleFirstSwitch()
-   public void toggleSecondSwitch()
-   ```
-
-6. (TEST) Write a `CircuitTester` class that tests all switch combinations, printing out actual and expected states for the switches and lamps.
-
-7. Change the method headers of the circuit class so that it has the following methods:  
-   
-   ```java
-   public int getSwitchState(int switchNum)
-   public int getLampState()
-   public void toggleSwitch(int switchNum)  
-   ```  
-   Provide an implementation using only language features that have been introduced. The challenge is to find a data representation from which to recover the switch states.
-
-8. Write a program that displays the properties of a letter-size (8.5 × 11 inches) sheet of
-paper in millimeters. There are 25.4 millimeters per inch. The program should print:  
-   • The width and height  
-   • The perimeter  
-   • The length of the diagonal  
-   Use constants and comments in your program.
-
-9. Write a program that reads a number and displays the square, cube, and fourth
-power. Use the `Math.pow` method only for the fourth power.
-
-10. Write a program that prompts the user for two integers and then prints  
-    • The sum  
-    • The difference  
-    • The product  
-    • The average  
-    • The distance (absolute value of the difference)  
-    • The maximum (the larger of the two)  
-    • The minimum (the smaller of the two)  
-    *Hint:* The max and min functions are declared in the Math class.
-
-[Back to Top](#top)
-
-<!-- ### CodeCheck Questions
-1. Change the `withdraw` method of the `BankAccount` class so that a charge of $1.00 is deducted for each withdrawal. Observe the given code of `BankAccount` and `BankAccountTester` classes and trace the code manually to find out how they are working. Once you are clear with it, then try attempting the solution to the question  
-
-   [Solve it here](https://codecheck.io/files/wiley/codecheck-bj-4-class-101)
-
-2. Change the withdraw method of the `BankAccount` class so that a charge of $1.00 is deducted for each withdrawal.  
-
-   [Solve it here](https://codecheck.io/files/wiley/codecheck-bj-4-class-101)
-
-3. 
+2. 
 
 [Back to Top](#top) -->
 
-### Medium Level Code Writing Questions
-1. Suppose you want to implement a class `TimeDepositAccount`. A time deposit account has a fixed interest rate that should be set in the constructor, together with the initial balance. Provide a method to get the current balance. Provide a method to add the earned interest to the account. This method should have no arguments because the interest rate is already known. It should have no return value because you already provided a method for obtaining the current balance. It is not possible to deposit additional funds into this account. Provide a withdraw method that removes the entire balance. Partial withdrawals are not allowed.
+### CodeCheck Questions
+1. Your task is to write a method getVowels that gets the vowels in a string. For example, the call getVowels("Hello, World!") should return the string "eoo".  
 
-2. (TEST) Write a `BankAccountTester` class whose main method constructs a bank account, deposits 1,000, withdraws 500, withdraws another 400, and then prints the remaining
-balance. Also print the expected result.
+   [Solve it here](https://codecheck.io/files/wiley/codecheck-bj-4-loop-101)
 
-   [Refer to the BankAccount class here](https://codecheck.io/files/wiley/codecheck-bj-4-class-101)
+2. Your task is to write a method evenSum that computes the sum of all even numbers between two given numbers. For example, the call evenSum(3, 8) should return 4 + 6 + 8 = 18.  
 
-3. Add a method  
-   `public void addInterest(double rate)`  
-   to the `BankAccount` class that adds interest at the given rate. For example, after the statements  
+   [Solve it here](https://codecheck.io/files/wiley/codecheck-bj-4-loop-102)
 
-   ```java
-   BankAccount momsSavings = new BankAccount(1000); 
-   momsSavings.addInterest(10); // 10 percent interest
-   ```  
+3. Your task is to write a method stutter that repeats all letters t in a string. For example, the call stutter("stutter") should return "sttutttter".  
 
-   the balance in momsSavings is 1,100. Also supply a BankAccountTester class that prints the actual and expected balance.
+   [Solve it here](https://codecheck.io/files/wiley/codecheck-bj-4-loop-103)
 
-4. Write a class `SavingsAccount` that is similar to the `BankAccount` class, except that it has an added instance variable `interest`. Supply a constructor that sets both the initial balance and the interest rate. Supply a method `addInterest` (with no explicit parameter) that adds interest to the account. Write a `SavingsAccountTester` class that constructs a savings account with an initial balance of 1,000 and an interest rate of 10 percent. Then apply the `addInterest` method and print the resulting balance. Also compute the expected result by hand and print it.
+5. Your task is to write a method countSevens that counts the number of digits equal to 7 in a given number. For example, the call countSevens(1797) should return 2 since the number contains two digits 7.  
 
-5. Consider the following class, `CashRegister`:
+   *Hint:* Repeatedly compute % 10 and / 10.  
 
-   ```java
-   /**
-      A cash register totals up sales and computes change due.
-   */
-   public class CashRegister {
-      private double purchase; 
-      private double payment;
-      /**
-         Constructs a cash register with no money in it.
-      */ 
-      public CashRegister() {
+   [Solve it here](https://codecheck.io/files/wiley/codecheck-bj-4-loop-105)
 
-      }
-      /**
-         Records the sale of an item. 
-         @param amount the price of the item
-      */ 
-      public void recordPurchase(double amount) {
-         purchase = purchase + amount;
-      }
-      /**
-         Processes a payment received from the customer. 
-         @param amount the amount of the payment
-      */ 
-      public void receivePayment(double amount) {
-         payment = payment + amount;
-      }
-      /**
-         Computes the change due and resets the machine for the next customer. 
-         @return the change due to the customer
-      */
-      public double giveChange() {
-         double change = payment - purchase; 
-         purchase = 0;
-         payment = 0; 
-         return change;
-      }
-   }
-   ```
+6. When people enter their telephone numbers into a form they use many different formats. Some examples are:  
 
-   Add a method `printReceipt` to the `CashRegister` class. The method should print the prices of all purchased items and the total amount due. *Hint:* You will need to form a string of all prices. Use the concat method of the `String` class to add additional items to that string. To turn a price into a string, use the call `String.valueOf(price)`.
+   (444) 999-1234  
+   4449991234  
+   444.999.1234  
+   In the `PhoneNumbers` class below, complete the `cleanNumber` method. It takes a string and extracts the numeric digits from the string. If there are exactly 10 numeric digits, the number is reformatted: `(###) ###-####` and returned. If there are any other number of digits, the string "Error" is returned.  
+   *Hint:* Use the `Character.isDigit` method to check whether a character is a digit.  
 
-6. After closing time, the store manager would like to know how much business was transacted during the day. Modify the `CashRegister` class to enable this functionality. Supply methods `getSalesTotal` and `getSalesCount` to get the total amount of all sales and the number of sales. Supply a method `reset` that resets any counters and totals so that the next day’s sales start from zero.
-
-7. Implement a class `Employee`. An employee has a `name` (a string) and a `salary` (a double). Provide a constructor with two arguments  
-   `public Employee(String employeeName, double currentSalary)`  
-   and methods  
-   `public String getName()`  
-   `public double getSalary()`  
-   `public void raiseSalary(double byPercent)`  
-   These methods return the name and salary, and raise the employee’s salary by a certain percentage. Sample usage:  
-   `Employee harry = new Employee("Hacker, Harry", 50000);`  
-   `harry.raiseSalary(10); // Harry gets a 10 percent raise`  
-   Supply an `EmployeeTester` class that tests all methods.
-
-8. Implement a class `Product`. A product has a name and a price, for example `new Product("Toaster", 29.95)`. Supply methods `getName`, `getPrice`, and `reducePrice`. Supply a program `ProductPrinter` that makes two products, prints each name and price, reduces their prices by 5.00, and then prints the prices again.
-
-9. What does the following method do? Give an example of how you can call the method.
-
-   ```java
-   public class BankAccount {
-      public void mystery(BankAccount that, double amount) {
-         this.balance = this.balance - amount; 
-         that.balance = that.balance + amount;
-      }
-      . . . // other BankAccount methods
-   }
-   ```
-
-   <details markdown="block">
-     <summary>Answer</summary>
-     `BankAccount account1 = new BankAccount();`  
-     `BankAccount account2 = new BankAccount();`  
-     `account1.mystery(account2, 2000);`
-   </details>
+   [Solve it here](https://codecheck.io/files/wiley/codecheck-bj-4-loop-106)
 
 [Back to Top](#top)
 
-<!-- ### Medium CodeCheck Questions
-
-1. The "elite hackers" like to make their text look cool by replacing characters with similar-looking symbols: e becomes 3, i becomes 1, l becomes 7, and o becomes 0. Write a program to carry out these replacements with a sample string.  
-   [Solve it here](https://codecheck.io/files/wiley/codecheck-bj-4-object-101)
+<!-- ### Medium Level Code Writing Questions
+1. Suppose you want to implement a class `TimeDepositAccount`. A time deposit account has a fixed interest rate that should be set in the constructor, together with the initial balance. Provide a method to get the current balance. Provide a method to add the earned interest to the account. This method should have no arguments because the interest rate is already known. It should have no return value because you already provided a method for obtaining the current balance. It is not possible to deposit additional funds into this account. Provide a withdraw method that removes the entire balance. Partial withdrawals are not allowed.
 
 2. 
 
 [Back to Top](#top) -->
+
+### Medium CodeCheck Questions
+
+1. Your task is to write a method countPerfectSquares that counts all perfect squares in a given range. For example, the call countPerfectSquares(5, 25) should return 3 (since 9, 16, and 25 are perfect squares between 5 and 25).  
+
+   [Solve it here](https://codecheck.io/files/wiley/codecheck-bj-4-loop-104)
+
+2. A simple technique for compressing an image is run-length encoding. The color of each pixel or area is specified for an image. The color pallette can be specified by the first letter of each color (R, G, B, C, M, Y, K, W) - red, green, blue, cyan, magenta, yellow, black, white. An example 6 by 4 image is:  
+
+    RRRGGGYYYYWBWWRGBBBBBRRR  
+
+   Run-length encoding counts the number of each color in a group and replaces the individual color values by a number and the color. For our example, this would give:  
+
+   3R3G4Y1W1B2W1R1G5B3R  
+
+   Complete the compressImage method to run-length compress a string of characters.  
+
+   [Solve it here](https://codecheck.io/files/wiley/codecheck-bj-4-loop-108)
+
+[Back to Top](#top)
 
 <!-- ### Hard Level Code Writing Questions
 1. 

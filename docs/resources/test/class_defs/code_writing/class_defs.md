@@ -132,18 +132,50 @@ power. Use the `Math.pow` method only for the fourth power.
 
 [Back to Top](#top)
 
-<!-- ### CodeCheck Questions
-1. Change the `withdraw` method of the `BankAccount` class so that a charge of $1.00 is deducted for each withdrawal. Observe the given code of `BankAccount` and `BankAccountTester` classes and trace the code manually to find out how they are working. Once you are clear with it, then try attempting the solution to the question  
+### CodeCheck Questions
+1. Change the `withdraw` method of the `BankAccount` class so that a charge of Rs. 1.00 is deducted for each withdrawal. Observe the given code of `BankAccount` and `BankAccountTester` classes and trace the code manually to find out how they are working. Once you are clear with it, then try attempting the solution to the question  
 
    [Solve it here](https://codecheck.io/files/wiley/codecheck-bj-4-class-101)
 
-2. Change the withdraw method of the `BankAccount` class so that a charge of $1.00 is deducted for each withdrawal.  
+2. Change the withdraw method of the `BankAccount` class so that a charge of Rs. 1.00 is deducted for each withdrawal.  
 
    [Solve it here](https://codecheck.io/files/wiley/codecheck-bj-4-class-101)
 
-3. 
+3. Change the `deposit` and `withdraw` methods of the `BankAccount` class so that a count of transactions is updated. For example, if you construct a bank account and invoke deposit once and withdraw twice, calling getTransactionCount should return 3.
 
-[Back to Top](#top) -->
+   [Solve it here](https://codecheck.io/files/wiley/codecheck-bj-4-class-102)
+
+4. Implement a BankAccount that pays a bonus of Rs. 10 for each new account.
+
+   [Solve it here](https://codecheck.io/files/wiley/codecheck-bj-4-class-103)
+
+5. Implement a class `ClassSchedule` with a title (a string), days the class meets (a string), a start meeting time (a string), an end meeting time (a string) and a class room (a string)  
+   Provide a constructor and these methods:  
+
+   ```java
+   public String getTitle()
+   public String getTime()
+   public String getRoom()
+   ```
+   These methods return the class title, the time period in the form days start time-end time, and class room. An example time is: MWF 9:00-9:50
+
+   [Solve it here](https://codecheck.io/files/wiley/codecheck-bj-4-class-104)
+
+6. A `ClassSchedule` class has been designed to represent a class that is scheduled at given days and times. Sometimes class schedule days or times must be changed. Expand the `ClassSchedule` class to include methods to allow new values for days, start times and end times
+
+   ```java
+   public void setDays(String meetingDays)
+   public void setStartTime(String startTime)
+   public void setEndTime(String endTime)
+   ```
+
+   [Solve it here](https://codecheck.io/files/wiley/codecheck-bj-4-class-105)
+
+7. Your task is to write a tester class for the `ClassSchedule` class given below. You should test the getTime and setStartTime methods of the `ClassSchedule` class.
+
+   [Solve it here](https://codecheck.io/files/wiley/codecheck-bj-4-class-106)
+
+[Back to Top](#top)
 
 ### Medium Level Code Writing Questions
 1. Suppose you want to implement a class `TimeDepositAccount`. A time deposit account has a fixed interest rate that should be set in the constructor, together with the initial balance. Provide a method to get the current balance. Provide a method to add the earned interest to the account. This method should have no arguments because the interest rate is already known. It should have no return value because you already provided a method for obtaining the current balance. It is not possible to deposit additional funds into this account. Provide a withdraw method that removes the entire balance. Partial withdrawals are not allowed.

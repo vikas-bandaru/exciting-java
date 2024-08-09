@@ -7,7 +7,7 @@ grand_parent: Test Yourself
 ---
 
 # Practice Questions (Code Snippet based MCQs)
-## Class Definitions
+## Lists & Sets
 
 <details open markdown="block">
   <summary>

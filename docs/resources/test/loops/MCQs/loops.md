@@ -7,7 +7,7 @@ grand_parent: Test Yourself
 ---
 
 # Practice Questions (Conceptual MCQs)
-## Class Definitions
+## Loops
 
 <details open markdown="block">
   <summary>

@@ -1,6 +1,6 @@
 ---
 layout: default
-# title: Code Writing Questions
+title: Code Writing Questions
 parent: Making Decisions
 nav_order: 4
 grand_parent: Test Yourself
@@ -132,18 +132,41 @@ power. Use the `Math.pow` method only for the fourth power.
 
 [Back to Top](#top)
 
-<!-- ### CodeCheck Questions
-1. Change the `withdraw` method of the `BankAccount` class so that a charge of $1.00 is deducted for each withdrawal. Observe the given code of `BankAccount` and `BankAccountTester` classes and trace the code manually to find out how they are working. Once you are clear with it, then try attempting the solution to the question  
+### CodeCheck Questions
+1. Employees get paid “time and a half” for the weekly work hours in excess of 40 hours. For example, an employee making $10/hour and working 50 hours in a given week gets paid $10 for the first 40 hours and $15 for the remaining 10 hours, for a total weekly pay of $550.  
 
-   [Solve it here](https://codecheck.io/files/wiley/codecheck-bj-4-class-101)
+   [Solve it here](https://codecheck.io/files/wiley/codecheck-bj-4-branch-101)
 
-2. Change the withdraw method of the `BankAccount` class so that a charge of $1.00 is deducted for each withdrawal.  
+2. Complete the getMiddle method that gets the middle character from a word if the word length is odd, or the middle character pair if it is even. For example, getMiddle("Java") returns "av". If the word is empty, return the empty string. If it is null, return null.  
 
-   [Solve it here](https://codecheck.io/files/wiley/codecheck-bj-4-class-101)
+   [Solve it here](https://codecheck.io/files/wiley/codecheck-bj-4-branch-102)
 
-3. 
+3. Write a method to test whether four numbers are all the same. For example,  
 
-[Back to Top](#top) -->
+   3, 3, 3, and 3 are all the same
+   3, 3, 4, 3 are not all the same
+   3, 4, 5, 5 are not all the same
+
+   [Solve it here](https://codecheck.io/files/wiley/codecheck-bj-4-branch-108)
+
+4. Write a method to test whether three numbers are all different. For example,
+
+   3, 5, and 4 are all different
+   3, 3, 4 are not all different
+   3, 3, 3 are not all different
+
+   [Solve it here](https://codecheck.io/files/wiley/codecheck-bj-4-branch-109)
+
+5. Write a method to test whether three numbers have the same sign (positive, zero, or negative). For example,  
+
+   -3, -4, -5 have the same sign
+   3, 4, -5 do not have the same sign
+   3, 4, 0 do not have the same sign (because 0 is not positive)
+   0, 0, 0 have the same sign
+
+   [Solve it here](https://codecheck.io/files/wiley/codecheck-bj-4-branch-110)
+
+[Back to Top](#top)
 
 ### Medium Level Code Writing Questions
 1. Suppose you want to implement a class `TimeDepositAccount`. A time deposit account has a fixed interest rate that should be set in the constructor, together with the initial balance. Provide a method to get the current balance. Provide a method to add the earned interest to the account. This method should have no arguments because the interest rate is already known. It should have no return value because you already provided a method for obtaining the current balance. It is not possible to deposit additional funds into this account. Provide a withdraw method that removes the entire balance. Partial withdrawals are not allowed.
@@ -246,14 +269,33 @@ balance. Also print the expected result.
 
 [Back to Top](#top)
 
-<!-- ### Medium CodeCheck Questions
+### Medium CodeCheck Questions
 
-1. The "elite hackers" like to make their text look cool by replacing characters with similar-looking symbols: e becomes 3, i becomes 1, l becomes 7, and o becomes 0. Write a program to carry out these replacements with a sample string.  
-   [Solve it here](https://codecheck.io/files/wiley/codecheck-bj-4-object-101)
+1. Consider a program that administers multiple-choice quizzes. The student needs to provide a response such as A or D. Your job will be to check for input errors in the student response string. Check that the string has length 1, and that it is a letter between A and the last valid choice for the problem.
 
-2. 
+   [Solve it here](https://codecheck.io/files/wiley/codecheck-bj-4-branch-103)
 
-[Back to Top](#top) -->
+2. An open interval is the set of all numbers between a lower and upper bound. In mathematical notation, we write  
+
+   `(a, b) = { x | a < x < b }`  
+
+   Your task is to determine when two intervals overlap. For example, the intervals (1, 3) and (2, 4) overlap, as do (1, 4) and (2, 3). But the intervals (1, 2) and (3, 4) do not overlap.
+
+   [Solve it here](https://codecheck.io/files/wiley/codecheck-bj-4-branch-104)
+
+3. A simple guessing game asks the player to guess a number between 1 and 50. Hints are returned depending on how far from the number the guess is.  
+
+   20 or more above the number: The hint is "Burning Hot"
+   10 to 19 above the number: The hint is "Hot"
+   5 to 9 above the number: The hint is "Warm"
+   4 below the number to 4 above: The hint is "Pleasant"
+   5 to 9 below the number: The hint is "Cool"
+   10 to 19 below the number: The hint is "Cold"
+   20 or more below the number: The hint is "Ice Cold"
+
+   [Solve it here](https://codecheck.io/files/wiley/codecheck-bj-4-branch-107)
+
+[Back to Top](#top)
 
 <!-- ### Hard Level Code Writing Questions
 1. 
