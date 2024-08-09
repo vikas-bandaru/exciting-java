@@ -43,10 +43,10 @@ That is, if we removed that constructor from the public interface, how could a p
 
 8. Write declarations for storing the following quantities. Choose between integers and
 floating-point numbers. Declare constants when appropriate.  
-   a. The number of days per week  
-   b. The number of days until the end of the semester  
-   c. The number of centimeters in an inch
-   d. The height of the tallest person in your class, in centimeters
+   1. The number of days per week  
+   2. The number of days until the end of the semester  
+   3. The number of centimeters in an inch
+   4. The height of the tallest person in your class, in centimeters
 
 9. What is the value of `mystery` after this sequence of statements?
 
@@ -58,17 +58,17 @@ floating-point numbers. Declare constants when appropriate.
 
 10. What is wrong with the following sequence of statements?  
 
-   ```java
-   int mystery = 1;
-   mystery = mystery + 1; 
-   int mystery = 1 - 2 * mystery; 
-   ```
+    ```java
+    int mystery = 1;
+    mystery = mystery + 1; 
+    int mystery = 1 - 2 * mystery; 
+    ```
    
 11. Write the following Java expressions in mathematical notation.  
-    a. dm = m * (Math.sqrt(1 + v / c) / Math.sqrt(1 - v / c) - 1);  
-    b. volume = Math.PI * r * r * h;  
-    c. volume = 4 * Math.PI * Math.pow(r, 3) / 3;  
-    d. z = Math.sqrt(x * x + y * y);
+    1. `dm = m * (Math.sqrt(1 + v / c) / Math.sqrt(1 - v / c) - 1);`  
+    2. `volume = Math.PI * r * r * h;`  
+    3. `volume = 4 * Math.PI * Math.pow(r, 3) / 3;`  
+    4. `z = Math.sqrt(x * x + y * y);`
 
 12. What are the values of the following expressions? In each line, assume that  
 
@@ -79,20 +79,20 @@ floating-point numbers. Declare constants when appropriate.
     int n = 4; 
     ```
     
-    a. x + n * y - (x + n) * y  
-    b. m / n + m % n
-    c. 5 * x - n / 5  
-    d. 1 - (1 - (1 - (1 - (1 - n))))  
-    e. Math.sqrt(Math.sqrt(n))
+    1. `x + n * y - (x + n) * y`  
+    2. `m / n + m % n`
+    3. `5 * x - n / 5`  
+    4. `1 - (1 - (1 - (1 - (1 - n))))`  
+    5. `Math.sqrt(Math.sqrt(n))`
 
 13. What are the values of the following expressions, assuming that n is 17 and m is 18?
 
-    a. n / 10 + n % 10  
-    b. n % 2 + m % 2  
-    c. (m + n) / 2  
-    d. (m + n) / 2.0  
-    e. (int) (0.5 * (m + n))  
-    f. (int) Math.round(0.5 * (m + n))
+    1. `n / 10 + n % 10`  
+    2. `n % 2 + m % 2`  
+    3. `(m + n) / 2`  
+    4. `(m + n) / 2.0`  
+    5. `(int) (0.5 * (m + n))`  
+    6. `(int) Math.round(0.5 * (m + n))`
     
 14. What are the values of the following expressions? In each line, assume that  
 
@@ -101,11 +101,11 @@ floating-point numbers. Declare constants when appropriate.
     String t = "World"; 
     ```
 
-    a. s.length() + t.length()  
-    b. s.substring(1, 2)  
-    c. s.substring(s.length() / 2, s.length())  
-    d. s + t
-    e. t + s
+    1. `s.length() + t.length()`  
+    2. `s.substring(1, 2)`  
+    3. `s.substring(s.length() / 2, s.length())`  
+    4. `s + t`
+    5. `t + s`
 
 15. Given a string `s`, write expressions for:  
     • The string consisting of the first letter  
@@ -161,11 +161,11 @@ floating-point numbers. Declare constants when appropriate.
 
 19. Explain the differences between 2, 2.0, '2', "2", and "2.0".
 
-20. Explain what each of the following program segments computes.
-    a. x = 2;
-       y = x + x;  
-    b. s = "2";
-       t = s + s;
+20. Explain what each of the following program segments computes.  
+    1. `x = 2;`  
+       `y = x + x;`  
+    2. `s = "2";`  
+       `t = s + s;`  
 
 [Back to Top](#top)
 

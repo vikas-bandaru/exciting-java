@@ -1,13 +1,13 @@
 ---
 layout: default
 # title: Self Check
-parent: Loops
+parent: Inheritance
 nav_order: 1
 grand_parent: Test Yourself
 ---
 
 # Check Your Understanding
-## Loops
+## Inheritance
 
 <!-- <details open markdown="block">
   <summary>

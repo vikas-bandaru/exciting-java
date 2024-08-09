@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Self Check
+# title: Self Check
 parent: Lists & Sets
 nav_order: 1
 grand_parent: Test Yourself
