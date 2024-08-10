@@ -7,7 +7,7 @@ grand_parent: Test Yourself
 ---
 
 # Practice Questions (Code Writing)
-## Defining Classes
+## Making Decisions (Conditionals)
 
 <details open markdown="block">
   <summary>
@@ -28,27 +28,7 @@ grand_parent: Test Yourself
 
 ### Easy Level Code Writing Questions
 
-1. Consider the following implementation of a class `Square`:  
-
-   ```java
-   public class Square
-   {
-      private int sideLength; 
-      private int area; // Not a good idea 
-
-      public Square(int length)
-      {
-         sideLength = length;
-      } 
-      public int getArea() {
-         area = sideLength * sideLength; return area;
-      } 
-   }
-   ```
-
-   Why is it not a good idea to introduce an instance variable for the area? Rewrite the class so that area is a local variable.
-
-2. We want to add a button to the tally counter given below that allows an operator to undo an accidental button click. Provide a method  
+1. We want to add a button to the tally counter given below that allows an operator to undo an accidental button click. Provide a method  
    `public void undo()`  
    that simulates such a button. As an added precaution, make sure that clicking the undo button more often than the click button has no effect. (*Hint:* The call `Math.max(n, 0)` returns n if n is greater than zero, zero otherwise.)
 

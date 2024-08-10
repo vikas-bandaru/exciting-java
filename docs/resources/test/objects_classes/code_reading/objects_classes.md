@@ -6,7 +6,7 @@ nav_order: 3
 grand_parent: Test Yourself
 ---
 
-# Practice Questions (Code Snippet based MCQs)
+# Code Snippets-based MCQs
 ## Soft Intro to Java with BlueJ (Objects & Classes)
 
 <details open markdown="block">

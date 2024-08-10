@@ -6,7 +6,7 @@ nav_order: 3
 grand_parent: Test Yourself
 ---
 
-# Practice Questions (Code Snippet based MCQs)
+# Code Snippets-based MCQs
 ## Class Definitions
 
 <details open markdown="block">

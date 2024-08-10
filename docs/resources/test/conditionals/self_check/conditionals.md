@@ -7,7 +7,7 @@ grand_parent: Test Yourself
 ---
 
 # Check Your Understanding
-## Making Decisions
+## Making Decisions (Conditionals)
 
 <!-- <details open markdown="block">
   <summary>
