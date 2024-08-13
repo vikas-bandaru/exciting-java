@@ -18,6 +18,8 @@ grand_parent: Test Yourself
    {:toc}
 2. [Slightly harder MCQs](#slightly-harder-mcqs)
    {:toc}
+3. [Tricky MCQs](#tricky-mcqs)
+   {:toc}
 </details>
 
 ### Easy Level MCQs
@@ -1475,3 +1477,297 @@ grand_parent: Test Yourself
     </details>
 
 [Back to Top](#top)
+
+### Tricky MCQs
+
+1. Given a `Developer` class with fields `name` and `experience`, and assuming `equals` and `hashCode` are correctly overridden, what will be the output of the following code snippet?
+
+    ```java
+    import java.util.HashSet;
+    public class Example {
+        public static void main(String[] args) {
+            HashSet<Developer> team = new HashSet<>();
+            Developer dev1 = new Developer("Alice", 5);
+            Developer dev2 = new Developer("Bob", 3);
+            team.add(dev1);
+            team.add(dev2);
+            dev1.setExperience(6);
+            System.out.println(team.contains(new Developer("Alice", 6)));
+        }
+    }
+    ```
+
+    <form>
+      <input type="radio" name="q1" value="a"> true<br>
+      <input type="radio" name="q1" value="b"> false<br>
+      <input type="radio" name="q1" value="c"> Compilation error<br>
+      <input type="radio" name="q1" value="d"> Runtime error<br>
+    </form>
+    <details markdown="block">
+      <summary>Answer</summary>
+      **false**
+
+      **Explanation:** Modifying an object in a `HashSet` after it's been added can lead to unexpected behavior, as the object's hash code might change, making it difficult to find the object.
+    </details>
+
+2. Given an `Employee` class with fields `id` and `department`, and assuming `equals` and `hashCode` are correctly overridden, what will be the output of the following code snippet?
+
+    ```java
+    import java.util.LinkedHashSet;
+    public class Example {
+        public static void main(String[] args) {
+            LinkedHashSet<Employee> employees = new LinkedHashSet<>();
+            employees.add(new Employee(1, "HR"));
+            employees.add(new Employee(2, "Finance"));
+            employees.add(new Employee(1, "HR"));
+            employees.add(new Employee(3, "Engineering"));
+            System.out.println(employees.size());
+        }
+    }
+    ```
+
+    <form>
+      <input type="radio" name="q2" value="a"> 2<br>
+      <input type="radio" name="q2" value="b"> 3<br>
+      <input type="radio" name="q2" value="c"> 4<br>
+      <input type="radio" name="q2" value="d"> Compilation error<br>
+    </form>
+    <details markdown="block">
+      <summary>Answer</summary>
+      **3**
+
+      **Explanation:** Since `equals` and `hashCode` are overridden, duplicates based on the same `id` and `department` are not added. So the size is 3.
+    </details>
+
+3. Given a `Course` class with fields `title` and `duration`, and assuming `Course` implements `Comparable<Course>` based on `title`, what will be the output of the following code snippet?
+
+    ```java
+    import java.util.TreeSet;
+    public class Example {
+        public static void main(String[] args) {
+            TreeSet<Course> courses = new TreeSet<>();
+            courses.add(new Course("Math", 40));
+            courses.add(new Course("Science", 35));
+            courses.add(new Course("Math", 30));
+            System.out.println(courses.size());
+        }
+    }
+    ```
+
+    <form>
+      <input type="radio" name="q3" value="a"> 1<br>
+      <input type="radio" name="q3" value="b"> 2<br>
+      <input type="radio" name="q3" value="c"> 3<br>
+      <input type="radio" name="q3" value="d"> Compilation error<br>
+    </form>
+    <details markdown="block">
+      <summary>Answer</summary>
+      **2**
+
+      **Explanation:** Since `Course` objects are compared based on `title`, "Math" is considered a duplicate, and only two unique courses ("Math" and "Science") are added.
+    </details>
+
+4. Given a `Building` class with fields `name` and `height`, what will be the output of the following code snippet?
+
+    ```java
+    import java.util.ArrayList;
+    public class Example {
+        public static void main(String[] args) {
+            ArrayList<Building> buildings = new ArrayList<>();
+            buildings.add(new Building("Empire State", 1250));
+            buildings.add(new Building("Burj Khalifa", 2717));
+            buildings.remove(new Building("Empire State", 1250));
+            System.out.println(buildings.size());
+        }
+    }
+    ```
+
+    <form>
+      <input type="radio" name="q4" value="a"> 1<br>
+      <input type="radio" name="q4" value="b"> 2<br>
+      <input type="radio" name="q4" value="c"> 0<br>
+      <input type="radio" name="q4" value="d"> Compilation error<br>
+    </form>
+    <details markdown="block">
+      <summary>Answer</summary>
+      **2**
+
+      **Explanation:** Without overriding `equals` and `hashCode`, `remove` does not find the object in the list, so the size remains 2.
+    </details>
+
+5. Given a `Gadget` class with fields `model` and `price`, and assuming `equals` and `hashCode` are correctly overridden, what will be the output of the following code snippet?
+
+    ```java
+    import java.util.HashSet;
+    public class Example {
+        public static void main(String[] args) {
+            HashSet<Gadget> gadgets = new HashSet<>();
+            gadgets.add(new Gadget("iPhone", 999));
+            gadgets.add(new Gadget("iPhone", 999));
+            gadgets.add(new Gadget("Samsung", 899));
+            gadgets.add(new Gadget("iPhone", 1099));
+            System.out.println(gadgets.size());
+        }
+    }
+    ```
+
+    <form>
+      <input type="radio" name="q5" value="a"> 2<br>
+      <input type="radio" name="q5" value="b"> 3<br>
+      <input type="radio" name="q5" value="c"> 4<br>
+      <input type="radio" name="q5" value="d"> Compilation error<br>
+    </form>
+    <details markdown="block">
+      <summary>Answer</summary>
+      **3**
+
+      **Explanation:** The first two "iPhone" gadgets are considered duplicates and are not added again, but the third "iPhone" with a different price is added.
+    </details>
+
+6. Given a `Team` class with fields `name` and `rank`, what will be the output of the following code snippet?
+
+    ```java
+    import java.util.LinkedList;
+    public class Example {
+        public static void main(String[] args) {
+            LinkedList<Team> teams = new LinkedList<>();
+            teams.add(new Team("Alpha", 1));
+            teams.add(new Team("Beta", 2));
+            teams.add(new Team("Gamma", 3));
+            teams.add(1, new Team("Delta", 4));
+            System.out.println(teams.get(1).getName());
+        }
+    }
+    ```
+
+    <form>
+      <input type="radio" name="q6" value="a"> Alpha<br>
+      <input type="radio" name="q6" value="b"> Beta<br>
+      <input type="radio" name="q6" value="c"> Delta<br>
+      <input type="radio" name="q6" value="d"> Gamma<br>
+    </form>
+    <details markdown="block">
+      <summary>Answer</summary>
+      **Delta**
+
+      **Explanation:** The `add(1, new Team("Delta", 4))` inserts "Delta" at index 1, pushing the other elements to the right.
+    </details>
+
+7. Given a `Library` class with fields `name` and `booksCount`, and assuming `Library` implements `Comparable<Library>` based on `booksCount`, what will be the output of the following code snippet?
+
+    ```java
+    import java.util.TreeSet;
+    public class Example {
+        public static void main(String[] args) {
+            TreeSet<Library> libraries = new TreeSet<>();
+            libraries.add(new Library("Central", 10000));
+            libraries.add(new Library("East", 8000));
+            libraries.add(new Library("West", 12000));
+            libraries.add(new Library("Central", 10000));
+            System.out.println(libraries.first().getName());
+        }
+    }
+    ```
+
+    <form>
+      <input type="radio" name="q7" value="a"> Central<br>
+      <input type="radio" name="q7" value="b"> East<br>
+      <input type="radio" name="q7" value="c"> West<br>
+      <input type="radio" name="q7" value="d"> Compilation error<br>
+    </form>
+    <details markdown="block">
+      <summary>Answer</summary>
+      **East**
+
+      **Explanation:** The `TreeSet` orders libraries by `booksCount`, and the one with the smallest `booksCount` is "East".
+    </details>
+
+8. Given a `Student` class with fields `name` and `grade`, and assuming `equals` and `hashCode` are correctly overridden, what will be the output of the following code snippet?
+
+    ```java
+    import java.util.HashSet;
+    public class Example {
+        public static void main(String[] args) {
+            HashSet<Student> students = new HashSet<>();
+            Student s1 = new Student
+
+    ("John", "A");
+            Student s2 = new Student("Jane", "B");
+            students.add(s1);
+            students.add(s2);
+            s1.setGrade("B");
+            System.out.println(students.contains(new Student("John", "B")));
+        }
+    }
+    ```
+
+    <form>
+      <input type="radio" name="q8" value="a"> true<br>
+      <input type="radio" name="q8" value="b"> false<br>
+      <input type="radio" name="q8" value="c"> Compilation error<br>
+      <input type="radio" name="q8" value="d"> Runtime error<br>
+    </form>
+    <details markdown="block">
+      <summary>Answer</summary>
+      **false**
+
+      **Explanation:** Changing `s1`'s grade after adding it to the set affects its hash code, making it difficult to find in the set, so `contains` returns `false`.
+    </details>
+
+9. Given a `Country` class with fields `name` and `population`, and assuming `equals` and `hashCode` are correctly overridden, what will be the output of the following code snippet?
+
+    ```java
+    import java.util.ArrayList;
+    public class Example {
+        public static void main(String[] args) {
+            ArrayList<Country> countries = new ArrayList<>();
+            countries.add(new Country("USA", 331000000));
+            countries.add(new Country("India", 1391000000));
+            countries.add(new Country("China", 1440000000));
+            countries.add(1, new Country("Russia", 146000000));
+            countries.remove(0);
+            System.out.println(countries.get(1).getName());
+        }
+    }
+    ```
+
+    <form>
+      <input type="radio" name="q9" value="a"> Russia<br>
+      <input type="radio" name="q9" value="b"> India<br>
+      <input type="radio" name="q9" value="c"> China<br>
+      <input type="radio" name="q9" value="d"> USA<br>
+    </form>
+    <details markdown="block">
+      <summary>Answer</summary>
+      **India**
+
+      **Explanation:** "Russia" is added at index 1, pushing "India" to index 2. Removing index 0 removes "USA", so "India" moves back to index 1.
+    </details>
+
+10. Given a `Product` class with fields `name` and `price`, and assuming `Product` implements `Comparable<Product>` based on `price`, what will be the output of the following code snippet?
+
+    ```java
+    import java.util.TreeSet;
+    public class Example {
+        public static void main(String[] args) {
+            TreeSet<Product> products = new TreeSet<>();
+            products.add(new Product("Phone", 700));
+            products.add(new Product("Tablet", 500));
+            products.add(new Product("Laptop", 1200));
+            System.out.println(products.pollFirst().getName());
+        }
+    }
+    ```
+
+    <form>
+      <input type="radio" name="q10" value="a"> Phone<br>
+      <input type="radio" name="q10" value="b"> Tablet<br>
+      <input type="radio" name="q10" value="c"> Laptop<br>
+      <input type="radio" name="q10" value="d"> Compilation error<br>
+    </form>
+    <details markdown="block">
+      <summary>Answer</summary>
+      **Tablet**
+
+      **Explanation:** The `TreeSet` orders products by `price`, and `pollFirst()` retrieves and removes the lowest-priced product, which is "Tablet".
+    </details>
