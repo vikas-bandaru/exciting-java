@@ -18,6 +18,8 @@ grand_parent: Test Yourself
    {:toc}
 2. [Slightly harder MCQs](#slightly-harder-mcqs)
    {:toc}
+3. [Tricky MCQs](#tricky-mcqs)
+   {:toc}
 </details>
 
 ### Easy Level MCQs
@@ -1269,3 +1271,225 @@ grand_parent: Test Yourself
     </details>
 
 [Back to Top](#top)
+
+### Tricky MCQs
+
+1. What will be the output of the following code?
+
+   ```java
+   int i = 0;
+   while (i < 5) {
+       i++;
+       if (i % 2 == 0) {
+           i++;
+       }
+       System.out.print(i + " ");
+   }
+   ```
+   <form>
+     <input type="radio" name="q1" value="a"> 1 3 5 7<br>
+     <input type="radio" name="q1" value="b"> 2 4 6<br>
+     <input type="radio" name="q1" value="c"> 2 3 5<br>
+     <input type="radio" name="q1" value="d"> 1 2 4 5
+   </form>
+   <details markdown="block">
+     <summary>Answer</summary>
+     2 3 5 7
+   </details>
+
+2. What will be the output of the following code?
+
+   ```java
+   int i = 1;
+   do {
+       i *= 2;
+       if (i > 4) {
+           break;
+       }
+       i++;
+   } while (i < 8);
+   System.out.println(i);
+   ```
+   <form>
+     <input type="radio" name="q2" value="a"> 2<br>
+     <input type="radio" name="q2" value="b"> 3<br>
+     <input type="radio" name="q2" value="c"> 4<br>
+     <input type="radio" name="q2" value="d"> 5
+   </form>
+   <details markdown="block">
+     <summary>Answer</summary>
+     5
+   </details>
+
+3. What will be the output of the following code?
+
+   ```java
+   int i = 10;
+   for (int j = 0; j < 3; j++) {
+       i -= j;
+   }
+   System.out.println(i);
+   ```
+   <form>
+     <input type="radio" name="q3" value="a"> 9<br>
+     <input type="radio" name="q3" value="b"> 8<br>
+     <input type="radio" name="q3" value="c"> 7<br>
+     <input type="radio" name="q3" value="d"> 6
+   </form>
+   <details markdown="block">
+     <summary>Answer</summary>
+     7
+   </details>
+
+4. What will be the output of the following code?
+
+   ```java
+   int i = 1;
+   while (i <= 3) {
+       System.out.print(i + " ");
+       i++;
+       if (i == 2) {
+           i += 2;
+       }
+   }
+   ```
+   <form>
+     <input type="radio" name="q4" value="a"> 1 3<br>
+     <input type="radio" name="q4" value="b"> 1 2 4<br>
+     <input type="radio" name="q4" value="c"> 1 4<br>
+     <input type="radio" name="q4" value="d"> 1 2 3
+   </form>
+   <details markdown="block">
+     <summary>Answer</summary>
+     1 4
+   </details>
+
+5. What will be the output of the following code?
+
+   ```java
+   int i = 0;
+   do {
+       i++;
+       if (i % 3 == 0) {
+           continue;
+       }
+       System.out.print(i + " ");
+   } while (i < 5);
+   ```
+   <form>
+     <input type="radio" name="q5" value="a"> 1 2 4 5<br>
+     <input type="radio" name="q5" value="b"> 1 2 3 4<br>
+     <input type="radio" name="q5" value="c"> 2 4 5<br>
+     <input type="radio" name="q5" value="d"> 1 2 4
+   </form>
+   <details markdown="block">
+     <summary>Answer</summary>
+     1 2 4 5
+   </details>
+
+6. What will be the output of the following code?
+
+   ```java
+   int i = 1;
+   for (int j = 0; j < 5; j++) {
+       if (j % 2 == 0) {
+           i += j;
+       } else {
+           i -= j;
+       }
+   }
+   System.out.println(i);
+   ```
+   <form>
+     <input type="radio" name="q6" value="a"> 0<br>
+     <input type="radio" name="q6" value="b"> 1<br>
+     <input type="radio" name="q6" value="c"> 2<br>
+     <input type="radio" name="q6" value="d"> 3
+   </form>
+   <details markdown="block">
+     <summary>Answer</summary>
+     1
+   </details>
+
+7. What will be the output of the following code?
+
+   ```java
+   int i = 1;
+   while (i < 4) {
+       i += i;
+       System.out.print(i + " ");
+   }
+   ```
+   <form>
+     <input type="radio" name="q7" value="a"> 1 3<br>
+     <input type="radio" name="q7" value="b"> 2 4<br>
+     <input type="radio" name="q7" value="c"> 2 4 8<br>
+     <input type="radio" name="q7" value="d"> 2 6
+   </form>
+   <details markdown="block">
+     <summary>Answer</summary>
+     2 4 8
+   </details>
+
+8. What will be the output of the following code?
+
+   ```java
+   int i = 2;
+   do {
+       i *= 2;
+   } while (i < 16);
+   System.out.println(i);
+   ```
+   <form>
+     <input type="radio" name="q8" value="a"> 8<br>
+     <input type="radio" name="q8" value="b"> 16<br>
+     <input type="radio" name="q8" value="c"> 32<br>
+     <input type="radio" name="q8" value="d"> 64
+   </form>
+   <details markdown="block">
+     <summary>Answer</summary>
+     32
+   </details>
+
+9. What will be the output of the following code?
+
+   ```java
+   int i = 1;
+   for (int j = 5; j > 1; j--) {
+       i += j;
+   }
+   System.out.println(i);
+   ```
+   <form>
+     <input type="radio" name="q9" value="a"> 15<br>
+     <input type="radio" name="q9" value="b"> 14<br>
+     <input type="radio" name="q9" value="c"> 16<br>
+     <input type="radio" name="q9" value="d"> 11
+   </form>
+   <details markdown="block">
+     <summary>Answer</summary>
+     15
+   </details>
+
+10. What will be the output of the following code?
+
+    ```java
+    int i = 1;
+    while (i < 5) {
+       if (i == 3) {
+           break;
+       }
+       i++;
+    }
+    System.out.println(i);
+    ```
+    <form>
+     <input type="radio" name="q10" value="a"> 2<br>
+     <input type="radio" name="q10" value="b"> 3<br>
+     <input type="radio" name="q10" value="c"> 4<br>
+     <input type="radio" name="q10" value="d"> 5
+    </form>
+    <details markdown="block">
+     <summary>Answer</summary>
+     3
+    </details>
