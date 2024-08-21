@@ -6,7 +6,7 @@ nav_order: 2
 has_children: true
 ---
 
-# Foundations of Class Definitions
+# Practice Class Definitions
 {: .no_toc}
 
 <details open markdown="block">
@@ -89,4 +89,4 @@ Here are five exercises for practicing basic class definitions and testing them 
 
 These exercises will help solidify your understanding of creating classes, defining fields, and directly accessing them in Java.
 
-Go back to [Learning Class Defintions](../../../learn/java/foundations/java-class-defs) to find more examples.
+Go back to [Encapsulation](../../../learn/java/foundations/encapsulation) to learn more with examples.

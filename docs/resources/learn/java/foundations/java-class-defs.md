@@ -164,4 +164,4 @@ Here's how you can set field values directly in Tester class:
 
 ### Practice Writing Similar Code
 
-Go to [Practice](../../../../resources/experiment/java/foundations/class-defs) and find exercises there.
+Go to [Practice](../../../../resources/practice/java/foundations/class-defs) and find exercises there.
