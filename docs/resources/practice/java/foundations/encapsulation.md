@@ -2,7 +2,7 @@
 layout: default
 title: Encapsulation
 parent: Class Definitions
-nav_order: 2
+nav_order: 1
 grand_parent: Practice
 ---
 

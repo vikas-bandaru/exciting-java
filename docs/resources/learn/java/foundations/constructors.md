@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Constructors
-nav_order: 1
+nav_order: 2
 parent: Class Definitions
 grand_parent: Learn
 ---
@@ -13,7 +13,13 @@ grand_parent: Learn
     Table of contents
   </summary>
   {: .text-delta }
-1. [Why Encapsulation](#why-encapsutlation-motivation-behind)
+1. [Why Constructors](#why-constructors-motivation-behind)
+   {:toc}
+2. [Adding a Constructor](#3-experiment-adding-a-custom-constructor)
+   {:toc}
+3. [Parameterized Constructors](#4-parameterized-constructors)
+   {:toc}
+4. [Overloading Constructors](#6-overloading-constructors)
    {:toc}
 </details>
 

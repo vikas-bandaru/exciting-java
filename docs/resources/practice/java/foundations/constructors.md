@@ -163,5 +163,5 @@ These exercises will help reinforce your understanding of constructors in Java, 
 
 [Back to Top](#top)
 
-<!-- #### Next Topic: 
-Go to [Constructors](../../../learn/java/foundations/constructors) to learn more with examples. -->
+#### Next Topic: 
+Go to [Methods](../../../learn/java/foundations/methods) to learn more with examples.
