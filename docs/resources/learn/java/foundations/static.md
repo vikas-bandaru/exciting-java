@@ -13,7 +13,13 @@ grand_parent: Learn
     Table of contents
   </summary>
   {: .text-delta }
-1. [Why Static](#1-why-motivation-to-use-static-variables-and-static-methods)
+1. [Why Static?](#1-why-motivation-to-use-static-variables-and-static-methods)
+   {:toc}
+2. [How and Where?](#2-how-syntax-specifics--tester-code-and-where-logical-placement-of-the-code)
+   {:toc}
+3. [When?](#3-when-scenarios-of-situations-when-static-variables-and-methods-can-be-used)
+   {:toc}
+4. [General Confusions for Absolute Beginners](#4-how-to-decide---any-general-confusions-for-absolute-beginners)
    {:toc}
 </details>
 

@@ -13,7 +13,15 @@ grand_parent: Learn
     Table of contents
   </summary>
   {: .text-delta }
-1. [Why Methods](#why-constructors-motivation-behind)
+1. [Encapsulating Reusable Code](#1-encapsulating-reusable-code)
+   {:toc}
+2. [Improving Readability](#2-improving-readability)
+   {:toc}
+3. [Organizing Code](#3-organizing-code)
+   {:toc}
+4. [Simplifying Repetitive Tasks](#4-simplifying-repetitive-tasks)
+   {:toc}
+5. [Facilitating Testing and Debugging](#5-facilitating-testing-and-debugging)
    {:toc}
 </details>
 

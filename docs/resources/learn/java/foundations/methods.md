@@ -13,7 +13,17 @@ grand_parent: Learn
     Table of contents
   </summary>
   {: .text-delta }
-1. [Why Methods](#why-constructors-motivation-behind)
+1. [Why Methods?](#why-methods-motivation-behind)
+   {:toc}
+2. [Components of a Method](#2-breaking-down-a-method-header-and-method-signature)
+   {:toc}
+3. [When and Where to Use Methods](#4-when-and-where-to-use-methods)
+   {:toc}
+4. [How to choose Method components](#5-how-to-decide-method-names-parameters-and-return-types)
+   {:toc}
+5. [Accessors & Mutators](#6-accessors-and-mutators)
+   {:toc}
+6. [printDetails method](#7-creating-a-printdetails-method)
    {:toc}
 </details>
 

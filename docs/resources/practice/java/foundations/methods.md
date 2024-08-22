@@ -14,13 +14,15 @@ grand_parent: Practice
     Topics
   </summary>
   {: .text-delta }
-  1. [Implementing Constructors](#implementing-constructors-new-exercises-to-practice-writing-constructors)
+  1. [Exercises on Different Forms of Methods](#exercises-on-different-forms-of-methods-8-exercises)
      {:toc}
-  2. [Updating Previous Exercises with Constructors](#updating-previous-exercises-with-constructors)
+  2. [Exercises on When and Where to use Methods](#exercises-on-when-and-where-to-use-methods-10-exercises)
+     {:toc}
+  3. [Next Topic: Static](#next-topic)
      {:toc}
 </details>
 
-## Implementing Constructors: New Exercises to Practice Writing Constructors
+## Implementing Methods: New Exercises to Practice Writing Methods
 
 ### Exercises on Different Forms of Methods (8 Exercises)
 
@@ -237,4 +239,4 @@ These exercises cover different aspects of methods, including various combinatio
 [Back to Top](#top)
 
 #### Next Topic: 
-Go to [Methods](../../../learn/java/foundations/methods) to learn more with examples.
+Go to [Static](../../../learn/java/foundations/static) to learn more with examples.

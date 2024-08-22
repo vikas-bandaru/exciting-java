@@ -18,6 +18,8 @@ grand_parent: Practice
      {:toc}
   2. [Updating Previous Exercises with Constructors](#updating-previous-exercises-with-constructors)
      {:toc}
+  3. [Next Topic: Methods](#next-topic)
+     {:toc}
 </details>
 
 ## Implementing Constructors: New Exercises to Practice Writing Constructors

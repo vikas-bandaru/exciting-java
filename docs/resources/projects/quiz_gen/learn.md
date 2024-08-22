@@ -3,7 +3,7 @@ layout: default
 title: Learn
 nav_order: 2
 parent: Quiz Generator
-grand_parent: Projects
+grand_parent: Build
 ---
 
 # Learn

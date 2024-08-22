@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Bank Application
-parent: Projects
+parent: Build
 nav_order: 1
 has_children: true
 ---

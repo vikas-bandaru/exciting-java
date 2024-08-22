@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Quiz Generator
-parent: Projects
+parent: Build
 nav_order: 1
 has_children: true
 ---

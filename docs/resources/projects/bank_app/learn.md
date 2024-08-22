@@ -3,7 +3,7 @@ layout: default
 title: Learn
 nav_order: 1
 parent: Bank Application
-grand_parent: Projects
+grand_parent: Build
 ---
 
 # Technology-wise Main Concepts for Bank Application Project
