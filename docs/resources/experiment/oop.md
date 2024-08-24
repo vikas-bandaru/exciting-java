@@ -1,16 +1,17 @@
 ---
 layout: default
 title: OOP
-nav_order: 3
-parent: Learn
+parent: Experiment
+nav_order: 2
 has_children: true
 ---
 
-# Object-Oriented Programming Concepts
+# Experiments with OOP
+{: .no_toc}
 
 <details open markdown="block">
   <summary>
-    Table of contents
+    Topics
   </summary>
   {: .text-delta }
 1. [Encapsulation](../foundations/encapsulation)

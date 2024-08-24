@@ -223,5 +223,8 @@ public static int findMax(int num1, int num2) {
 
 [Back to Top](#top)
 
+#### Practice Exercises
+Practice [Static](../practice/java/foundations/static) with exercises.
+
 #### Next Topic: 
-Go to [Methods](../../../learn/java/foundations/methods) to learn more with examples.
+Go to [Conditionals](../learn/java/foundations/decisions) to learn more with examples.

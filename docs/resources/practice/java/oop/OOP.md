@@ -1,8 +1,8 @@
 ---
 layout: default
 title: OOP
-nav_order: 3
-parent: Learn
+nav_order: 2
+parent: Practice
 has_children: true
 ---
 
@@ -19,7 +19,9 @@ has_children: true
    {:toc}
 3. [Abstraction](#why-encapsutlation-motivation-behind)
    {:toc}
-4. [Interfaces](./interfaces)
+4. [Interfaces](#why-encapsutlation-motivation-behind)
    {:toc}
 </details>
+
+## What are Object-oriented Programming (OOP) Concepts
 

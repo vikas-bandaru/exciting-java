@@ -169,4 +169,4 @@ These exercises should help solidify your understanding of static variables and 
 [Back to Top](#top)
 
 #### Next Topic: 
-Go to [Inheritance](../../../learn/java/foundations/inheritance) to learn more with examples.
+Go to [Conditionals](../../../learn/java/foundations/decisions) to learn more with examples.

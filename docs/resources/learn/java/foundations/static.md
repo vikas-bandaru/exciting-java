@@ -191,9 +191,10 @@ Maximum number is: 20
 - **Static Variables**: Use them for shared data, unique identifiers, and constants.
 - **Static Methods**: Use them for class-level operations, utility functions, and when interacting with static variables.
 
-
-
 [Back to Top](#top)
 
+#### Static Experiments
+Experiment with [Static](../../../experiment/static) exercises.
+
 #### Practice Exercises
-Practice [Methods](../../../practice/java/foundations/methods) with exercises.
+Practice [Static](../../../practice/java/foundations/static) with exercises.

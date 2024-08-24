@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Objects with BlueJ
+title: Using Objects
 parent: Learn
 nav_order: 1
 has_children: true
@@ -39,7 +39,7 @@ has_children: true
 
 Objects are key to understanding object-oriented technology. Look around right now and you'll find many examples of real-world objects:  
 
-<img src="../../images/objects/dog-labrador.jpg" width="20%" height="20%"> <img src="../../images/objects/desk.jpg" width="25%" height="25%"> <img src="../../images/objects/tv.jpg" width="25%" height="25%"> <img src="../../images/objects/bicycle.jpg" width="25%" height="25%">
+<img src="../../../images/objects/dog-labrador.jpg" width="20%" height="20%"> <img src="../../../images/objects/desk.jpg" width="25%" height="25%"> <img src="../../../images/objects/tv.jpg" width="25%" height="25%"> <img src="../../../images/objects/bicycle.jpg" width="25%" height="25%">
 
 Real-world objects share two characteristics:  
 a) State  
