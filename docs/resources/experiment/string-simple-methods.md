@@ -1,8 +1,8 @@
 ---
 layout: default
 title: Simple String Methods
-parent: Class Definitions
-nav_order: 3
+parent: Using Objects
+nav_order: 2
 grand_parent: Experiment
 ---
 
@@ -14,15 +14,17 @@ grand_parent: Experiment
     Topics
   </summary>
   {: .text-delta }
-  1. [Experiment 1](#experiment-1-forgetting-the-else-block)
+  1. [Experiment 1](#experiment-1-using--instead-of-equals-for-string-comparison)
      {:toc}
-  2. [Experiment 2](#experiment-2-misusing-else-if-instead-of-multiple-if-statements)
+  2. [Experiment 2](#experiment-2-forgetting-to-use-trim)
      {:toc}
-  3. [Experiment 3](#experiment-3-missing-break-in-a-switch-statement)
+  3. [Experiment 3](#experiment-3-misusing-replace)
      {:toc}
-  4. [Experiment 4](#experiment-4-using--instead-of-equals-for-string-comparison)
+  4. [Experiment 4](#experiment-4-using-replace-instead-of-replaceall-with-special-characters)
      {:toc}
-  5. [Experiment 5](#experiment-5-overlooking-the-default-case-in-a-switch-statement)
+  5. [Experiment 5](#experiment-5-concatenating-strings-using-concat-vs--operator)
+     {:toc}
+  6. [Practice](#practice-exercises)
      {:toc}
 </details>
 

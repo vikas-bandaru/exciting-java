@@ -1,8 +1,8 @@
 ---
 layout: default
 title: Simple String Methods
-parent: Class Definitions
-nav_order: 5
+parent: Using Objects
+nav_order: 2
 grand_parent: Practice
 ---
 

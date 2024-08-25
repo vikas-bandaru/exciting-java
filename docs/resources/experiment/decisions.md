@@ -14,19 +14,92 @@ grand_parent: Experiment
     Topics
   </summary>
   {: .text-delta }
-  1. [Experiment 1](#experiment-1-forgetting-the-else-block)
+  1. [Experiments with Boolean Expressions](#experiments-with-boolean-expressions)
      {:toc}
-  2. [Experiment 2](#experiment-2-misusing-else-if-instead-of-multiple-if-statements)
-     {:toc}
-  3. [Experiment 3](#experiment-3-missing-break-in-a-switch-statement)
-     {:toc}
-  4. [Experiment 4](#experiment-4-using--instead-of-equals-for-string-comparison)
-     {:toc}
-  5. [Experiment 5](#experiment-5-overlooking-the-default-case-in-a-switch-statement)
+  2. [Experiments of What could go Wrong?](#experiments-what-could-go-wrong---syntactically-logically-and-exceptionally)
      {:toc}
 </details>
 
-## Experiments (Different Combinations of What Could Go Wrong - Syntactically, Logically, and Exceptionally)
+## Experiments with Boolean Expressions
+
+1. Check the results of the following (one by one):
+
+   ```java
+    System.out.println( 13 < 35 );
+    System.out.println( 13 > 35 );
+    System.out.println( 13 <= 35 );
+    System.out.println( 13 >= 35 );
+    System.out.println( 13 == 35 );
+    System.out.println( 13 != 35 );
+    System.out.println( (13 < 35) && (13 < 50) );
+    System.out.println( (13 < 35) || (13 < 50) );
+    System.out.println( !(13 < 35) );
+   ```
+    *You can copy all the lines and paste in your code. But hide other lines when testing each line. Take note of the condition along with its result.*
+
+2. Now, try changing those values and repeat the above experiment. 
+    **Some ways of the experiment:**
+    1. Keep the same operator and same left side value, and change the right side value to:
+       1. Same value as left value
+       2. Lesser value than left value
+       3. Bigger value than left value 
+    2. Hide the line that you just experimented with, unhide the other line and repeat the above experiment.
+
+    *Take note of the condition along with its result.*
+3. Now, declare two variables of any data type except String and read values for them. Repeat the above operations and check results.  
+4. Take two integers as input and check the relation between them with relational operators. Print the relation in the given format.  
+    **Sample Behavior**  
+    *Input:*  
+    37  
+    13  
+    *Output:*  
+    37 is greater than 13
+
+    *Input:*  
+    11  
+    11  
+    *Output:*  
+    Both are equal  
+5. Take an integer as input and check if the number is between 1 and 100.  
+    **Hint:**  
+    Use range checking using relational operators and && operator with “if”
+6. Take an integer as input and check if the number is NOT in between 1 and 100.  
+    **Hint:**  
+    Use range checking using relational operators and logical operators with “if”
+7. Take age as input and print if the person is eligible to vote or not.  
+    **Hint:**  
+    Use “if-else” 
+8. Take an integer as input, print if that number is positive, negative or zero.  
+    **Hint:**  
+    Use “if-else-if”
+9. Print the following menu and ask User to choose any one value. Then based on the value, print something about it.  
+    **Sample Behavior #1:**
+    1. Breakfast
+    2. Lunch
+    3. Snacks
+    4. Dinner
+    What do you want to eat:
+    2
+    We have the following in Lunch:
+    A. South Indian Thali
+    B. North Indian Thali
+    C. Biryani
+
+    **Sample Behavior #2:**
+    1. Breakfast
+    2. Lunch
+    3. Snacks
+    4. Dinner
+    What do you want to eat:
+    6
+    Wrong Choice! Please choose a number from Menu.
+
+    **Hint:**
+    Use any of the following options:
+    1. if-else-if 
+    2. switch
+
+## Experiments (What Could Go Wrong - Syntactically, Logically, and Exceptionally)
 
 ### **Experiment 1: Forgetting the `else` Block**
 

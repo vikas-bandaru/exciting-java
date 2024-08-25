@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Simple String Methods
-nav_order: 6
+nav_order: 2
 parent: Using Objects
 grand_parent: Learn
 ---
@@ -13,19 +13,21 @@ grand_parent: Learn
     Table of contents
   </summary>
   {: .text-delta }
-1. [Why Static?](#1-why-motivation-to-use-static-variables-and-static-methods)
+1. [Why String Methods?](#1-why-motivation-to-use-string-methods)
    {:toc}
 2. [How and Where?](#2-how-syntax-specifics--tester-code-and-where-logical-placement-of-the-code)
    {:toc}
-3. [When?](#3-when-scenarios-of-situations-when-static-variables-and-methods-can-be-used)
+3. [When?](#3-when-scenarios-of-situations-when-string-methods-can-be-used)
    {:toc}
 4. [General Confusions for Absolute Beginners](#4-how-to-decide---any-general-confusions-for-absolute-beginners)
    {:toc}
+5. [Experiment or Practice](#simple-string-methods-experiments)
+   {:toc}
 </details>
 
-## 1. Why (Motivation to Use String Simple Methods)
+## Why (Motivation to Use String Methods)
 
-### **Why Use Simple String Methods?**
+### **Why Use String Methods?**
 
 **Scenario 1: Manipulating Text in User Inputs**
 Imagine you're developing a form where users input their names, addresses, or other information. You might need to format this text, convert it to uppercase or lowercase, or check if certain keywords are present. Simple String methods allow you to perform these tasks easily without needing to understand complex concepts like string indexing.
@@ -36,14 +38,14 @@ Consider a scenario where you're validating user input, such as checking if an e
 **Scenario 3: Building and Modifying Messages**
 In many applications, you need to build or modify messages dynamically. For instance, if you're creating a personalized greeting, you might concatenate the user's name with a greeting phrase. Simple String methods like `concat()` or using the `+` operator enable you to build these messages quickly and efficiently.
 
-## 2. How (Syntax Specifics + Tester Code) and Where (Logical Placement of the Code)
+## How (Syntax Specifics + Tester Code) and Where (Logical Placement of the Code)
 
 ### **How to Use Simple String Methods**
 
 Here are some common String methods that can be used without needing to understand string indexing. I'll also show you how to use them with some simple examples.
 
 **1. `length()`**
-- **Syntax**: `int length()`
+- **Method Header**: `int length()`
 - **What It Does**: Returns the number of characters in the string.
 - **Where**: Use this method when you need to determine the length of a string, such as validating if a password meets a minimum length requirement.
 
@@ -59,7 +61,7 @@ public class StringExample {
 ```
 
 **2. `toUpperCase()`**
-- **Syntax**: `String toUpperCase()`
+- **Method Header**: `String toUpperCase()`
 - **What It Does**: Converts all characters in the string to uppercase.
 - **Where**: Use this method when you need to standardize text to uppercase, such as when comparing case-insensitive user input.
 
@@ -75,7 +77,7 @@ public class StringExample {
 ```
 
 **3. `toLowerCase()`**
-- **Syntax**: `String toLowerCase()`
+- **Method Header**: `String toLowerCase()`
 - **What It Does**: Converts all characters in the string to lowercase.
 - **Where**: Use this method to standardize text to lowercase, useful in case-insensitive comparisons.
 
@@ -91,7 +93,7 @@ public class StringExample {
 ```
 
 **4. `trim()`**
-- **Syntax**: `String trim()`
+- **Method Header**: `String trim()`
 - **What It Does**: Removes leading and trailing spaces from the string.
 - **Where**: Use this method to clean up user input before processing it, such as trimming spaces from a username or password.
 
@@ -107,7 +109,7 @@ public class StringExample {
 ```
 
 **5. `concat()`**
-- **Syntax**: `String concat(String str)`
+- **Method Header**: `String concat(String str)`
 - **What It Does**: Concatenates the specified string to the end of the current string.
 - **Where**: Use this method to join two strings together, such as adding a prefix or suffix to a username.
 
@@ -124,7 +126,7 @@ public class StringExample {
 ```
 
 **6. `contains()`**
-- **Syntax**: `boolean contains(CharSequence sequence)`
+- **Method Header**: `boolean contains(CharSequence sequence)`
 - **What It Does**: Checks if the string contains the specified sequence of characters.
 - **Where**: Use this method to validate if a certain keyword or character is present in a string, such as checking if an email address contains the "@" symbol.
 
@@ -140,7 +142,7 @@ public class StringExample {
 ```
 
 **7. `replace()`**
-- **Syntax**: `String replace(char oldChar, char newChar)` or `String replace(CharSequence target, CharSequence replacement)`
+- **Method Header**: `String replace(char oldChar, char newChar)` or `String replace(CharSequence target, CharSequence replacement)`
 - **What It Does**: Replaces all occurrences of a specified character or sequence of characters in the string with another character or sequence.
 - **Where**: Use this method when you need to substitute specific characters or substrings within a string, such as sanitizing user input by replacing spaces with underscores or replacing certain words in a message.
 
@@ -155,13 +157,7 @@ public class StringExample {
 }
 ```
 
-### **Where to Use These String Methods**
-
-- **In Input Validation**: Use methods like `trim()`, `toUpperCase()`, `toLowerCase()`, and `contains()` to clean up and validate user input before further processing.
-- **In Building Messages**: Use methods like `concat()` to dynamically build messages or responses in your application.
-- **In Data Formatting**: Use methods like `toUpperCase()`, `toLowerCase()`, and `length()` to format and measure strings as needed.
-
-## 3. When (Scenarios of Situations When String Methods Can Be Used)
+## When (Scenarios of Situations When String Methods Can Be Used)
 
 ### **When to Use These String Methods**
 
@@ -193,14 +189,16 @@ public class StringExample {
 - **Scenario**: Use `replace()` when you need to substitute specific characters or substrings within a string. This is useful for formatting text, sanitizing inputs, or modifying messages.
 - **Example**: Replacing all spaces in a username with underscores to ensure that usernames are URL-friendly, or replacing all occurrences of a certain word in a document.
 
-## **Summary of When to Use These Methods**
-- **Validation**: `length()`, `contains()`, `trim()`, and `replace()` are often used in validating and cleaning up user inputs to ensure they meet specific criteria or are formatted correctly.
+## **Summary of When and Where to Use These Methods**
+
+- **Data Formatting**: Use methods like `toUpperCase()`, `toLowerCase()`, and `length()` to format and measure strings as needed.
+- **Validation**: Use methods like `trim()`, `toUpperCase()`, `toLowerCase()`, and `contains()` to clean up and validate user input before further processing. `length()`, `contains()`, `trim()`, and `replace()` are often used in validating and cleaning up user inputs to ensure they meet specific criteria or are formatted correctly.
 - **Standardization**: `toUpperCase()`, `toLowerCase()`, and `replace()` are useful for standardizing text, especially when storing, comparing, or displaying data.
 - **Message Building**: `concat()` and `replace()` are used when you need to build, modify, or format strings dynamically, such as creating custom messages or altering text content.
 
 Does this section help you understand when to use these String methods? If so, we can move on to discussing how to decide which method to use in different situations, addressing any common confusions for beginners.
 
-## 4. How to Decide - Any General Confusions for Absolute Beginners
+## How to Decide - Any General Confusions for Absolute Beginners
 
 ### **How to Decide Which String Method to Use**
 
