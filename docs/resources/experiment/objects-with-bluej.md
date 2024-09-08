@@ -58,7 +58,7 @@ Go to [Practice](../practice/java/foundations/objects-with-bluej#figures-challen
 
 ## Experiments on _house_ project
 
-0. Go to [Learn](../quiz_gen/learn#download-week-1-bluej-projects), download the _house_ project ==> extract it to your projects folder.
+0. Go to [Learn](../learn/java/foundations/using-objects#download-week-1-bluej-projects), download the _house_ project ==> extract it to your projects folder.
 1. Open the _house_ project using BlueJ. Create an instance of class `Picture` and invoke its `draw` method. Also, try out the `setBlackAndWhite` and `setColor` methods. How do you think the `Picture` class draws the picture?
 
 ### Observing Picture class
@@ -84,9 +84,9 @@ Go to [Practice](../practice/java/foundations/objects-with-bluej#figures-challen
 
 ## Download _objects-practice_ projects
 
-1. [days](../../../project_zips/bluej/part01/days.zip)
-2. [rectangles](../../../project_zips/bluej/part01/rectangles.zip)
-3. [pictures](../../../project_zips/bluej/part01/pictures.zip)
+1. [days](../project_zips/bluej/part01/days.zip)
+2. [rectangles](../project_zips/bluej/part01/rectangles.zip)
+3. [pictures](../project_zips/bluej/part01/pictures.zip)
 
 ## Experiments on _objects-practice_ project
 
@@ -107,7 +107,7 @@ Go to [Practice](../practice/java/foundations/objects-with-bluej#figures-challen
 
 ## Experiments on _lab-classes_ project
 
-0. Go to [Learn](../quiz_gen/learn#download-week-1-bluej-projects), download the _lab-classes_ project ==> extract it to your projects folder.
+0. Go to [Learn](../learn/java/foundations/using-objects#download-week-1-bluej-projects), download the _lab-classes_ project ==> extract it to your projects folder.
 1. Create an object of class `Student`. You will notice that this time you are prompted not only for a name of the instance, but also for some other parameters. Fill them in before clicking OK. (Remember that parameters of type `String` must be written within double quotes.)
 2. Create some `Student` objects. Call the `getName` method on each object. Explain what is happening.
 3. Create an object of class `LabClass`. As the signature indicates, you need to specify the maximum number of students in that class (an integer).

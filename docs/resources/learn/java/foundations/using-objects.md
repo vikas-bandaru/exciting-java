@@ -25,7 +25,7 @@ has_children: true
 ### Download Week 1 BlueJ projects
   1. [figures](../../../project_zips/bluej/part01/figures.zip)
   2. [house](../../../project_zips/bluej/part01/house.zip)
-  3. [lab-classes](../../project_zips/bluej/part01/lab-classes.zip)
+  3. [lab-classes](../../../project_zips/bluej/part01/lab-classes.zip)
   4. [test-practice](../../../project_zips/bluej/part01/test-practice.zip)
   5. [objects-practice](../../../project_zips/bluej/part01/objects-practice.zip)
   6. [objects-practice2](../../../project_zips/bluej/part01/objects-practice2.zip)
