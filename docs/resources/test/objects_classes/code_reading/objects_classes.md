@@ -226,6 +226,7 @@ grand_parent: Test Yourself
     </details>
 
 14. What does the following sequence of statements print?
+
     ```java
     Circle c = new Circle(10, 20, 15);
     c.move(30, 40);
@@ -238,7 +239,7 @@ grand_parent: Test Yourself
       <input type="radio" name="q16" value="d"> 50
     </form>
     <details markdown="block">
-      <summary>Answer</summary
+      <summary>Answer</summary>
       30
     </details>
 
@@ -296,7 +297,7 @@ grand_parent: Test Yourself
     <form>
       <input type="radio" name="q44" value="a"> Rectangle at (10, 20) with no color, Circle at (15, 25) with no color<br>
       <input type="radio" name="q44" value="b"> Rectangle at (15, 25) with no color, Circle at (15, 25) with no color<br>
-      <input type="radio" name="q44" value="c"> Rectangle at (15, 25) with no color, Circle at (15, 25) with color GREEN<br>
+      <input type="radio" name="q44" value="c"> Rectangle at (10, 20) with no color, Circle at (15, 25) with color GREEN<br>
       <input type="radio" name="q44" value="d"> Rectangle at (15, 25) with no color, Circle at (15, 25) with color GREEN<br>
     </form>
     <details markdown="block">

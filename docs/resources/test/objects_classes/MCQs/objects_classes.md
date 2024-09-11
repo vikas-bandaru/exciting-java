@@ -125,11 +125,11 @@ grand_parent: Test Yourself
      <input type="radio" name="q9" value="a"> Method header includes the method body; method signature does not<br>
      <input type="radio" name="q9" value="b"> Method header includes access modifiers; method signature includes parameter types<br>
      <input type="radio" name="q9" value="c"> Method header is a method call; method signature is a method declaration<br>
-     <input type="radio" name="q9" value="d"> Method header includes return type and name; method signature includes return type, name, and parameters
+     <input type="radio" name="q9" value="d"> Method header includes return type, name, and parameters; method signature includes name and parameters
    </form>
    <details markdown="block">
      <summary>Answer</summary>
-     Method header includes return type and name; method signature includes return type, name, and parameters
+     Method header includes return type, name, and parameters; method signature includes name and parameters
    </details>
 
 10. Which statement is true about the data types int and String in Java?  
