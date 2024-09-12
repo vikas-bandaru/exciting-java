@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Methods - When & Where?
-nav_order: 4
+nav_order: 2
 parent: Class Definitions
 grand_parent: Learn
 ---

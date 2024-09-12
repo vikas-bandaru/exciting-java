@@ -16,6 +16,8 @@ has_children: true
   {: .text-delta }
   1. [Basic Class Definitions & Testing](#class-definitions-in-the-objects-first-approach)
      {:toc}
+  2. [Practice Exercises - Real World Scenarios](#exercises-on-applying-class-definitions-to-new-scenarios)
+     {:toc}
 </details>
 
 ## Basic Class Definitions & Testing
@@ -88,5 +90,68 @@ Here are five exercises for practicing basic class definitions and testing them 
 - In a tester class, create an instance of `Employee`, set the field values, and print out the employee's information.
 
 These exercises will help solidify your understanding of creating classes, defining fields, and directly accessing them in Java.
+
+[Back to Top](#top)
+
+## Exercises on Applying Class Definitions to new Scenarios
+
+Here are five different exercises with similar structure as `Car` example and challenges that you can observe and practice:
+
+1. **Water Dispenser**
+   - **Fields**: 
+     - `waterLevel` (liters)
+     - `capacity` (liters)
+     - `dispenseRate` (liters per cup)
+   - **Methods**: 
+     - `addWater(amount)` (liters)
+     - `dispenseWater(cups)` (cups)
+   - **Conversion hint**: If `dispenseWater` takes cups as input, you'll need to convert cups to liters using the `dispenseRate`.
+
+2. **Mobile Phone Battery**
+   - **Fields**: 
+     - `batteryLevel` (percentage)
+     - `maxBattery` (percentage)
+     - `batteryConsumptionRate` (percentage per hour)
+   - **Methods**: 
+     - `chargePhone(amount)` (percentage)
+     - `usePhone(hours)` (hours)
+   - **Conversion hint**: No unit conversion is needed if everything is in percentages and hours, but ensure battery usage doesn't exceed `batteryLevel`.
+
+3. **Elevator**
+   - **Fields**: 
+     - `currentFloor` (floor number)
+     - `maxFloor` (floor number)
+     - `minFloor` (floor number)
+     - `capacity` (kilograms)
+     - `currentLoad` (kilograms)
+   - **Methods**: 
+     - `loadPassengers(count)` (number of passengers)
+     - `moveToFloor(floor)` (floor number)
+   - **Conversion hint**: You may need to convert the number of passengers to weight (`currentLoad`) based on an average passenger weight.
+
+4. **Coffee Machine**
+   - **Fields**: 
+     - `waterLevel` (milliliters)
+     - `coffeeBeans` (grams)
+     - `maxCapacityWater` (milliliters)
+     - `maxCapacityBeans` (grams)
+   - **Methods**: 
+     - `addWater(amount)` (milliliters)
+     - `addBeans(amount)` (grams)
+     - `brewCoffee(cups)` (cups)
+   - **Conversion hint**: Convert the number of cups into milliliters of water and grams of beans based on the average water and beans per cup of coffee.
+
+5. **Printer**
+   - **Fields**: 
+     - `paperTrayLevel` (sheets)
+     - `maxTrayCapacity` (sheets)
+     - `tonerLevel` (percentage)
+     - `paperConsumptionPerPage` (sheets per page)
+   - **Methods**: 
+     - `addPaper(amount)` (sheets)
+     - `printPages(pages)` (pages)
+   - **Conversion hint**: For `printPages`, ensure the number of pages translates correctly into the required sheets of paper, and check toner consumption for each page.
+
+[Back to Top](#top)
 
 Go back to [Encapsulation](../../../learn/java/foundations/encapsulation) to learn more with examples.

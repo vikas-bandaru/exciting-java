@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Methods
-nav_order: 3
+nav_order: 1
 parent: Class Definitions
 grand_parent: Learn
 ---

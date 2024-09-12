@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Encapsulation
-nav_order: 1
+nav_order: 3
 parent: Class Definitions
 grand_parent: Learn
 ---

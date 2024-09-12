@@ -2,7 +2,7 @@
 layout: default
 title: Constructors
 parent: Class Definitions
-nav_order: 2
+nav_order: 3
 grand_parent: Practice
 ---
 
