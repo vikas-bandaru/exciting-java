@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Recursion
-parent: Class Definitions
+parent: Problem Solving Techniques
 nav_order: 3
 grand_parent: Practice
 ---

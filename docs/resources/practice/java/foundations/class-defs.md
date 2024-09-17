@@ -154,4 +154,4 @@ Here are five different exercises with similar structure as `Car` example and ch
 
 [Back to Top](#top)
 
-Go back to [Encapsulation](../../../learn/java/foundations/encapsulation) to learn more with examples.
+Go back to [Class Definitions](../../../learn/java/foundations/java-class-defs) to learn more with examples.

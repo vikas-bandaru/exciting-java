@@ -93,7 +93,7 @@ The method header is the first line of a method that includes the return type, m
    // Getter method header
    public String getName() {
       // Internal code
-      return name;
+      
    }
    ```
 
@@ -113,7 +113,7 @@ The method header is the first line of a method that includes the return type, m
    // Setter method header
    public void setBalance(double balance) {
       // Internal code
-      this.balance = balance;
+      
    }
    ```
 
@@ -206,27 +206,22 @@ public class BankAccount {
     public String getAccountNumber() {
         return accountNumber;
     }
-
     // Setter for accountNumber
     public void setAccountNumber(String accountNumber) {
         this.accountNumber = accountNumber;
     }
-
     // Getter for accountHolderName
     public String getAccountHolderName() {
         return accountHolderName;
     }
-
     // Setter for accountHolderName
     public void setAccountHolderName(String accountHolderName) {
         this.accountHolderName = accountHolderName;
     }
-
     // Getter for balance
     public double getBalance() {
         return balance;
     }
-
     // Setter for balance
     public void setBalance(double balance) {
         if (balance >= 0) { // Adding a simple check to ensure balance is not negative

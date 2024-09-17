@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Recursion
-parent: Class Definitions
+parent: Problem Solving Techniques
 nav_order: 3
 grand_parent: Experiment
 ---
@@ -111,7 +111,7 @@ public int fibonacci(int n, int[] memo) {
 [Back to Top](#top)
 
 #### Practice Exercises
-Practice [Recursion](../practice/java/foundations/recursion) with exercises.
+Practice [Recursion](../../practice/java/foundations/recursion) with exercises.
 
 <!-- #### Next Topic: 
 Go to [Conditionals](../learn/java/foundations/decisions) to learn more with examples. -->

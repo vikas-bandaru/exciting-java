@@ -2,7 +2,7 @@
 layout: default
 title: Recursion
 nav_order: 8
-parent: Class Definitions
+parent: Problem Solving Techniques
 grand_parent: Learn
 ---
 
@@ -17,15 +17,11 @@ Let's break down the concept of recursion, starting from the basics, followed by
   {: .text-delta }
 1. [Why Recursion?](#1-why-motivation-to-use-recursion)
    {:toc}
-2. [Components of a Method](#2-breaking-down-a-method-header-and-method-signature)
+2. [How and Where?](#2-how-syntax--tester-code-and-where-logical-placement)
    {:toc}
-3. [When and Where to Use Methods](#4-when-and-where-to-use-methods)
+3. [When?](#3-when-scenarios-of-situations-when-recursion-can-be-used)
    {:toc}
-4. [How to choose Method components](#5-how-to-decide-method-names-parameters-and-return-types)
-   {:toc}
-5. [Accessors & Mutators](#6-accessors-and-mutators)
-   {:toc}
-6. [printDetails method](#7-creating-a-printdetails-method)
+4. [General Confusions](#4-how-to-decide---any-general-confusions-for-absolute-beginners)
    {:toc}
 </details>
 
