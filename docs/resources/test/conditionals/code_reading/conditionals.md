@@ -994,7 +994,7 @@ grand_parent: Test Yourself
     </form>
     <details markdown="block">
       <summary>Answer</summary>
-      Low result
+      High result
     </details>
 
 6. **What will be the output of the following code?**
