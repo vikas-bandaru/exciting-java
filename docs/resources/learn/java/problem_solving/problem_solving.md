@@ -18,23 +18,23 @@ Here’s a list of basic problem-solving techniques, sorted from easiest to lear
    - **When to use**: When problem size is small, or there are no clear shortcuts.
    - **Difficulty**: ★☆☆☆☆ (Easy)
 
-## 2. **Greedy Algorithms**
-   - **Description**: Make a locally optimal choice at each step, hoping it leads to a globally optimal solution.
-   - **Example**: Find the shortest path in an unweighted graph using a BFS.
-   - **When to use**: Problems where you can pick the next best option without reconsidering previous choices.
-   - **Difficulty**: ★★☆☆☆ (Easy to moderate)
+## 3. **Recursion**
+   - **Description**: Solve the problem by solving smaller instances of the same problem, usually with a base case to stop.
+   - **Example**: Factorial, Fibonacci sequence.
+   - **When to use**: Problems that can be defined in terms of smaller subproblems.
+   - **Difficulty**: ★★☆☆☆ (Moderate)
 
-## 3. **Divide and Conquer**
+## 2. **Divide and Conquer**
    - **Description**: Divide the problem into smaller subproblems, solve them independently, and combine the results.
    - **Example**: Merge sort, binary search.
    - **When to use**: Problems that can be split into independent smaller problems.
    - **Difficulty**: ★★☆☆☆ (Easy to moderate)
 
-## 4. **Recursion**
-   - **Description**: Solve the problem by solving smaller instances of the same problem, usually with a base case to stop.
-   - **Example**: Factorial, Fibonacci sequence.
-   - **When to use**: Problems that can be defined in terms of smaller subproblems.
-   - **Difficulty**: ★★☆☆☆ (Moderate)
+## 4. **Greedy Algorithms**
+   - **Description**: Make a locally optimal choice at each step, hoping it leads to a globally optimal solution.
+   - **Example**: Find the shortest path in an unweighted graph using a BFS.
+   - **When to use**: Problems where you can pick the next best option without reconsidering previous choices.
+   - **Difficulty**: ★★☆☆☆ (Easy to moderate)
 
 ## 5. **Backtracking**
    - **Description**: Try solutions, and backtrack if a solution fails, exploring all possible solutions efficiently.
@@ -73,7 +73,7 @@ Here’s a list of basic problem-solving techniques, sorted from easiest to lear
    - **Difficulty**: ★★★★☆ (Hard)
 
 ## 11. **Topological Sorting**
-   - **Description**: Order the vertices in a Directed Acyclic Graph (DAG) such that for every directed edge \( uv \), vertex \( u \) comes before vertex \( v \).
+   - **Description**: Order the vertices in a Directed Acyclic Graph (DAG) such that for every directed edge *uv*, vertex *u* comes before vertex *v*.
    - **Example**: Course scheduling, project management problems.
    - **When to use**: Problems that involve dependencies or precedence constraints.
    - **Difficulty**: ★★★★☆ (Hard)
