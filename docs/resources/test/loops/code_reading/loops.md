@@ -311,17 +311,17 @@ grand_parent: Test Yourself
     }
     ```
     <form>
-      <input type="radio" name="q15" value="a">
-      *
-      **
-      ***<br>
-      <input type="radio" name="q15" value="b">
-      ***
-      **
+      <input type="radio" name="q15" value="a"><br>
       *<br>
-      <input type="radio" name="q15" value="c">
-      ***
-      ***
+      **<br>
+      ***<br>
+      <input type="radio" name="q15" value="b"><br>
+      ***<br>
+      **<br>
+      *<br>
+      <input type="radio" name="q15" value="c"><br>
+      ***<br>
+      ***<br>
       ***<br>
       <input type="radio" name="q15" value="d"> No output<br>
     </form>
@@ -427,15 +427,15 @@ grand_parent: Test Yourself
     }
     ```
     <form>
-      <input type="radio" name="q20" value="a">
+      <input type="radio" name="q20" value="a"><br>
       3 2 1<br>
       3 2<br>
       3<br>
-      <input type="radio" name="q20" value="b">
+      <input type="radio" name="q20" value="b"><br>
       3 2 1<br>
       2 1<br>
       1<br>
-      <input type="radio" name="q20" value="c">
+      <input type="radio" name="q20" value="c"><br>
       3 2 1<br>
       3 2 1<br>
       3 2 1<br>
