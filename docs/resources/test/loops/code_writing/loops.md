@@ -72,6 +72,19 @@ grand_parent: Test Yourself
 
    [Solve it here](https://codecheck.io/files/wiley/codecheck-bj-4-loop-102)
 
+2. Given a number x, complete the program below named Power that computes the value of xn, where n is an integer. While the value of the double variable x can be positive or negative, the value of the integer n should be non-negative.  
+   Input: x, the value to be raised to the nth power.  
+   Input: n, the value of the power.  
+   Output: xn, the value of x raised to the nth power.  
+
+   [Solve it here](https://codecheck.io/files/wiley/codecheck-bjlo-1-loop-106)
+
+2. Given a positive number n, the factorial of that number, denoted n!, is equal to 1 x 2 x ... (n - 1) x n. Assuming that n is greater than zero and less than 12, complete the program named Factorial below, so that it computes the value of n! for any positive n less than 12.  
+   Input: n, the integer value for which n! is to be computed.  
+   Output: n! -- the factorial of n  
+
+   [Solve it here](https://codecheck.io/files/wiley/codecheck-bjlo-1-loop-107)
+
 3. Your task is to write a method stutter that repeats all letters t in a string. For example, the call stutter("stutter") should return "sttutttter".  
 
    [Solve it here](https://codecheck.io/files/wiley/codecheck-bj-4-loop-103)
@@ -81,6 +94,12 @@ grand_parent: Test Yourself
    *Hint:* Repeatedly compute % 10 and / 10.  
 
    [Solve it here](https://codecheck.io/files/wiley/codecheck-bj-4-loop-105)
+
+5. Complete the ReverseString program below so that it reads in a string of characters, reverses the order of the characters, and prints out the reversed string.  
+   In other words, if the input string is "123456", the output string would be "654321".  
+   If the input string is "How now, brown cow", the output string would be "woc nworb ,won woH".  
+
+   [Solve it here](https://codecheck.io/files/wiley/codecheck-bjlo-1-loop-108)
 
 6. When people enter their telephone numbers into a form they use many different formats. Some examples are:  
 
@@ -106,6 +125,14 @@ grand_parent: Test Yourself
 1. Your task is to write a method countPerfectSquares that counts all perfect squares in a given range. For example, the call countPerfectSquares(5, 25) should return 3 (since 9, 16, and 25 are perfect squares between 5 and 25).  
 
    [Solve it here](https://codecheck.io/files/wiley/codecheck-bj-4-loop-104)
+
+1. A palindrome is a string that is the same spelled forward as it is spelled backward. So, "abcba" is a palindrome, as are "eye" and "madam".  
+   Complete the PalFind program below so that it reads in a string of characters, checks character-by-character to see whether or not the string is a palindrome, and then prints either "Yes" or "No".  
+   In other words, if the input string is "abba" or "wallow", the output would be "Yes". If the input string is "FBI" or "garbage", the output would be "No".  
+   You may ignore punctuation, in that the test strings used for this program do not contain any. You may also modify the whole string to all uppercase or all lowercase before you begin the check.  
+   Note: The strings may be of odd or even length, as in "cat", "dad", "racecar", or "Hannah".  
+
+   [Solve it here](https://codecheck.io/files/wiley/codecheck-bjlo-1-loop-109)
 
 2. A simple technique for compressing an image is run-length encoding. The color of each pixel or area is specified for an image. The color pallette can be specified by the first letter of each color (R, G, B, C, M, Y, K, W) - red, green, blue, cyan, magenta, yellow, black, white. An example 6 by 4 image is:  
 

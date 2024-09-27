@@ -119,7 +119,25 @@ power. Use the `Math.pow` method only for the fourth power.
 
 [Back to Top](#top)
 
-### CodeCheck Questions
+### Easy CodeCheck Questions
+1. Complete the program below so that it prompts for and reads in two integer values, and then prints out the larger of the two.
+   [Solve it here](https://codecheck.io/files/wiley/codecheck-bjlo-1-branch-101)
+
+2. Complete the program below so that it prompts for and reads in three integer values, and then prints out the smallest of the three.  
+   For example, one sample run of this program looks like the following:  
+   Please enter three integer values: 66 22 34  
+   Smallest: 22  
+   [Solve it here](https://codecheck.io/files/wiley/codecheck-bjlo-1-branch-104)
+
+3. Complete the program below so that it prompts for and reads in a student's final class average (0.0 to 100.0), and prints out the letter grade the student should receive, based on the following table:  
+   A : greater than 90.0, up to 100.0  
+   B : greater than 80.0, up to 90.0  
+   C : greater than 70.0, up to 80.0  
+   D : greater than 60.0, up to 70.0  
+   F : 0.0 up to 60.0  
+   For example, if a student's final class average is 84.6, he has earned a letter grade of B.  
+   [Solve it here](https://codecheck.io/files/wiley/codecheck-bjlo-1-branch-105)   
+
 1. Employees get paid “time and a half” for the weekly work hours in excess of 40 hours. For example, an employee making $10/hour and working 50 hours in a given week gets paid $10 for the first 40 hours and $15 for the remaining 10 hours, for a total weekly pay of $550.  
 
    [Solve it here](https://codecheck.io/files/wiley/codecheck-bj-4-branch-101)
@@ -258,8 +276,20 @@ balance. Also print the expected result.
 
 ### Medium CodeCheck Questions
 
-1. Consider a program that administers multiple-choice quizzes. The student needs to provide a response such as A or D. Your job will be to check for input errors in the student response string. Check that the string has length 1, and that it is a letter between A and the last valid choice for the problem.
+1. Complete the program below so that it prompts the user for a temperature value, followed by a character that represents the type of temperature:  
+   - C for Celsius
+   - F for Farhenheit  
 
+   If the character represents Fahrenheit temperature (F), convert the temperature value to the equivalent value in Celsius, using the following formula:  
+   `C = (5/9)(F - 32.0)`  
+   where C represents the Celsius temperature value, and F represents the Farhenheit temperature value.  
+   If the character represents Celsius temperature (C), convert the temperature value to the equivalent value in Farhenheit, using the following formula:  
+   `F = (9/5)C + 32.0`  
+   with F and C defined the same as above.  
+   Print the converted value.  
+   [Solve it here](https://codecheck.io/files/wiley/codecheck-bjlo-1-branch-102)
+
+1. Consider a program that administers multiple-choice quizzes. The student needs to provide a response such as A or D. Your job will be to check for input errors in the student response string. Check that the string has length 1, and that it is a letter between A and the last valid choice for the problem.
    [Solve it here](https://codecheck.io/files/wiley/codecheck-bj-4-branch-103)
 
 2. An open interval is the set of all numbers between a lower and upper bound. In mathematical notation, we write  
