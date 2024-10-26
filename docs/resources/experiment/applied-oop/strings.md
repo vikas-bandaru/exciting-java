@@ -411,7 +411,7 @@ These experiments should help solidify an understanding of how to handle strings
 [Back to Top](#top)
 
 #### Practice Exercises
-Practice [Loops](../practice/java/foundations/loops) with exercises.
+Practice [Strings](../../practice/java/applied-oop/strings) with exercises.
 
 #### Next Topic: 
-Go to [Arrays](../learn/java/foundations/arrays) to learn more with examples.
+Go to [ArrayLists](../../learn/java/applied_oop/arraylists) to learn more with examples.

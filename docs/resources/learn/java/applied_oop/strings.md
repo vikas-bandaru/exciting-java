@@ -2,7 +2,7 @@
 layout: default
 title: Strings
 nav_order: 1
-parent: OOP
+parent: Applied OOP
 grand_parent: Learn
 ---
 
@@ -129,7 +129,7 @@ public class StringExample {
 [Back to Top](#top)
 
 #### Conditionals Experiments
-Experiment with [Strings](../../../experiment/strings) exercises.
+Experiment with [Strings](../../../experiment/applied-oop/strings) exercises.
 
 #### Practice Exercises
-Practice [Strings](../../../practice/java/oop/strings) with exercises.
+Practice [Strings](../../../practice/java/applied-oop/strings) with exercises.

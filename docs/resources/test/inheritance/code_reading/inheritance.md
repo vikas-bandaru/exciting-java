@@ -122,8 +122,8 @@ grand_parent: Test Yourself
     </form>
 
     <details markdown="block">
-        <summary>Answer</summary>
-        A
+    <summary>Answer</summary>
+    A
     </details>
 
 4.  What will be the output of this code?
@@ -193,8 +193,8 @@ grand_parent: Test Yourself
     </form>
 
     <details markdown="block">
-        <summary>Answer</summary>
-        5
+    <summary>Answer</summary>
+    5
     </details>
 
 6.  What will be the output of this code?
@@ -254,8 +254,8 @@ grand_parent: Test Yourself
     </form>
 
     <details markdown="block">
-        <summary>Answer</summary>
-        Test Method
+    <summary>Answer</summary>
+    Test Method
     </details>
 
 8. What will be the output of this code?
@@ -634,10 +634,12 @@ grand_parent: Test Yourself
      <input type="radio" name="q11" value="c"> Compile-time error<br>
      <input type="radio" name="q11" value="d"> Runtime error
    </form>
-   <details markdown="block">
-     <summary>Answer</summary>
-     Compile-time error
-   </details>
+
+    <details markdown="block">
+    <summary>Answer</summary>
+    Compile-time error
+    </details>
+
 2. What will be the output of this code?
 
     ```java
@@ -668,11 +670,12 @@ grand_parent: Test Yourself
     <input type="radio" name="q12" value="c"> 5 10<br>
     <input type="radio" name="q12" value="d"> 10 10
     </form>
+
     <details markdown="block">
     <summary>Answer</summary>
     10 5
     </details>
-    
+
 3. What will be the output of this code?
 
     ```java

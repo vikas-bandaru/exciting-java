@@ -172,7 +172,7 @@ grand_parent: Practice
 These variations will challenge you to think critically about string manipulation and develop a deep understanding of the different ways strings can be processed in Java.
 
 ### Next Topic: 
-Go to [ArrayLists](../../../learn/java/oop/arraylists) to learn a new topic.
+Go to [ArrayLists](../../../learn/java/applied_oop/arraylists) to learn a new topic.
 
 ### Back to Learn: 
-Go to [Strings](../../../learn/java/oop/strings) to learn more with examples.
+Go to [Strings](../../../learn/java/applied_oop/strings) to learn more with examples.
