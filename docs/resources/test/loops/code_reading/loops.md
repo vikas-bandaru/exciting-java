@@ -1181,14 +1181,14 @@ grand_parent: Test Yourself
     System.out.println(i);
     ```
     <form>
-     <input type="radio" name="q26" value="a"> 7<br>
-     <input type="radio" name="q26" value="b"> 10<br>
+     <input type="radio" name="q26" value="a"> 5<br>
+     <input type="radio" name="q26" value="b"> 11<br>
      <input type="radio" name="q26" value="c"> 2<br>
-     <input type="radio" name="q26" value="d"> 12
+     <input type="radio" name="q26" value="d"> 5
     </form>
     <details markdown="block">
      <summary>Answer</summary>
-     7
+     11
     </details>
 
 27. What will be the output of the following code?

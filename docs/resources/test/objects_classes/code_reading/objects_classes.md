@@ -225,12 +225,12 @@ grand_parent: Test Yourself
       double
     </details>
 
-14. What does the following sequence of statements print?
+14. Assume `Circle` object is created with x, y, and raius. What does the following sequence of statements print?
 
     ```java
     Circle c = new Circle(10, 20, 15);
-    c.move(30, 40);
-    System.out.println(c.getCenterX());
+    c.moveHorizontal(30);
+    System.out.println(c.getX());
     ```
     <form>
       <input type="radio" name="q16" value="a"> 10<br>
@@ -240,7 +240,7 @@ grand_parent: Test Yourself
     </form>
     <details markdown="block">
       <summary>Answer</summary>
-      30
+      40
     </details>
 
 15. What does this program print?
@@ -511,10 +511,10 @@ grand_parent: Test Yourself
 7. Using String Methods
    ```java
    String s = "OpenAI";
-   System.out.println(s.charAt(2));
-   System.out.println(s.length());
-   System.out.println(s.substring(1, 4));
-   System.out.println(s.toUpperCase());
+   System.out.print(s.charAt(2) + " ");
+   System.out.print(s.length() + " ");
+   System.out.print(s.substring(1, 4) + " ");
+   System.out.print(s.toUpperCase());
    ```
 
    What will be the output of this code?
@@ -533,7 +533,7 @@ grand_parent: Test Yourself
    ```java
    String s = "Hello World";
    s = s.replace("World", "Java");
-   System.out.println(s.substring(0, 5));
+   System.out.print(s.substring(0, 5) + " ");
    System.out.println(s.toUpperCase());
    ```
 
@@ -549,7 +549,7 @@ grand_parent: Test Yourself
      Hello HELLO JAVA
    </details>
 
-9. Identifying Error Types
+9. Identify Error Types
    ```java
    public class Test {
        public static void main(String[] args) {
@@ -589,7 +589,7 @@ grand_parent: Test Yourself
     </form>
     <details markdown="block">
      <summary>Answer</summary>
-     The result of 2 + 3 is 5<br> 2 + 3
+     The result of 2 + 3 is 5<br>2 + 3
     </details>
 
 [Back to Top](#top)
