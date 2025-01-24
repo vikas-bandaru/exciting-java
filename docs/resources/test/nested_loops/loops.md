@@ -1,8 +1,8 @@
 ---
 layout: default
-title: Single Loops
+title: Nested Loops
 parent: Test Yourself
-nav_order: 4
+nav_order: 5
 has_children: true
 ---
 

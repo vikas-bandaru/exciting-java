@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Code Writing Questions
-parent: Single Loops
+# title: Code Writing Questions
+parent: Nested Loops
 nav_order: 4
 grand_parent: Test Yourself
 ---
