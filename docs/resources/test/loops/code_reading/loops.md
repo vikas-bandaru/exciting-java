@@ -1502,7 +1502,7 @@ grand_parent: Test Yourself
 
 ### Easy Level MCQs - Nested Loops
 
-Below are 10 simple questions about nested loops in Java
+Below are 30 simple questions about nested loops in Java:
 
 1. Given the following code snippet, what will be the output?
     ```java
@@ -1837,8 +1837,7 @@ Below are 10 simple questions about nested loops in Java
       3  
       (Explanation: i=0 → inner loop runs 1 time; i=1 → inner loop runs 2 times. Total = 1+2 = 3)
     </details>
-    
-<!-- 
+
 16. What output is produced?  
     ```java
     for (int i = 1; i <= 2; i++) {
@@ -1849,26 +1848,18 @@ Below are 10 simple questions about nested loops in Java
     }
     ```
     <form>
-      <input type="radio" name="q6" value="a">  
-        ```
-        1 2 3
-        2 4 6
-        ```  
-      <input type="radio" name="q6" value="b">  
-        ```
-        1 2 3
-        4 5 6
-        ```  
-      <input type="radio" name="q6" value="c">  
-        ```
-        2 3 4
-        4 6 8
-        ```  
-      <input type="radio" name="q6" value="d">  
-        ```
-        1 2 3
-        3 6 9
-        ```
+      <input type="radio" name="q6" value="a"><br>  
+        1 2 3<br>
+        2 4 6<br>
+      <input type="radio" name="q6" value="b"><br>  
+        1 2 3<br>
+        4 5 6<br>
+      <input type="radio" name="q6" value="c"><br>  
+        2 3 4<br>
+        4 6 8<br>
+      <input type="radio" name="q6" value="d"><br>  
+        1 2 3<br>
+        3 6 9<br>
     </form>
     <details markdown="block">
       <summary>Answer</summary>
@@ -1897,16 +1888,12 @@ Below are 10 simple questions about nested loops in Java
     </form>
     <details markdown="block">
       <summary>Answer</summary>
-      9  
-      (Explanation: Loops run 4 times total. Each iteration adds (i+j). Iterations:
-      - i=1,j=1→1+1=2
-      - i=1,j=2→1+2=3
-      - i=2,j=1→2+1=3
-      - i=2,j=2→2+2=4  
-      Sum of increments = 2+3+3+4 = 12; initial result=1, final=1+12=13.  
-      Wait, let's carefully recalc: i=1,j=1: result=1+2=3; i=1,j=2: result=3+3=6; i=2,j=1: 6+3=9; i=2,j=2: 9+4=13.  
-      The final is 13, not 9.  
-      So the correct answer is 13.
+      13  
+      Explanation: Loops run 4 times total. Each iteration adds (i+j). Iterations:  
+      *Iteration 1:* result=1,i=1,j=1 → result+=1+1=3
+      *Iteration 2:* result=3,i=1,j=2 → result+=1+2=6
+      *Iteration 3:* result=6,i=2,j=1 → result+=2+1=9
+      *Iteration 4:* result=9,i=2,j=2 → result+=2+2=13
     </details>
 
 18. What does this nested loop print on each line?  
@@ -1919,30 +1906,24 @@ Below are 10 simple questions about nested loops in Java
     }
     ```
     <form>
-      <input type="radio" name="q8" value="a">  
-        ```
-        0,0 0,1
-        1,0 1,1
-        2,0 2,1
-        ```  
-      <input type="radio" name="q8" value="b">  
-        ```
-        0,0
-        0,1
-        1,0
-        1,1
-        2,0
-        2,1
-        ```  
-      <input type="radio" name="q8" value="c">  
-        ```
-        i=0 j=0
-        i=0 j=1
-        i=1 j=0
-        i=1 j=1
-        i=2 j=0
-        i=2 j=1
-        ```  
+      <input type="radio" name="q8" value="a"><br>  
+        0,0 0,1<br>
+        1,0 1,1<br>
+        2,0 2,1<br>
+      <input type="radio" name="q8" value="b"><br>  
+        0,0<br>
+        0,1<br>
+        1,0<br>
+        1,1<br>
+        2,0<br>
+        2,1<br>
+      <input type="radio" name="q8" value="c"><br>  
+        i=0 j=0<br>
+        i=0 j=1<br>
+        i=1 j=0<br>
+        i=1 j=1<br>
+        i=2 j=0<br>
+        i=2 j=1<br>
       <input type="radio" name="q8" value="d"> No output
     </form>
     <details markdown="block">
@@ -1952,7 +1933,7 @@ Below are 10 simple questions about nested loops in Java
       1,0 1,1
       2,0 2,1
       ```
-    </details> -->
+    </details>
 
 19. How many times does the inner statement execute?  
     ```java
@@ -1978,7 +1959,6 @@ Below are 10 simple questions about nested loops in Java
       (Checks when i == j for i,j in {1,2,3}, which happens at (1,1), (2,2), (3,3))
     </details>
 
-<!-- 
 20. What is the output of this nested loop?  
     ```java
     for (int i = 1; i < 3; i++) {
@@ -1989,21 +1969,15 @@ Below are 10 simple questions about nested loops in Java
     }
     ```
     <form>
-      <input type="radio" name="q10" value="a">  
-        ```
-        *
-        
-        ```  
-      <input type="radio" name="q10" value="b">  
-        ```
-        *
-        *
-        ```
-      <input type="radio" name="q10" value="c">  
-        ```
-        
-        *
-        ```  
+      <input type="radio" name="q10" value="a"><br>  
+        *<br>
+        <br> 
+      <input type="radio" name="q10" value="b"><br>  
+        *<br>
+        *<br>
+      <input type="radio" name="q10" value="c"><br>  
+        <br>
+        *<br>
       <input type="radio" name="q10" value="d"> (No output)
     </form>
     <details markdown="block">
@@ -2024,25 +1998,17 @@ Below are 10 simple questions about nested loops in Java
     }
     ```
     <form>
-      <input type="radio" name="q11" value="a">  
-        ```
-        2 1
-        3 2
-        ```  
-      <input type="radio" name="q11" value="b">  
-        ```
-        2 3
-        1 2
-        ```  
-      <input type="radio" name="q11" value="c">  
-        ```
-        i=0 j=2 i=0 j=1
-        i=1 j=2 i=1 j=1
-        ```  
-      <input type="radio" name="q11" value="d">  
-        ```
-        2 1 3 2
-        ```
+      <input type="radio" name="q11" value="a"><br>  
+        2 1<br>
+        3 2<br>
+      <input type="radio" name="q11" value="b"><br>  
+        2 3<br>
+        1 2<br>
+      <input type="radio" name="q11" value="c"><br>  
+        i=0 j=2 i=0 j=1<br>
+        i=1 j=2 i=1 j=1<br>
+      <input type="radio" name="q11" value="d"><br>  
+        2 1 3 2<br>
         (Single line)
     </form>
     <details markdown="block">
@@ -2064,24 +2030,18 @@ Below are 10 simple questions about nested loops in Java
     }
     ```
     <form>
-      <input type="radio" name="q12" value="a">  
-        ```
-        ###
-        ##
-        #
-        ```  
-      <input type="radio" name="q12" value="b">  
-        ```
-        #
-        ##
-        ###
-        ```  
-      <input type="radio" name="q12" value="c">  
-        ```
-        #
-        #
-        #
-        ```  
+      <input type="radio" name="q12" value="a"><br>  
+        ###<br>
+        ##<br>
+        #<br>
+      <input type="radio" name="q12" value="b"><br>  
+        #<br>
+        ##<br>
+        ###<br>
+      <input type="radio" name="q12" value="c"><br>  
+        #<br>
+        #<br>
+        #<br>
       <input type="radio" name="q12" value="d"> (No output)
     </form>
     <details markdown="block">
@@ -2091,7 +2051,7 @@ Below are 10 simple questions about nested loops in Java
       ##
       #
       ```
-    </details> -->
+    </details>
 
 23. What is printed?  
     ```java
@@ -2140,7 +2100,6 @@ Below are 10 simple questions about nested loops in Java
       (2 × 2 = 4 total prints in nested loops)
     </details>
 
-<!-- 
 25. What is printed?  
     ```java
     for (int i = 1; i <= 2; i++) {
@@ -2151,51 +2110,33 @@ Below are 10 simple questions about nested loops in Java
     }
     ```
     <form>
-      <input type="radio" name="q15" value="a">  
-        ```
-        2 3
-        3 4
-        ```  
-      <input type="radio" name="q15" value="b">  
-        ```
-        2
-        2 3
-        ```  
-      <input type="radio" name="q15" value="c">  
-        ```
-        1 2
-        1 2
-        ```  
-      <input type="radio" name="q15" value="d">  
-        ```
-        2 3 3 4
-        ```  
+      <input type="radio" name="q15" value="a"><br>  
+        2 3<br>
+        3 4<br>
+      <input type="radio" name="q15" value="b"><br>  
+        2 3<br>
+        4<br>
+      <input type="radio" name="q15" value="c"><br>  
+        1 2<br>
+        1<br>
+      <input type="radio" name="q15" value="d"><br>  
+        2 3 4<br>
         (Single line)
     </form>
     <details markdown="block">
       <summary>Answer</summary>
       ```
       2 3
-      3 4
+      4
       ```
-      (Explanation: i=1→ j=1..2→ sums=2,3; i=2→ j=2..2→ sum=4 (i+j=2+2=4) but note j=2 only one iteration => 3 + 4? We need to be precise.  
-      - For i=1: j=1→2, j=2→3  
-      - For i=2: j=2→4  
+      Explanation: i=1→ j=1..2→ sums=2,3; i=2→ j=2..2→ sum=4 (i+j=2+2=4) but note j=2 only one iteration => 3 + 4? We need to be precise.  
+      *Iteration 1:* For i=1: j=1..2 => i+j = 2, 3 → prints "2 3"  
+      *Iteration 2:* For i=2: j=2..2 => i+j = 4 → prints "4"  
       Actually that prints:  
       First line: 2 3  
       Second line: 4  
       So it's `2 3` on the first line, `4` on the second line.  
-
-      Let's rewrite carefully:  
-      - i=1: j=1..2 => i+j = 2, 3 → prints "2 3"  
-      - i=2: j=2..2 => i+j = 4 → prints "4"  
-
-      So the correct output is:  
-      ```
-      2 3
-      4
-      ```  
-    </details> -->
+    </details>
 
 26. Which of the following is the correct final output?  
     ```java
@@ -2219,7 +2160,6 @@ Below are 10 simple questions about nested loops in Java
       (Inner loop `j` runs 3 times: j=0,1,2 → sum of j = 3. Outer loop runs 2 times, total sum = 3+3 = 6)
     </details>
 
-<!-- 
 27. What gets printed here?  
     ```java
     for (int i = 2; i > 0; i--) {
@@ -2230,21 +2170,15 @@ Below are 10 simple questions about nested loops in Java
     }
     ```
     <form>
-      <input type="radio" name="q17" value="a">  
-        ```
-        
-        *
-        ```  
-      <input type="radio" name="q17" value="b">  
-        ```
-        *
-        
-        ```  
-      <input type="radio" name="q17" value="c">  
-        ```
-        
-        *
-        ```  
+      <input type="radio" name="q17" value="a"><br>  
+        <br>
+        *<br>
+      <input type="radio" name="q17" value="b"><br>  
+        *<br>
+        <br> 
+      <input type="radio" name="q17" value="c"><br>  
+        <br>
+        *<br>
       <input type="radio" name="q17" value="d"> (No output)
     </form>
     <details markdown="block">
@@ -2253,7 +2187,7 @@ Below are 10 simple questions about nested loops in Java
       
       *
       ```
-    </details> -->
+    </details>
 
 28. How many times does the `if` condition succeed?  
     ```java
@@ -2279,7 +2213,6 @@ Below are 10 simple questions about nested loops in Java
       (All possible sums of (i+j) with i,j ∈ {1,2} are 2,3,3,4. Even sums are 2 and 4 → 2 matches.)
     </details>
 
-<!-- 
 29. What is printed by this nested while loop?  
     ```java
     int i = 0;
@@ -2294,21 +2227,15 @@ Below are 10 simple questions about nested loops in Java
     }
     ```
     <form>
-      <input type="radio" name="q19" value="a">  
-        ```
-        0 1
-        1 2
-        ```  
-      <input type="radio" name="q19" value="b">  
-        ```
-        2 1
-        3 2
-        ```  
-      <input type="radio" name="q19" value="c">  
-        ```
-        2 3
-        1 2
-        ```  
+      <input type="radio" name="q19" value="a"><br>  
+        0 1<br>
+        1 2<br>
+      <input type="radio" name="q19" value="b"><br>  
+        2 1<br>
+        3 2<br>
+      <input type="radio" name="q19" value="c"><br>  
+        2 3<br>
+        1 2<br>
       <input type="radio" name="q19" value="d"> (No output)
     </form>
     <details markdown="block">
@@ -2330,31 +2257,23 @@ Below are 10 simple questions about nested loops in Java
     }
     ```
     <form>
-      <input type="radio" name="q20" value="a">  
-        ```
-        *
-        
-        *
-        ```  
-      <input type="radio" name="q20" value="b">  
-        ```
-        *
-        
-        *
-        ```  
-      <input type="radio" name="q20" value="c">  
-        ```
-        *
-        *
-        *
-        ```  
-      <input type="radio" name="q20" value="d">  
-        ```
-        *
-        
-        *
+      <input type="radio" name="q20" value="a"><br>  
+        *<br>
+        <br>
+        *<br>
+      <input type="radio" name="q20" value="b"><br>  
+        *<br>
+        <br>
+        *<br>
+      <input type="radio" name="q20" value="c"><br>  
+        *<br>
+        *<br>
+        *<br>
+      <input type="radio" name="q20" value="d"><br>  
+        *<br>
+        <br>
+        *<br>
         (No extra line)
-        ```
     </form>
     <details markdown="block">
       <summary>Answer</summary>
@@ -2364,8 +2283,9 @@ Below are 10 simple questions about nested loops in Java
       *
       ```
       (Explanation: i=0→ j=0..2 => 3 stars; i=1→ j=1..2 => 2 stars; i=2→ j=2..2 => 1 star)
-    </details> -->
+    </details>
 
+[Back to Easy-level MCQs - Nested Loops](#easy-level-mcqs---nested-loops)
 [Back to Top](#top)
 
 ### Slightly harder MCQs - Nested Loops
