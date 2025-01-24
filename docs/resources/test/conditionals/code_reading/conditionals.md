@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Code Snippets MCQs
-parent: Making Decisions
+parent: Decisions
 nav_order: 3
 grand_parent: Test Yourself
 ---

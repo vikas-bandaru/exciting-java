@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Code Writing Questions
-parent: Making Decisions
+parent: Decisions
 nav_order: 4
 grand_parent: Test Yourself
 ---

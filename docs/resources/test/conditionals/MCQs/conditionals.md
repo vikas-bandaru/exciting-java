@@ -1,7 +1,7 @@
 ---
 layout: default
 # title: Concept MCQs
-parent: Making Decisions
+parent: Decisions
 nav_order: 2
 grand_parent: Test Yourself
 ---

@@ -1,6 +1,6 @@
 ---
 layout: default
-# title: Code Snippets MCQs
+title: Code Snippets MCQs
 parent: Strings
 nav_order: 3
 grand_parent: Test Yourself
@@ -24,1472 +24,1157 @@ grand_parent: Test Yourself
 
 ### Easy Level MCQs
 
-1. 1. Given the following Java code snippet, what will be printed to the console?
+The questions are based on frequently used Java 8 String methods:
 
-   ```java
-   for (int i = 1; i <= 5; i++) {
-       System.out.print(i + " ");
-   }
-   ```
-   <form>
-     <input type="radio" name="q1" value="a"> 1 2 3 4 5<br>
-     <input type="radio" name="q1" value="b"> 0 1 2 3 4<br>
-     <input type="radio" name="q1" value="c"> 5 4 3 2 1<br>
-     <input type="radio" name="q1" value="d"> 1 2 3 4<br>
-   </form>
-   <details markdown="block">
-     <summary>Answer</summary>
-     1 2 3 4 5
-   </details>
-
-2. What will be the output of the following Java code?
-
-   ```java
-   int count = 0;
-   while (count < 3) {
-       System.out.print("Hi ");
-       count++;
-   }
-   ```
-   <form>
-     <input type="radio" name="q2" value="a"> Hi Hi Hi<br>
-     <input type="radio" name="q2" value="b"> Hi Hi<br>
-     <input type="radio" name="q2" value="c"> Hi Hi Hi Hi<br>
-     <input type="radio" name="q2" value="d"> No output<br>
-   </form>
-   <details markdown="block">
-     <summary>Answer</summary>
-     Hi Hi Hi
-   </details>
-
-3. After executing the following Java code, what will be the value of `sum`?
-
-   ```java
-   int sum = 0;
-   for (int i = 1; i <= 4; i++) {
-       sum += i;
-   }
-   ```
-   <form>
-     <input type="radio" name="q3" value="a"> 10<br>
-     <input type="radio" name="q3" value="b"> 4<br>
-     <input type="radio" name="q3" value="c"> 0<br>
-     <input type="radio" name="q3" value="d"> 20<br>
-   </form>
-   <details markdown="block">
-     <summary>Answer</summary>
-     10
-   </details>
-
-4. What will the following Java code print?
-
-   ```java
-   int i = 5;
-   do {
-       System.out.print(i + " ");
-       i--;
-   } while (i > 0);
-   ```
-   <form>
-     <input type="radio" name="q4" value="a"> 5 4 3 2 1<br>
-     <input type="radio" name="q4" value="b"> 1 2 3 4 5<br>
-     <input type="radio" name="q4" value="c"> 5 4 3 2 1 0<br>
-     <input type="radio" name="q4" value="d"> 0 1 2 3 4 5<br>
-   </form>
-   <details markdown="block">
-     <summary>Answer</summary>
-     5 4 3 2 1
-   </details>
-
-5. How many times will "Java" be printed by the following code?
-
-   ```java
-   int i = 0;
-   while (i < 5) {
-       System.out.println("Java");
-       i += 2;
-   }
-   ```
-   <form>
-     <input type="radio" name="q5" value="a"> 2<br>
-     <input type="radio" name="q5" value="b"> 3<br>
-     <input type="radio" name="q5" value="c"> 5<br>
-     <input type="radio" name="q5" value="d"> 4<br>
-   </form>
-   <details markdown="block">
-     <summary>Answer</summary>
-     3
-   </details>
-
-6. What is the output of the following Java code?
-
-   ```java
-   for (int i = 1; i <= 3; i++) {
-       for (int j = 1; j <= 2; j++) {
-           System.out.print(i * j + " ");
-       }
-   }
-   ```
-   <form>
-     <input type="radio" name="q6" value="a"> 1 2 2 4 3 6<br>
-     <input type="radio" name="q6" value="b"> 2 4 6<br>
-     <input type="radio" name="q6" value="c"> 1 2 3 4 5 6<br>
-     <input type="radio" name="q6" value="d"> Compilation error<br>
-   </form>
-   <details markdown="block">
-     <summary>Answer</summary>
-     1 2 2 4 3 6
-   </details>
-
-7. Determine the output of this Java code snippet.
-
-   ```java
-   int i = 0;
-   do {
-       if (i % 2 == 0) {
-           System.out.print(i + " ");
-       }
-       i++;
-   } while (i < 5);
-   ```
-   <form>
-     <input type="radio" name="q7" value="a"> 0 2 4<br>
-     <input type="radio" name="q7" value="b"> 1 3 5<br>
-     <input type="radio" name="q7" value="c"> 0 1 2 3 4<br>
-     <input type="radio" name="q7" value="d"> 2 4<br>
-   </form>
-   <details markdown="block">
-     <summary>Answer</summary>
-     0 2 4
-   </details>
-
-8. What will be printed by the following Java code?
-
-   ```java
-   for (int i = 3; i > 0; i--) {
-       System.out.print(i + " ");
-   }
-   ```
-   <form>
-     <input type="radio" name="q8" value="a"> 3 2 1<br>
-     <input type="radio" name="q8" value="b"> 1 2 3<br>
-     <input type="radio" name="q8" value="c"> 0 1 2 3<br>
-     <input type="radio" name="q8" value="d"> 3 2 1 0<br>
-   </form>
-   <details markdown="block">
-     <summary>Answer</summary>
-     3 2 1
-   </details>
-
-9. After executing the following Java code, what is the value of `product`?
-
-   ```java
-   int product = 1;
-   for (int i = 1; i <= 3; i++) {
-       product *= i;
-   }
-   ```
-   <form>
-     <input type="radio" name="q9" value="a"> 6<br>
-     <input type="radio" name="q9" value="b"> 3<br>
-     <input type="radio" name="q9" value="c"> 0<br>
-     <input type="radio" name="q9" value="d"> 9<br>
-   </form>
-   <details markdown="block">
-     <summary>Answer</summary>
-     6
-   </details>
-
-10. What is the output of this Java code?
+1. What will the following code print?
 
     ```java
-    int i = 1;
-    while (i <= 3) {
-        System.out.print("Number: " + i + " ");
-        i++;
-    }
+    String text = "Java Programming";
+    System.out.println(text.substring(5));
     ```
+
     <form>
-      <input type="radio" name="q10" value="a"> Number: 1 Number: 2 Number: 3<br>
-      <input type="radio" name="q10" value="b"> Number: 1 Number: 2<br>
-      <input type="radio" name="q10" value="c"> Number: 2 Number: 3 Number: 4<br>
-      <input type="radio" name="q10" value="d"> Number: 0 Number: 1 Number: 2<br>
+      <input type="radio" name="q1" value="a"> Programming<br>
+      <input type="radio" name="q1" value="b"> Java Programming<br>
+      <input type="radio" name="q1" value="c"> Jav<br>
+      <input type="radio" name="q1" value="d"> Java<br>
     </form>
     <details markdown="block">
       <summary>Answer</summary>
-      Number: 1 Number: 2 Number: 3
+      Programming  
+      (Explanation: `substring(5)` starts from index 5, returning the substring starting from 'P'.)
     </details>
 
-11. How many times will "Loop" be printed by this Java code?
+2. What is the return type of the method `toUpperCase()` in the following code?
 
     ```java
-    int i = 0;
-    do {
-        System.out.println("Loop");
-        i++;
-    } while (i < 2);
+    String str = "hello";
+    String result = str.toUpperCase();
     ```
+
     <form>
-      <input type="radio" name="q11" value="a"> 2<br>
-      <input type="radio" name="q11" value="b"> 1<br>
-      <input type="radio" name="q11" value="c"> 0<br>
-      <input type="radio" name="q11" value="d"> Infinite times<br>
+      <input type="radio" name="q2" value="a"> String<br>
+      <input type="radio" name="q2" value="b"> char<br>
+      <input type="radio" name="q2" value="c"> boolean<br>
+      <input type="radio" name="q2" value="d"> int<br>
     </form>
     <details markdown="block">
       <summary>Answer</summary>
-      2
+      String  
+      (Explanation: `toUpperCase()` returns a new string where all characters are converted to uppercase.)
     </details>
 
-12. Determine the output of the following Java code.
+3. Which method would you use to check if a string "Java" contains the substring "av"?
 
     ```java
-    for (int i = 0; i < 5; i += 2) {
-        System.out.print(i + " ");
-    }
+    String str = "Java";
     ```
+
     <form>
-      <input type="radio" name="q12" value="a"> 0 2 4<br>
-      <input type="radio" name="q12" value="b"> 0 1 2 3 4<br>
-      <input type="radio" name="q12" value="c"> 1 3 5<br>
-      <input type="radio" name="q12" value="d"> 2 4<br>
+      <input type="radio" name="q3" value="a"> str.contains("av")<br>
+      <input type="radio" name="q3" value="b"> str.indexOf("av")<br>
+      <input type="radio" name="q3" value="c"> str.matches("av")<br>
+      <input type="radio" name="q3" value="d"> str.equals("av")<br>
     </form>
     <details markdown="block">
       <summary>Answer</summary>
-      0 2 4
+      str.contains("av")  
+      (Explanation: `contains()` checks if the substring exists within the string.)
     </details>
 
-13. What will be printed by this Java code?
+4. What does the following code output?
 
     ```java
-    int sum = 0;
-    int i = 1;
-    while (i <= 3) {
-        sum += i;
-        i++;
-    }
-    System.out.println(sum);
+    String str = "Java Programming";
+    System.out.println(str.replace('a', 'o'));
     ```
+
     <form>
-      <input type="radio" name="q13" value="a"> 6<br>
-      <input type="radio" name="q13" value="b"> 3<br>
-      <input type="radio" name="q13" value="c"> 0<br>
-      <input type="radio" name="q13" value="d"> 9<br>
+      <input type="radio" name="q4" value="a"> Jovo Progromming<br>
+      <input type="radio" name="q4" value="b"> Jova Progromming<br>
+      <input type="radio" name="q4" value="c"> Javo Progromming<br>
+      <input type="radio" name="q4" value="d"> Jova Programming<br>
     </form>
     <details markdown="block">
       <summary>Answer</summary>
-      6
+      Jovo Progromming  
+      (Explanation: `replace('a', 'o')` replaces all occurrences of 'a' with 'o'.)
     </details>
 
-14. After executing the following Java code, what will be the output?
+5. What is the return value of `str.trim()` when the string is "   Hello   "?
 
     ```java
-    int i = 5;
-    do {
-        System.out.print(i + " ");
-        i -= 2;
-    } while (i > 0);
+    String str = "   Hello   ";
+    System.out.println(str.trim());
     ```
+
     <form>
-      <input type="radio" name="q14" value="a"> 5 3 1<br>
-      <input type="radio" name="q14" value="b"> 5 4 3 2 1<br>
-      <input type="radio" name="q14" value="c"> 5 3<br>
-      <input type="radio" name="q14" value="d"> 5 2<br>
+      <input type="radio" name="q5" value="a"> "Hello"<br>
+      <input type="radio" name="q5" value="b"> "   Hello"<br>
+      <input type="radio" name="q5" value="c"> "Hello   "<br>
+      <input type="radio" name="q5" value="d"> "   Hello   "<br>
     </form>
     <details markdown="block">
       <summary>Answer</summary>
-      5 3 1
+      "Hello"  
+      (Explanation: `trim()` removes leading and trailing whitespace from the string.)
     </details>
 
-15. What will be the output of this Java code?
+6. What will the following code output?
 
     ```java
-    for (int i = 1; i <= 3; i++) {
-        for (int j = 1; j <= i; j++) {
-            System.out.print("*");
-        }
-        System.out.println();
-    }
+    String str = "Java";
+    System.out.println(str.charAt(2));
     ```
+
     <form>
-      <input type="radio" name="q15" value="a"><br>
-      *<br>
-      **<br>
-      ***<br>
-      <input type="radio" name="q15" value="b"><br>
-      ***<br>
-      **<br>
-      *<br>
-      <input type="radio" name="q15" value="c"><br>
-      ***<br>
-      ***<br>
-      ***<br>
-      <input type="radio" name="q15" value="d"> No output<br>
+      <input type="radio" name="q6" value="a"> J<br>
+      <input type="radio" name="q6" value="b"> a<br>
+      <input type="radio" name="q6" value="c"> v<br>
+      <input type="radio" name="q6" value="d"> r<br>
     </form>
     <details markdown="block">
       <summary>Answer</summary>
-      *
-      <br>**
-      <br>***
+      v  
+      (Explanation: `charAt(2)` returns the character at index 2, which is 'v'.)
     </details>
 
-16. How many times will "Hello" be printed in the following Java code?
+7. Which method should you use to split a string "Java Programming" into words?
 
     ```java
-    int i = 0;
-    while (i < 4) {
-        System.out.println("Hello");
-        i++;
-    }
+    String str = "Java Programming";
     ```
+
     <form>
-      <input type="radio" name="q16" value="a"> 4<br>
-      <input type="radio" name="q16" value="b"> 5<br>
-      <input type="radio" name="q16" value="c"> 3<br>
-      <input type="radio" name="q16" value="d"> Infinite times<br>
+      <input type="radio" name="q7" value="a"> str.split(" ")<br>
+      <input type="radio" name="q7" value="b"> str.split("")<br>
+      <input type="radio" name="q7" value="c"> str.split(",")<br>
+      <input type="radio" name="q7" value="d"> str.split("/")<br>
     </form>
     <details markdown="block">
       <summary>Answer</summary>
-      4
+      str.split(" ")  
+      (Explanation: `split(" ")` splits the string at spaces, resulting in words.)
     </details>
 
-17. Determine the output of this Java code snippet.
+8. What is the return type of the `toLowerCase()` method?
 
     ```java
-    int total = 0;
-    for (int i = 1; i <= 5; i++) {
-        if (i % 2 == 0) {
-            continue;
-        }
-        total += i;
-    }
-    System.out.println(total);
+    String str = "HELLO";
+    String result = str.toLowerCase();
     ```
+
     <form>
-      <input type="radio" name="q17" value="a"> 9<br>
-      <input type="radio" name="q17" value="b"> 15<br>
-      <input type="radio" name="q17" value="c"> 6<br>
-      <input type="radio" name="q17" value="d"> 0<br>
+      <input type="radio" name="q8" value="a"> String<br>
+      <input type="radio" name="q8" value="b"> char<br>
+      <input type="radio" name="q8" value="c"> boolean<br>
+      <input type="radio" name="q8" value="d"> int<br>
     </form>
     <details markdown="block">
       <summary>Answer</summary>
-      9
+      String  
+      (Explanation: `toLowerCase()` returns a new string where all characters are converted to lowercase.)
     </details>
 
-18. What will the following Java code print?
+9. What is the output of the following code?
 
     ```java
-    int i = 1;
-    do {
-        System.out.print(i + " ");
-        i *= 2;
-    } while (i < 10);
+    String str = "Java";
+    System.out.println(str.indexOf('a'));
     ```
+
     <form>
-      <input type="radio" name="q18" value="a"> 1 2 4 8<br>
-      <input type="radio" name="q18" value="b"> 1 3 5 7 9<br>
-      <input type="radio" name="q18" value="c"> 1 2 3 4 5<br>
-      <input type="radio" name="q18" value="d"> 2 4 8<br>
+      <input type="radio" name="q9" value="a"> 0<br>
+      <input type="radio" name="q9" value="b"> 1<br>
+      <input type="radio" name="q9" value="c"> 2<br>
+      <input type="radio" name="q9" value="d"> 3<br>
     </form>
     <details markdown="block">
       <summary>Answer</summary>
-      1 2 4 8
+      1  
+      (Explanation: `indexOf('a')` returns the index of the first occurrence of 'a', which is at index 1.)
     </details>
 
-19. After executing this Java code, what will be the value of `count`?
+10. What does the method `String.format()` do?
 
     ```java
-    int count = 0;
-    for (int i = 0; i < 5; i++) {
-        if (i % 2 == 0) {
-            count++;
-        }
-    }
+    String result = String.format("The number is: %d", 10);
+    System.out.println(result);
     ```
+
     <form>
-      <input type="radio" name="q19" value="a"> 3<br>
-      <input type="radio" name="q19" value="b"> 2<br>
-      <input type="radio" name="q19" value="c"> 5<br>
-      <input type="radio" name="q19" value="d"> 0<br>
+      <input type="radio" name="q10" value="a"> Converts numbers to string<br>
+      <input type="radio" name="q10" value="b"> Formats the string to include variables<br>
+      <input type="radio" name="q10" value="c"> Replaces all occurrences of a substring<br>
+      <input type="radio" name="q10" value="d"> Appends strings<br>
     </form>
     <details markdown="block">
       <summary>Answer</summary>
-      3
+      Formats the string to include variables  
+      (Explanation: `String.format()` allows formatting strings by inserting variables like numbers into placeholders.)
     </details>
 
-20. What will be printed by the following Java code?
+11. What will the following code print?
 
     ```java
-    for (int i = 1; i <= 3; i++) {
-        for (int j = 3; j >= i; j--) {
-            System.out.print(j + " ");
-        }
-        System.out.println();
-    }
+    String str = "  Hello World  ";
+    System.out.println(str.trim().toUpperCase());
     ```
+
     <form>
-      <input type="radio" name="q20" value="a"><br>
-      3 2 1<br>
-      3 2<br>
-      3<br>
-      <input type="radio" name="q20" value="b"><br>
-      3 2 1<br>
-      2 1<br>
-      1<br>
-      <input type="radio" name="q20" value="c"><br>
-      3 2 1<br>
-      3 2 1<br>
-      3 2 1<br>
-      <input type="radio" name="q20" value="d"> Compilation error<br>
+      <input type="radio" name="q11" value="a"> HELLO WORLD<br>
+      <input type="radio" name="q11" value="b"> Hello World<br>
+      <input type="radio" name="q11" value="c">   HELLO WORLD<br>
+      <input type="radio" name="q11" value="d">   Hello World   <br>
     </form>
     <details markdown="block">
       <summary>Answer</summary>
-      3 2 1<br>
-      3 2<br>
-      3
+      HELLO WORLD  
+      (Explanation: `trim()` removes leading and trailing spaces, and `toUpperCase()` converts the string to uppercase.)
     </details>
 
-21. How many times will "Test" be printed in this Java code?
+12. What will the following code output?
 
     ```java
-    int i = 0;
-    do {
-        System.out.println("Test");
-        i++;
-    } while (i < 0);
+    String str = "Java Programming";
+    System.out.println(str.contains("Pro"));
     ```
+
     <form>
-      <input type="radio" name="q21" value="a"> 1<br>
-      <input type="radio" name="q21" value="b"> 0<br>
-      <input type="radio" name="q21" value="c"> Infinite times<br>
-      <input type="radio" name="q21" value="d"> 2<br>
+      <input type="radio" name="q12" value="a"> true<br>
+      <input type="radio" name="q12" value="b"> false<br>
+      <input type="radio" name="q12" value="c"> Error<br>
+      <input type="radio" name="q12" value="d"> true false<br>
     </form>
     <details markdown="block">
       <summary>Answer</summary>
-      1
+      true  
+      (Explanation: `contains("Pro")` checks if "Pro" is a part of the string and returns true.)
     </details>
 
-22. Determine the output of this Java code.
+13. What does the following code do?
 
     ```java
-    for (int i = 1; i <= 5; i++) {
-        if (i == 3) {
-            break;
-        }
-        System.out.print(i + " ");
-    }
+    String str = "Java";
+    System.out.println(str.substring(1, 3));
     ```
+
     <form>
-      <input type="radio" name="q22" value="a"> 1 2<br>
-      <input type="radio" name="q22" value="b"> 1 2 3 4 5<br>
-      <input type="radio" name="q22" value="c"> 3 4 5<br>
-      <input type="radio" name="q22" value="d"> 1 2 3<br>
+      <input type="radio" name="q13" value="a"> av<br>
+      <input type="radio" name="q13" value="b"> Ja<br>
+      <input type="radio" name="q13" value="c"> va<br>
+      <input type="radio" name="q13" value="d"> J<br>
     </form>
     <details markdown="block">
       <summary>Answer</summary>
-      1 2
+      av  
+      (Explanation: `substring(1, 3)` extracts the substring starting from index 1 and ending at index 3, which is "av".)
     </details>
 
-23. What will the following Java code output?
+14. What is the result of the following expression?
 
     ```java
-    int i = 10;
-    while (i > 0) {
-        System.out.print(i + " ");
-        i -= 3;
-    }
+    String str = "Java";
+    boolean result = str.startsWith("J");
+    System.out.println(result);
     ```
+
     <form>
-      <input type="radio" name="q23" value="a"> 10 7 4 1<br>
-      <input type="radio" name="q23" value="b"> 10 9 8 7 6 5 4 3 2 1<br>
-      <input type="radio" name="q23" value="c"> 10 7 4<br>
-      <input type="radio" name="q23" value="d"> 10 7 4 1 -2<br>
+      <input type="radio" name="q14" value="a"> true<br>
+      <input type="radio" name="q14" value="b"> false<br>
+      <input type="radio" name="q14" value="c"> Error<br>
+      <input type="radio" name="q14" value="d"> true false<br>
     </form>
     <details markdown="block">
       <summary>Answer</summary>
-      10 7 4 1
+      true  
+      (Explanation: `startsWith("J")` checks if the string starts with the specified character 'J' and returns true.)
     </details>
 
-24. How many times will the inner loop execute in total in the following Java code?
+15. What is the return value of the following method call?
 
     ```java
-    for (int i = 1; i <= 2; i++) {
-        for (int j = 1; j <= 3; j++) {
-            System.out.println("Inner Loop");
-        }
-    }
+    String str = "Java";
+    System.out.println(str.length());
     ```
+
     <form>
-      <input type="radio" name="q24" value="a"> 6<br>
-      <input type="radio" name="q24" value="b"> 5<br>
-      <input type="radio" name="q24" value="c"> 3<br>
-      <input type="radio" name="q24" value="d"> 2<br>
+      <input type="radio" name="q15" value="a"> 3<br>
+      <input type="radio" name="q15" value="b"> 4<br>
+      <input type="radio" name="q15" value="c"> 5<br>
+      <input type="radio" name="q15" value="d"> 0<br>
     </form>
     <details markdown="block">
       <summary>Answer</summary>
-      6
+      4  
+      (Explanation: `length()` returns the number of characters in the string "Java", which is 4.)
     </details>
 
-25. What will be printed by this Java code?
+16. What will the following code print?
 
     ```java
-    int i = 1;
-    do {
-        if (i == 3) {
-            i++;
-            continue;
-        }
-        System.out.print(i + " ");
-        i++;
-    } while (i <= 5);
+    String str = "Hello";
+    System.out.println(str.equals("hello"));
     ```
+
     <form>
-      <input type="radio" name="q25" value="a"> 1 2 4 5<br>
-      <input type="radio" name="q25" value="b"> 1 2 3 4 5<br>
-      <input type="radio" name="q25" value="c"> 1 2 3 5<br>
-      <input type="radio" name="q25" value="d"> 1 2 3 4<br>
+      <input type="radio" name="q16" value="a"> true<br>
+      <input type="radio" name="q16" value="b"> false<br>
+      <input type="radio" name="q16" value="c"> Error<br>
+      <input type="radio" name="q16" value="d"> true false<br>
     </form>
     <details markdown="block">
       <summary>Answer</summary>
-      1 2 4 5
+      false  
+      (Explanation: `equals()` is case-sensitive, so "Hello" is not equal to "hello".)
     </details>
 
-26. Determine the output of this Java code snippet.
+17. What will the following code output?
 
     ```java
-    for (int i = 0; i < 2; i++) {
-        for (int j = 0; j < 2; j++) {
-            System.out.print(i + j + " ");
-        }
-    }
+    String str = "Java Programming";
+    System.out.println(str.indexOf("Prog"));
     ```
+
     <form>
-      <input type="radio" name="q26" value="a"> 0 1 1 2<br>
-      <input type="radio" name="q26" value="b"> 0 1 0 1<br>
-      <input type="radio" name="q26" value="c"> 1 2 3 4<br>
-      <input type="radio" name="q26" value="d"> 0 1 2 3<br>
+      <input type="radio" name="q17" value="a"> 0<br>
+      <input type="radio" name="q17" value="b"> 1<br>
+      <input type="radio" name="q17" value="c"> 5<br>
+      <input type="radio" name="q17" value="d"> -1<br>
     </form>
     <details markdown="block">
       <summary>Answer</summary>
-      0 1 1 2
+      5  
+      (Explanation: `indexOf("Prog")` returns the index where the substring "Prog" begins, which is 5.)
     </details>
 
-27. What will be the final value of `result` after executing this Java code?
+18. What will this code print?
 
     ```java
-    int result = 1;
-    int i = 1;
-    while (i <= 3) {
-        result *= i;
-        i++;
-    }
+    String str = "Java";
+    System.out.println(str.replace('a', 'o'));
     ```
+
     <form>
-      <input type="radio" name="q27" value="a"> 6<br>
-      <input type="radio" name="q27" value="b"> 3<br>
-      <input type="radio" name="q27" value="c"> 0<br>
-      <input type="radio" name="q27" value="d"> 9<br>
+      <input type="radio" name="q18" value="a"> Jovo<br>
+      <input type="radio" name="q18" value="b"> Jova<br>
+      <input type="radio" name="q18" value="c"> Java<br>
+      <input type="radio" name="q18" value="d"> Jovo<br>
     </form>
     <details markdown="block">
       <summary>Answer</summary>
-      6
+      Jovo  
+      (Explanation: `replace('a', 'o')` replaces all occurrences of 'a' with 'o', resulting in "Jovo".)
     </details>
 
-28. How many times will "Executing" be printed by the following Java code?
+19. What is the return type of the method `toCharArray()`?
 
     ```java
-    int i = 0;
-    while (true) {
-        System.out.println("Executing");
-        if (i == 2) {
-            break;
-        }
-        i++;
-    }
+    String str = "Java";
+    char[] result = str.toCharArray();
     ```
+
     <form>
-      <input type="radio" name="q28" value="a"> 3<br>
-      <input type="radio" name="q28" value="b"> 2<br>
-      <input type="radio" name="q28" value="c"> 1<br>
-      <input type="radio" name="q28" value="d"> Infinite times<br>
+      <input type="radio" name="q19" value="a"> String<br>
+      <input type="radio" name="q19" value="b"> char[]<br>
+      <input type="radio" name="q19" value="c"> char<br>
+      <input type="radio" name="q19" value="d"> boolean<br>
     </form>
     <details markdown="block">
       <summary>Answer</summary>
-      3
+      char[]  
+      (Explanation: `toCharArray()` converts the string into an array of characters and returns it.)
     </details>
 
-29. What will be the output of this Java code?
+20. What does the method `str.equalsIgnoreCase("java")` return when the string is "JAVA"?
 
     ```java
-    for (int i = 1; i <= 3; i++) {
-        System.out.print("Outer" + i + " ");
-        for (int j = 1; j <= 2; j++) {
-            System.out.print("Inner" + j + " ");
-        }
-    }
+    String str = "JAVA";
+    System.out.println(str.equalsIgnoreCase("java"));
     ```
+
     <form>
-      <input type="radio" name="q29" value="a"> Outer1 Inner1 Inner2 Outer2 Inner1 Inner2 Outer3 Inner1 Inner2<br>
-      <input type="radio" name="q29" value="b"> Inner1 Inner2 Outer1 Inner1 Inner2 Outer2 Inner1 Inner2 Outer3<br>
-      <input type="radio" name="q29" value="c"> Outer1 Outer2 Outer3 Inner1 Inner2<br>
-      <input type="radio" name="q29" value="d"> Outer1 Outer2 Outer3 Inner1 Inner2 Inner1 Inner2 Inner1 Inner2<br>
+      <input type="radio" name="q20" value="a"> true<br>
+      <input type="radio" name="q20" value="b"> false<br>
+      <input type="radio" name="q20" value="c"> Error<br>
+      <input type="radio" name="q20" value="d"> true false<br>
     </form>
     <details markdown="block">
       <summary>Answer</summary>
-      Outer1 Inner1 Inner2 Outer2 Inner1 Inner2 Outer3 Inner1 Inner2
-    </details>
-
-30. Determine the output of the following Java code.
-
-    ```java
-    int i = 0;
-    do {
-        System.out.print(i + " ");
-        i++;
-    } while (i < 3);
-    ```
-    <form>
-      <input type="radio" name="q30" value="a"> 0 1 2<br>
-      <input type="radio" name="q30" value="b"> 1 2 3<br>
-      <input type="radio" name="q30" value="c"> 0 1 2 3<br>
-      <input type="radio" name="q30" value="d"> 0 1<br>
-    </form>
-    <details markdown="block">
-      <summary>Answer</summary>
-      0 1 2
+      true  
+      (Explanation: `equalsIgnoreCase()` compares two strings ignoring case, so "JAVA" equals "java".)
     </details>
 
 [Back to Top](#top)
 
 ### Slightly harder MCQs
 
-1. What will be the output of the following code?
+Here are 20 more MCQs with code snippets that involve more than one method call, where the result of one method call is supplied to another:
 
-   ```java
-   int sum = 0;
-   for (int i = 1; i <= 5; i++) {
-       sum += i;
-   }
-   System.out.println(sum);
-   ```
-   <form>
-     <input type="radio" name="q1" value="a"> 10<br>
-     <input type="radio" name="q1" value="b"> 15<br>
-     <input type="radio" name="q1" value="c"> 5<br>
-     <input type="radio" name="q1" value="d"> Compilation error
-   </form>
-   <details markdown="block">
-     <summary>Answer</summary>
-     15
-   </details>
-
-2. What will be the output of the following code?
-
-   ```java
-   int i = 0;
-   while (i < 3) {
-       i++;
-   }
-   System.out.println(i);
-   ```
-   <form>
-     <input type="radio" name="q2" value="a"> 2<br>
-     <input type="radio" name="q2" value="b"> 3<br>
-     <input type="radio" name="q2" value="c"> 4<br>
-     <input type="radio" name="q2" value="d"> Compilation error
-   </form>
-   <details markdown="block">
-     <summary>Answer</summary>
-     3
-   </details>
-
-3. What will be the output of the following code?
-
-   ```java
-   int i = 0;
-   do {
-       i++;
-   } while (i < 0);
-   System.out.println(i);
-   ```
-   <form>
-     <input type="radio" name="q3" value="a"> 0<br>
-     <input type="radio" name="q3" value="b"> 1<br>
-     <input type="radio" name="q3" value="c"> 2<br>
-     <input type="radio" name="q3" value="d"> Compilation error
-   </form>
-   <details markdown="block">
-     <summary>Answer</summary>
-     1
-   </details>
-
-4. What will be the output of the following code?
-
-   ```java
-   int product = 1;
-   for (int i = 1; i <= 4; i++) {
-       product *= i;
-   }
-   System.out.println(product);
-   ```
-   <form>
-     <input type="radio" name="q4" value="a"> 24<br>
-     <input type="radio" name="q4" value="b"> 16<br>
-     <input type="radio" name="q4" value="c"> 4<br>
-     <input type="radio" name="q4" value="d"> 10
-   </form>
-   <details markdown="block">
-     <summary>Answer</summary>
-     24
-   </details>
-
-5. What will be the output of the following code?
-
-   ```java
-   int i = 5;
-   while (i > 0) {
-       i--;
-   }
-   System.out.println(i);
-   ```
-   <form>
-     <input type="radio" name="q5" value="a"> 0<br>
-     <input type="radio" name="q5" value="b"> 1<br>
-     <input type="radio" name="q5" value="c"> -1<br>
-     <input type="radio" name="q5" value="d"> Compilation error
-   </form>
-   <details markdown="block">
-     <summary>Answer</summary>
-     0
-   </details>
-
-6. What will be the output of the following code?
-
-   ```java
-   int i = 1;
-   do {
-       i *= 2;
-   } while (i < 10);
-   System.out.println(i);
-   ```
-   <form>
-     <input type="radio" name="q6" value="a"> 8<br>
-     <input type="radio" name="q6" value="b"> 10<br>
-     <input type="radio" name="q6" value="c"> 16<br>
-     <input type="radio" name="q6" value="d"> Compilation error
-   </form>
-   <details markdown="block">
-     <summary>Answer</summary>
-     16
-   </details>
-
-7. What will be the output of the following code?
-
-   ```java
-   int i = 1;
-   for (; i <= 3; i++) {
-       System.out.print(i + " ");
-   }
-   ```
-   <form>
-     <input type="radio" name="q7" value="a"> 1 2 3<br>
-     <input type="radio" name="q7" value="b"> 1 2 3 4<br>
-     <input type="radio" name="q7" value="c"> 0 1 2 3<br>
-     <input type="radio" name="q7" value="d"> Compilation error
-   </form>
-   <details markdown="block">
-     <summary>Answer</summary>
-     1 2 3
-   </details>
-
-8. What will be the output of the following code?
-
-   ```java
-   int count = 0;
-   while (count < 2) {
-       System.out.print(count + " ");
-       count++;
-   }
-   ```
-   <form>
-     <input type="radio" name="q8" value="a"> 0 1<br>
-     <input type="radio" name="q8" value="b"> 1 2<br>
-     <input type="radio" name="q8" value="c"> 0 1 2<br>
-     <input type="radio" name="q8" value="d"> Compilation error
-   </form>
-   <details markdown="block">
-     <summary>Answer</summary>
-     0 1
-   </details>
-
-9. What will be the output of the following code?
-
-   ```java
-   int sum = 0;
-   for (int i = 0; i < 4; i++) {
-       sum += i;
-   }
-   System.out.println(sum);
-   ```
-   <form>
-     <input type="radio" name="q9" value="a"> 6<br>
-     <input type="radio" name="q9" value="b"> 4<br>
-     <input type="radio" name="q9" value="c"> 10<br>
-     <input type="radio" name="q9" value="d"> Compilation error
-   </form>
-   <details markdown="block">
-     <summary>Answer</summary>
-     6
-   </details>
-
-10. What will be the output of the following code?
+1. What will the following code print?
 
     ```java
-    int i = 3;
-    while (i <= 3) {
-       i++;
-    }
-    System.out.println(i);
+    String str = "  Java Programming  ";
+    System.out.println(str.trim().toUpperCase());
     ```
+
     <form>
-     <input type="radio" name="q10" value="a"> 3<br>
-     <input type="radio" name="q10" value="b"> 4<br>
-     <input type="radio" name="q10" value="c"> 5<br>
-     <input type="radio" name="q10" value="d"> Compilation error
+      <input type="radio" name="q1" value="a"> JAVA PROGRAMMING<br>
+      <input type="radio" name="q1" value="b"> Java Programming<br>
+      <input type="radio" name="q1" value="c"> JAVA programming<br>
+      <input type="radio" name="q1" value="d">   JAVA PROGRAMMING<br>
     </form>
     <details markdown="block">
-     <summary>Answer</summary>
-     4
+      <summary>Answer</summary>
+      JAVA PROGRAMMING  
+      (Explanation: `trim()` removes leading and trailing spaces, and `toUpperCase()` converts the string to uppercase.)
     </details>
 
-11. What will be the output of the following code?
+2. What will the following code output?
 
     ```java
-    int i = 1;
-    do {
-       i++;
-    } while (i < 2);
-    System.out.println(i);
+    String str = "Java Programming";
+    System.out.println(str.substring(5).toLowerCase());
     ```
+
     <form>
-     <input type="radio" name="q11" value="a"> 0<br>
-     <input type="radio" name="q11" value="b"> 1<br>
-     <input type="radio" name="q11" value="c"> 2<br>
-     <input type="radio" name="q11" value="d"> 3
+      <input type="radio" name="q2" value="a"> programming<br>
+      <input type="radio" name="q2" value="b"> Java programming<br>
+      <input type="radio" name="q2" value="c"> JAVA PROGRAMMING<br>
+      <input type="radio" name="q2" value="d"> Java programming<br>
     </form>
     <details markdown="block">
-     <summary>Answer</summary>
-     2
+      <summary>Answer</summary>
+      programming  
+      (Explanation: `substring(5)` extracts the substring starting at index 5, and `toLowerCase()` converts it to lowercase.)
     </details>
 
-12. What will be the output of the following code?
+3. What is the result of the following code?
 
     ```java
-    int i = 0;
-    for (i = 1; i <= 5; i++) {
-       if (i == 3) {
-           continue;
-       }
-       System.out.print(i + " ");
-    }
+    String str = "Java Programming";
+    System.out.println(str.replace("Java", "Python").toLowerCase());
     ```
+
     <form>
-     <input type="radio" name="q12" value="a"> 1 2 3 4 5<br>
-     <input type="radio" name="q12" value="b"> 1 2 4 5<br>
-     <input type="radio" name="q12" value="c"> 1 2 3 5<br>
-     <input type="radio" name="q12" value="d"> Compilation error
+      <input type="radio" name="q3" value="a"> python programming<br>
+      <input type="radio" name="q3" value="b"> Python programming<br>
+      <input type="radio" name="q3" value="c"> Java programming<br>
+      <input type="radio" name="q3" value="d"> python Programming<br>
     </form>
     <details markdown="block">
-     <summary>Answer</summary>
-     1 2 4 5
+      <summary>Answer</summary>
+      python programming  
+      (Explanation: `replace("Java", "Python")` replaces "Java" with "Python" and `toLowerCase()` converts the string to lowercase.)
     </details>
 
-13. What will be the output of the following code?
+4. What will the following code print?
 
     ```java
-    int i = 0;
-    do {
-       i++;
-       if (i == 2) {
-           break;
-       }
-    } while (i < 5);
-    System.out.println(i);
+    String str = "    Hello World   ";
+    System.out.println(str.trim().substring(0, 5));
     ```
+
     <form>
-     <input type="radio" name="q13" value="a"> 1<br>
-     <input type="radio" name="q13" value="b"> 2<br>
-     <input type="radio" name="q13" value="c"> 3<br>
-     <input type="radio" name="q13" value="d"> Compilation error
+      <input type="radio" name="q4" value="a"> Hello<br>
+      <input type="radio" name="q4" value="b"> Hello World<br>
+      <input type="radio" name="q4" value="c"> Hello    <br>
+      <input type="radio" name="q4" value="d"> World<br>
     </form>
     <details markdown="block">
-     <summary>Answer</summary>
-     2
+      <summary>Answer</summary>
+      Hello  
+      (Explanation: `trim()` removes leading and trailing spaces, and `substring(0, 5)` extracts the first five characters.)
     </details>
 
-14. What will be the output of the following code?
+5. What is the output of the following code?
 
     ```java
-    int i = 1;
-    for (i = 1; i <= 3; i++) {
-       if (i % 2 == 0) {
-           continue;
-       }
-       System.out.print(i + " ");
-    }
+    String str = "Java Programming";
+    System.out.println(str.substring(0, 4).toUpperCase());
     ```
+
     <form>
-     <input type="radio" name="q14" value="a"> 1 2 3<br>
-     <input type="radio" name="q14" value="b"> 1 3<br>
-     <input type="radio" name="q14" value="c"> 2<br>
-     <input type="radio" name="q14" value="d"> Compilation error
+      <input type="radio" name="q5" value="a"> JAVA<br>
+      <input type="radio" name="q5" value="b"> Java<br>
+      <input type="radio" name="q5" value="c"> JAV<br>
+      <input type="radio" name="q5" value="d"> JAVA programming<br>
     </form>
     <details markdown="block">
-     <summary>Answer</summary>
-     1 3
+      <summary>Answer</summary>
+      JAVA  
+      (Explanation: `substring(0, 4)` extracts "Java", and `toUpperCase()` converts it to "JAVA".)
     </details>
 
-15. What will be the output of the following code?
+6. What will be the output of this code?
 
     ```java
-    int i = 10;
-    while (i > 5) {
-       i -= 2;
-    }
-    System.out.println(i);
+    String str = "Hello";
+    System.out.println(str.toLowerCase().replace('h', 'j'));
     ```
+
     <form>
-     <input type="radio" name="q15" value="a"> 6<br>
-     <input type="radio" name="q15" value="b"> 8<br>
-     <input type="radio" name="q15" value="c"> 4<br>
-     <input type="radio" name="q15" value="d"> 2
+      <input type="radio" name="q6" value="a"> hello<br>
+      <input type="radio" name="q6" value="b"> jello<br>
+      <input type="radio" name="q6" value="c"> Hello<br>
+      <input type="radio" name="q6" value="d"> Jello<br>
     </form>
     <details markdown="block">
-     <summary>Answer</summary>
-     4
+      <summary>Answer</summary>
+      jello  
+      (Explanation: `toLowerCase()` converts "Hello" to "hello", and `replace('h', 'j')` replaces 'h' with 'j'.)
     </details>
 
-16. What will be the output of the following code?
+7. What does the following code print?
 
     ```java
-    int sum = 0;
-    for (int i = 1; i <= 3; i++) {
-       sum += i;
-    }
-    sum *= 2;
-    System.out.println(sum);
+    String str = "Java";
+    System.out.println(str.concat(" Programming").toUpperCase());
     ```
+
     <form>
-     <input type="radio" name="q16" value="a"> 6<br>
-     <input type="radio" name="q16" value="b"> 12<br>
-     <input type="radio" name="q16" value="c"> 9<br>
-     <input type="radio" name="q16" value="d"> 18
+      <input type="radio" name="q7" value="a"> JAVA<br>
+      <input type="radio" name="q7" value="b"> Java Programming<br>
+      <input type="radio" name="q7" value="c"> JAVA PROGRAMMING<br>
+      <input type="radio" name="q7" value="d"> Java Programming<br>
     </form>
     <details markdown="block">
-     <summary>Answer</summary>
-     12
+      <summary>Answer</summary>
+      JAVA PROGRAMMING  
+      (Explanation: `concat(" Programming")` adds " Programming" to "Java", and `toUpperCase()` converts the result to uppercase.)
     </details>
 
-17. What will be the output of the following code?
+8. What will the output of the following code be?
 
     ```java
-    int i = 1;
-    do {
-       i += 3;
-    } while (i < 5);
-    System.out.println(i);
+    String str = "Java";
+    System.out.println(str.substring(1).replace('a', 'o'));
     ```
+
     <form>
-     <input type="radio" name="q17" value="a"> 4<br>
-     <input type="radio" name="q17" value="b"> 7<br>
-     <input type="radio" name="q17" value="c"> 1<br>
-     <input type="radio" name="q17" value="d"> 3
+      <input type="radio" name="q8" value="a"> Jova<br>
+      <input type="radio" name="q8" value="b"> Java<br>
+      <input type="radio" name="q8" value="c"> Jovo<br>
+      <input type="radio" name="q8" value="d"> Jaa<br>
     </form>
     <details markdown="block">
-     <summary>Answer</summary>
-     4
+      <summary>Answer</summary>
+      Jovo  
+      (Explanation: `substring(1)` removes the first character 'J', resulting in "ava", and `replace('a', 'o')` changes 'a' to 'o', resulting in "Jovo".)
     </details>
 
-18. What will be the output of the following code?
+9. What does the following code print?
 
     ```java
-    int i = 2;
-    while (i < 10) {
-       i *= 2;
-    }
-    System.out.println(i);
+    String str = "  Hello World  ";
+    System.out.println(str.trim().substring(0, 4).toUpperCase());
     ```
+
     <form>
-     <input type="radio" name="q18" value="a"> 8<br>
-     <input type="radio" name="q18" value="b"> 16<br>
-     <input type="radio" name="q18" value="c"> 10<br>
-     <input type="radio" name="q18" value="d"> 2
+      <input type="radio" name="q9" value="a"> HELLO<br>
+      <input type="radio" name="q9" value="b"> Hello<br>
+      <input type="radio" name="q9" value="c"> Hell<br>
+      <input type="radio" name="q9" value="d"> WORLD<br>
     </form>
     <details markdown="block">
-     <summary>Answer</summary>
-     16
+      <summary>Answer</summary>
+      HELL  
+      (Explanation: `trim()` removes the spaces, `substring(0, 4)` extracts "Hell", and `toUpperCase()` converts it to "HELL".)
     </details>
 
-19. What will be the output of the following code?
+10. What is the result of the following?
 
     ```java
-    int i = 5;
-    for (int j = 0; j < 3; j++) {
-       i++;
-    }
-    System.out.println(i);
+    String str = "Java Programming";
+    System.out.println(str.substring(5, 15).toLowerCase().replace("programming", "rocks"));
     ```
+
     <form>
-     <input type="radio" name="q19" value="a"> 6<br>
-     <input type="radio" name="q19" value="b"> 7<br>
-     <input type="radio" name="q19" value="c"> 8<br>
-     <input type="radio" name="q19" value="d"> 9
+      <input type="radio" name="q10" value="a"> programming rocks<br>
+      <input type="radio" name="q10" value="b"> programming<br>
+      <input type="radio" name="q10" value="c"> rocks<br>
+      <input type="radio" name="q10" value="d"> programming<br>
     </form>
     <details markdown="block">
-     <summary>Answer</summary>
-     8
+      <summary>Answer</summary>
+      rocks  
+      (Explanation: `substring(5, 15)` gives "Programming", `toLowerCase()` converts it to "programming", and `replace("programming", "rocks")` changes it to "rocks".)
     </details>
 
-20. What will be the output of the following code?
+11. What will the following code output?
 
     ```java
-    int i = 0;
-    while (i < 4) {
-       i += 2;
-    }
-    System.out.println(i);
+    String str = "Java";
+    System.out.println(str.toUpperCase().substring(1, 3));
     ```
+
     <form>
-     <input type="radio" name="q20" value="a"> 2<br>
-     <input type="radio" name="q20" value="b"> 4<br>
-     <input type="radio" name="q20" value="c"> 6<br>
-     <input type="radio" name="q20" value="d"> 0
+      <input type="radio" name="q11" value="a"> JA<br>
+      <input type="radio" name="q11" value="b"> AV<br>
+      <input type="radio" name="q11" value="c"> VA<br>
+      <input type="radio" name="q11" value="d"> JAVA<br>
     </form>
     <details markdown="block">
-     <summary>Answer</summary>
-     4
+      <summary>Answer</summary>
+      VA  
+      (Explanation: `toUpperCase()` converts "Java" to "JAVA", and `substring(1, 3)` extracts "VA".)
     </details>
 
-21. What will be the output of the following code?
+12. What does the following code print?
 
     ```java
-    int sum = 0;
-    for (int i = 2; i <= 6; i += 2) {
-       sum += i;
-    }
-    System.out.println(sum);
+    String str = "  Hello World  ";
+    System.out.println(str.trim().replace("World", "Java").toLowerCase());
     ```
+
     <form>
-     <input type="radio" name="q21" value="a"> 8<br>
-     <input type="radio" name="q21" value="b"> 12<br>
-     <input type="radio" name="q21" value="c"> 14<br>
-     <input type="radio" name="q21" value="d"> 20
+      <input type="radio" name="q12" value="a"> hello world<br>
+      <input type="radio" name="q12" value="b"> hello java<br>
+      <input type="radio" name="q12" value="c"> hello WORLD<br>
+      <input type="radio" name="q12" value="d"> hello java world<br>
     </form>
     <details markdown="block">
-     <summary>Answer</summary>
-     12
+      <summary>Answer</summary>
+      hello java  
+      (Explanation: `trim()` removes leading/trailing spaces, `replace("World", "Java")` replaces "World" with "Java", and `toLowerCase()` converts it to lowercase.)
     </details>
 
-22. What will be the output of the following code?
+13. What is the result of this code?
 
     ```java
-    int i = 1;
-    do {
-       i++;
-       if (i == 3) {
-           continue;
-       }
-    } while (i < 5);
-    System.out.println(i);
+    String str = "Java Programming";
+    System.out.println(str.replace("a", "o").substring(5));
     ```
+
     <form>
-     <input type="radio" name="q22" value="a"> 2<br>
-     <input type="radio" name="q22" value="b"> 4<br>
-     <input type="radio" name="q22" value="c"> 5<br>
-     <input type="radio" name="q22" value="d"> 3
+      <input type="radio" name="q13" value="a"> ovo Progrmming<br>
+      <input type="radio" name="q13" value="b"> oJava Programming<br>
+      <input type="radio" name="q13" value="c"> Java Programming<br>
+      <input type="radio" name="q13" value="d"> oProgrmming<br>
     </form>
     <details markdown="block">
-     <summary>Answer</summary>
-     5
+      <summary>Answer</summary>
+      o Progrmming  
+      (Explanation: `replace("a", "o")` changes "Java Programming" to "Jovo Progrmming", and `substring(5)` removes the first 5 characters.)
     </details>
 
-23. What will be the output of the following code?
+14. What will the output be of this code?
 
     ```java
-    int i = 4;
-    while (i > 1) {
-       i--;
-    }
-    System.out.println(i);
+    String str = "Java Programming";
+    System.out.println(str.substring(5).replace('a', 'o'));
     ```
+
     <form>
-     <input type="radio" name="q23" value="a"> 1<br>
-     <input type="radio" name="q23" value="b"> 0<br>
-     <input type="radio" name="q23" value="c"> 2<br>
-     <input type="radio" name="q23" value="d"> 4
+      <input type="radio" name="q14" value="a"> Java Progrogramming<br>
+      <input type="radio" name="q14" value="b"> Jovo Progrogramming<br>
+      <input type="radio" name="q14" value="c"> Progrogramming<br>
+      <input type="radio" name="q14" value="d"> Progrogramming<br>
     </form>
     <details markdown="block">
-     <summary>Answer</summary>
-     1
+      <summary>Answer</summary>
+      Jovo Progrogramming  
+      (Explanation: `substring(5)` extracts "Programming", and `replace('a', 'o')` changes 'a' to 'o'.)
     </details>
 
-24. What will be the output of the following code?
+15. What does the following code print?
 
     ```java
-    int i = 3;
-    for (; i <= 6; i += 2) {
-       System.out.print(i + " ");
-    }
+    String str = "Hello";
+    System.out.println(str.concat(" World").toUpperCase());
     ```
+
     <form>
-     <input type="radio" name="q24" value="a"> 3 5<br>
-     <input type="radio" name="q24" value="b"> 3 5 7<br>
-     <input type="radio" name="q24" value="c"> 3 4 5 6<br>
-     <input type="radio" name="q24" value="d"> 3 5 6
+      <input type="radio" name="q15" value="a"> HELLO WORLD<br>
+      <input type="radio" name="q15" value="b"> hello world<br>
+      <input type="radio" name="q15" value="c"> HELLO<br>
+      <input type="radio" name="q15" value="d"> Hello World<br>
     </form>
     <details markdown="block">
-     <summary>Answer</summary>
-     3 5
+      <summary>Answer</summary>
+      HELLO WORLD  
+      (Explanation: `concat(" World")` appends " World" to "Hello", and `toUpperCase()` converts it to "HELLO WORLD".)
     </details>
 
-25. What will be the output of the following code?
+16. What will the following code output?
 
     ```java
-    int sum = 0;
-    for (int i = 0; i < 3; i++) {
-       sum += 2;
-    }
-    System.out.println(sum);
+    String str = "Java";
+    System.out.println(str.toLowerCase().replace('a', 'o').substring(1, 3));
     ```
+
     <form>
-     <input type="radio" name="q25" value="a"> 3<br>
-     <input type="radio" name="q25" value="b"> 4<br>
-     <input type="radio" name="q25" value="c"> 6<br>
-     <input type="radio" name="q25" value="d"> 8
+      <input type="radio" name="q16" value="a"> vo<br>
+      <input type="radio" name="q16" value="b"> Oa<br>
+      <input type="radio" name="q16" value="c"> va<br>
+      <input type="radio" name="q16" value="d"> Jo<br>
     </form>
     <details markdown="block">
-     <summary>Answer</summary>
-     6
+      <summary>Answer</summary>
+      vo  
+      (Explanation: `toLowerCase()` converts "Java" to "java", `replace('a', 'o')` changes 'a' to 'o', and `substring(1, 3)` extracts "vo".)
     </details>
 
-26. What will be the output of the following code?
+17. What will the following code print?
 
     ```java
-    int i = 2;
-    do {
-       i += 3;
-    } while (i < 10);
-    System.out.println(i);
+    String str = "Java Programming";
+    System.out.println(str.substring(5, 10).toUpperCase().concat(" is fun"));
     ```
+
     <form>
-     <input type="radio" name="q26" value="a"> 7<br>
-     <input type="radio" name="q26" value="b"> 10<br>
-     <input type="radio" name="q26" value="c"> 2<br>
-     <input type="radio" name="q26" value="d"> 12
+      <input type="radio" name="q17" value="a"> PROGRAMMING is fun<br>
+      <input type="radio" name="q17" value="b"> PROGR is fun<br>
+      <input type="radio" name="q17" value="c"> Program is fun<br>
+      <input type="radio" name="q17" value="d"> PROGRAM is fun<br>
     </form>
     <details markdown="block">
-     <summary>Answer</summary>
-     7
+      <summary>Answer</summary>
+      PROGRAM is fun  
+      (Explanation: `substring(5, 10)` extracts "Progr", `toUpperCase()` converts it to "PROGR", and `concat(" is fun")` appends " is fun".)
     </details>
 
-27. What will be the output of the following code?
+18. What does this code print?
 
     ```java
-    int sum = 1;
-    for (int i = 1; i <= 3; i++) {
-       sum *= i;
-    }
-    System.out.println(sum);
+    String str = "  Hello World  ";
+    System.out.println(str.trim().substring(6).toLowerCase());
     ```
+
     <form>
-     <input type="radio" name="q27" value="a"> 6<br>
-     <input type="radio" name="q27" value="b"> 3<br>
-     <input type="radio" name="q27" value="c"> 9<br>
-     <input type="radio" name="q27" value="d"> 1
+      <input type="radio" name="q18" value="a"> world<br>
+      <input type="radio" name="q18" value="b"> hello world<br>
+      <input type="radio" name="q18" value="c"> Hello world<br>
+      <input type="radio" name="q18" value="d"> hello<br>
     </form>
     <details markdown="block">
-     <summary>Answer</summary>
-     6
+      <summary>Answer</summary>
+      world  
+      (Explanation: `trim()` removes spaces, `substring(6)` extracts "World", and `toLowerCase()` converts it to "world".)
     </details>
 
-28. What will be the output of the following code?
+19. What will the following code print?
 
     ```java
-    int i = 1;
-    while (i <= 3) {
-       System.out.print(i + " ");
-       i++;
-    }
+    String str = "Hello";
+    System.out.println(str.substring(1).toUpperCase().replace('E', 'O'));
     ```
+
     <form>
-     <input type="radio" name="q28" value="a"> 1 2<br>
-     <input type="radio" name="q28" value="b"> 1 2 3<br>
-     <input type="radio" name="q28" value="c"> 1<br>
-     <input type="radio" name="q28" value="d"> 1 3
+      <input type="radio" name="q19" value="a"> Ollo<br>
+      <input type="radio" name="q19" value="b"> Ollo<br>
+      <input type="radio" name="q19" value="c"> HELLO<br>
+      <input type="radio" name="q19" value="d"> HOLO<br>
     </form>
     <details markdown="block">
-     <summary>Answer</summary>
-     1 2 3
+      <summary>Answer</summary>
+      Ollo  
+      (Explanation: `substring(1)` extracts "ello", `toUpperCase()` converts it to "ELLO", and `replace('E', 'O')` changes 'E' to 'O', resulting in "Ollo".)
     </details>
 
-29. What will be the output of the following code?
+20. What is the result of the following code?
 
     ```java
-    int i = 2;
-    do {
-       System.out.print(i + " ");
-       i++;
-    } while (i < 4);
+    String str = "Java Programming";
+    System.out.println(str.substring(5, 10).toLowerCase().replace('r', 'l'));
     ```
+
     <form>
-     <input type="radio" name="q29" value="a"> 2<br>
-     <input type="radio" name="q29" value="b"> 2 3<br>
-     <input type="radio" name="q29" value="c"> 2 3 4<br>
-     <input type="radio" name="q29" value="d"> 3 4
+      <input type="radio" name="q20" value="a"> progLamming<br>
+      <input type="radio" name="q20" value="b"> proGLamming<br>
+      <input type="radio" name="q20" value="c"> programming<br>
+      <input type="radio" name="q20" value="d"> proLamming<br>
     </form>
     <details markdown="block">
-     <summary>Answer</summary>
-     2 3
-    </details>
-
-30. What will be the output of the following code?
-
-    ```java
-    int i = 0;
-    for (; i < 3; i++) {
-       System.out.print(i + " ");
-    }
-    ```
-    <form>
-     <input type="radio" name="q30" value="a"> 0 1 2<br>
-     <input type="radio" name="q30" value="b"> 1 2 3<br>
-     <input type="radio" name="q30" value="c"> 1 2<br>
-     <input type="radio" name="q30" value="d"> 0 1
-    </form>
-    <details markdown="block">
-     <summary>Answer</summary>
-     0 1 2
+      <summary>Answer</summary>
+      proglamming  
+      (Explanation: `substring(5, 10)` extracts "Prog", `toLowerCase()` converts it to "prog", and `replace('r', 'l')` changes 'r' to 'l', resulting in "proglamming".)
     </details>
 
 [Back to Top](#top)
 
 ### Tricky MCQs
 
-1. What will be the output of the following code?
+Here are 20 tricky and slightly confusing questions based on Java String methods:
 
-   ```java
-   int i = 0;
-   while (i < 5) {
-       i++;
-       if (i % 2 == 0) {
-           i++;
-       }
-       System.out.print(i + " ");
-   }
-   ```
-   <form>
-     <input type="radio" name="q1" value="a"> 1 3 5 7<br>
-     <input type="radio" name="q1" value="b"> 2 4 6<br>
-     <input type="radio" name="q1" value="c"> 2 3 5<br>
-     <input type="radio" name="q1" value="d"> 1 2 4 5
-   </form>
-   <details markdown="block">
-     <summary>Answer</summary>
-     2 3 5 7
-   </details>
-
-2. What will be the output of the following code?
-
-   ```java
-   int i = 1;
-   do {
-       i *= 2;
-       if (i > 4) {
-           break;
-       }
-       i++;
-   } while (i < 8);
-   System.out.println(i);
-   ```
-   <form>
-     <input type="radio" name="q2" value="a"> 2<br>
-     <input type="radio" name="q2" value="b"> 3<br>
-     <input type="radio" name="q2" value="c"> 4<br>
-     <input type="radio" name="q2" value="d"> 5
-   </form>
-   <details markdown="block">
-     <summary>Answer</summary>
-     5
-   </details>
-
-3. What will be the output of the following code?
-
-   ```java
-   int i = 10;
-   for (int j = 0; j < 3; j++) {
-       i -= j;
-   }
-   System.out.println(i);
-   ```
-   <form>
-     <input type="radio" name="q3" value="a"> 9<br>
-     <input type="radio" name="q3" value="b"> 8<br>
-     <input type="radio" name="q3" value="c"> 7<br>
-     <input type="radio" name="q3" value="d"> 6
-   </form>
-   <details markdown="block">
-     <summary>Answer</summary>
-     7
-   </details>
-
-4. What will be the output of the following code?
-
-   ```java
-   int i = 1;
-   while (i <= 3) {
-       System.out.print(i + " ");
-       i++;
-       if (i == 2) {
-           i += 2;
-       }
-   }
-   ```
-   <form>
-     <input type="radio" name="q4" value="a"> 1 3<br>
-     <input type="radio" name="q4" value="b"> 1 2 4<br>
-     <input type="radio" name="q4" value="c"> 1 4<br>
-     <input type="radio" name="q4" value="d"> 1 2 3
-   </form>
-   <details markdown="block">
-     <summary>Answer</summary>
-     1 4
-   </details>
-
-5. What will be the output of the following code?
-
-   ```java
-   int i = 0;
-   do {
-       i++;
-       if (i % 3 == 0) {
-           continue;
-       }
-       System.out.print(i + " ");
-   } while (i < 5);
-   ```
-   <form>
-     <input type="radio" name="q5" value="a"> 1 2 4 5<br>
-     <input type="radio" name="q5" value="b"> 1 2 3 4<br>
-     <input type="radio" name="q5" value="c"> 2 4 5<br>
-     <input type="radio" name="q5" value="d"> 1 2 4
-   </form>
-   <details markdown="block">
-     <summary>Answer</summary>
-     1 2 4 5
-   </details>
-
-6. What will be the output of the following code?
-
-   ```java
-   int i = 1;
-   for (int j = 0; j < 5; j++) {
-       if (j % 2 == 0) {
-           i += j;
-       } else {
-           i -= j;
-       }
-   }
-   System.out.println(i);
-   ```
-   <form>
-     <input type="radio" name="q6" value="a"> 0<br>
-     <input type="radio" name="q6" value="b"> 1<br>
-     <input type="radio" name="q6" value="c"> 2<br>
-     <input type="radio" name="q6" value="d"> 3
-   </form>
-   <details markdown="block">
-     <summary>Answer</summary>
-     1
-   </details>
-
-7. What will be the output of the following code?
-
-   ```java
-   int i = 1;
-   while (i < 4) {
-       i += i;
-       System.out.print(i + " ");
-   }
-   ```
-   <form>
-     <input type="radio" name="q7" value="a"> 1 3<br>
-     <input type="radio" name="q7" value="b"> 2 4<br>
-     <input type="radio" name="q7" value="c"> 2 4 8<br>
-     <input type="radio" name="q7" value="d"> 2 6
-   </form>
-   <details markdown="block">
-     <summary>Answer</summary>
-     2 4 8
-   </details>
-
-8. What will be the output of the following code?
-
-   ```java
-   int i = 2;
-   do {
-       i *= 2;
-   } while (i < 16);
-   System.out.println(i);
-   ```
-   <form>
-     <input type="radio" name="q8" value="a"> 8<br>
-     <input type="radio" name="q8" value="b"> 16<br>
-     <input type="radio" name="q8" value="c"> 32<br>
-     <input type="radio" name="q8" value="d"> 64
-   </form>
-   <details markdown="block">
-     <summary>Answer</summary>
-     32
-   </details>
-
-9. What will be the output of the following code?
-
-   ```java
-   int i = 1;
-   for (int j = 5; j > 1; j--) {
-       i += j;
-   }
-   System.out.println(i);
-   ```
-   <form>
-     <input type="radio" name="q9" value="a"> 15<br>
-     <input type="radio" name="q9" value="b"> 14<br>
-     <input type="radio" name="q9" value="c"> 16<br>
-     <input type="radio" name="q9" value="d"> 11
-   </form>
-   <details markdown="block">
-     <summary>Answer</summary>
-     15
-   </details>
-
-10. What will be the output of the following code?
+1. What does the following code print?
 
     ```java
-    int i = 1;
-    while (i < 5) {
-       if (i == 3) {
-           break;
-       }
-       i++;
-    }
-    System.out.println(i);
+    String str = "Java";
+    System.out.println(str.substring(2, 2));
     ```
+
     <form>
-     <input type="radio" name="q10" value="a"> 2<br>
-     <input type="radio" name="q10" value="b"> 3<br>
-     <input type="radio" name="q10" value="c"> 4<br>
-     <input type="radio" name="q10" value="d"> 5
+      <input type="radio" name="q1" value="a"> Empty string<br>
+      <input type="radio" name="q1" value="b"> J<br>
+      <input type="radio" name="q1" value="c"> a<br>
+      <input type="radio" name="q1" value="d"> Error<br>
     </form>
     <details markdown="block">
-     <summary>Answer</summary>
-     3
+      <summary>Answer</summary>
+      Empty string  
+      (Explanation: `substring(2, 2)` extracts from index 2 to index 2, so no characters are selected, resulting in an empty string.)
     </details>
+
+2. What is the result of the following code?
+
+    ```java
+    String str = "Java Programming";
+    System.out.println(str.substring(5, 20));
+    ```
+
+    <form>
+      <input type="radio" name="q2" value="a"> Programming<br>
+      <input type="radio" name="q2" value="b"> Error<br>
+      <input type="radio" name="q2" value="c"> Java Programming<br>
+      <input type="radio" name="q2" value="d"> Progr<br>
+    </form>
+    <details markdown="block">
+      <summary>Answer</summary>
+      Error  
+      (Explanation: `substring(5, 20)` will throw an error because the second index exceeds the length of the string.)
+    </details>
+
+3. What is the output of the following code?
+
+    ```java
+    String str = "Java Programming";
+    System.out.println(str.replace('a', 'o').substring(4, 10));
+    ```
+
+    <form>
+      <input type="radio" name="q3" value="a"> Progra<br>
+      <input type="radio" name="q3" value="b"> Progr<br>
+      <input type="radio" name="q3" value="c"> Prorg<br>
+      <input type="radio" name="q3" value="d"> Prora<br>
+    </form>
+    <details markdown="block">
+      <summary>Answer</summary>
+      Prorg  
+      (Explanation: `replace('a', 'o')` replaces 'a' with 'o', so "Java Programming" becomes "Jovo Progromming". `substring(4, 10)` extracts "Prorg".)
+    </details>
+
+4. What will the output be?
+
+    ```java
+    String str = "Java";
+    System.out.println(str.indexOf('a', 2));
+    ```
+
+    <form>
+      <input type="radio" name="q4" value="a"> 1<br>
+      <input type="radio" name="q4" value="b"> 2<br>
+      <input type="radio" name="q4" value="c"> 3<br>
+      <input type="radio" name="q4" value="d"> -1<br>
+    </form>
+    <details markdown="block">
+      <summary>Answer</summary>
+      3  
+      (Explanation: `indexOf('a', 2)` starts searching from index 2, and the next 'a' is at index 3.)
+    </details>
+
+5. What is the output of this code?
+
+    ```java
+    String str = "Java";
+    System.out.println(str.charAt(5));
+    ```
+
+    <form>
+      <input type="radio" name="q5" value="a"> Error<br>
+      <input type="radio" name="q5" value="b"> a<br>
+      <input type="radio" name="q5" value="c"> J<br>
+      <input type="radio" name="q5" value="d"> IndexOutOfBoundsException<br>
+    </form>
+    <details markdown="block">
+      <summary>Answer</summary>
+      Error  
+      (Explanation: `charAt(5)` is out of bounds since the string "Java" has a length of 4.)
+    </details>
+
+6. What will the output of this code be?
+
+    ```java
+    String str = "Java";
+    System.out.println(str.substring(4));
+    ```
+
+    <form>
+      <input type="radio" name="q6" value="a"> Empty string<br>
+      <input type="radio" name="q6" value="b"> Java<br>
+      <input type="radio" name="q6" value="c"> a<br>
+      <input type="radio" name="q6" value="d"> Error<br>
+    </form>
+    <details markdown="block">
+      <summary>Answer</summary>
+      Empty string  
+      (Explanation: `substring(4)` starts at index 4, but the string has only 4 characters, so it returns an empty string.)
+    </details>
+
+7. What will the following code print?
+
+    ```java
+    String str = "Java";
+    System.out.println(str.replace("av", "o"));
+    ```
+
+    <form>
+      <input type="radio" name="q7" value="a"> Jo<br>
+      <input type="radio" name="q7" value="b"> Java<br>
+      <input type="radio" name="q7" value="c"> Joo<br>
+      <input type="radio" name="q7" value="d"> Javo<br>
+    </form>
+    <details markdown="block">
+      <summary>Answer</summary>
+      Joo  
+      (Explanation: `replace("av", "o")` replaces "av" with "o", resulting in "Joo".)
+    </details>
+
+8. What will the following code output?
+
+    ```java
+    String str = "Java";
+    System.out.println(str.indexOf("va", 1));
+    ```
+
+    <form>
+      <input type="radio" name="q8" value="a"> 1<br>
+      <input type="radio" name="q8" value="b"> 2<br>
+      <input type="radio" name="q8" value="c"> 3<br>
+      <input type="radio" name="q8" value="d"> -1<br>
+    </form>
+    <details markdown="block">
+      <summary>Answer</summary>
+      2  
+      (Explanation: `indexOf("va", 1)` starts searching from index 1, and "va" is found starting at index 2.)
+    </details>
+
+9. What is the output of this code?
+
+    ```java
+    String str = "Java";
+    System.out.println(str.replace("a", "o").substring(1, 3));
+    ```
+
+    <form>
+      <input type="radio" name="q9" value="a"> Jovo<br>
+      <input type="radio" name="q9" value="b"> ovo<br>
+      <input type="radio" name="q9" value="c"> Ova<br>
+      <input type="radio" name="q9" value="d"> Jo<br>
+    </form>
+    <details markdown="block">
+      <summary>Answer</summary>
+      vo  
+      (Explanation: `replace("a", "o")` changes "Java" to "Jovo", and `substring(1, 3)` extracts "vo".)
+    </details>
+
+10. What will be the output of this code?
+
+    ```java
+    String str = "Java";
+    System.out.println(str.charAt(str.length() - 1));
+    ```
+
+    <form>
+      <input type="radio" name="q10" value="a"> J<br>
+      <input type="radio" name="q10" value="b"> a<br>
+      <input type="radio" name="q10" value="c"> Error<br>
+      <input type="radio" name="q10" value="d"> IndexOutOfBoundsException<br>
+    </form>
+    <details markdown="block">
+      <summary>Answer</summary>
+      a  
+      (Explanation: `str.length() - 1` calculates the index of the last character, which is 'a'.)
+    </details>
+
+11. What is the output of this code?
+
+    ```java
+    String str = "Java Programming";
+    System.out.println(str.substring(5, 5));
+    ```
+
+    <form>
+      <input type="radio" name="q11" value="a"> Programming<br>
+      <input type="radio" name="q11" value="b"> Empty string<br>
+      <input type="radio" name="q11" value="c"> Java Programming<br>
+      <input type="radio" name="q11" value="d"> Error<br>
+    </form>
+    <details markdown="block">
+      <summary>Answer</summary>
+      Empty string  
+      (Explanation: `substring(5, 5)` extracts a substring starting and ending at index 5, so the result is an empty string.)
+    </details>
+
+12. What will be the output of this code?
+
+    ```java
+    String str = "Java";
+    System.out.println(str.toLowerCase().concat(" Programming").substring(0, 10));
+    ```
+
+    <form>
+      <input type="radio" name="q12" value="a"> java Program<br>
+      <input type="radio" name="q12" value="b"> java progra<br>
+      <input type="radio" name="q12" value="c"> Java Program<br>
+      <input type="radio" name="q12" value="d"> java program<br>
+    </form>
+    <details markdown="block">
+      <summary>Answer</summary>
+      java program  
+      (Explanation: `toLowerCase()` converts "Java" to "java", `concat(" Programming")` appends " Programming", and `substring(0, 10)` extracts "java progra".)
+    </details>
+
+13. What does this code output?
+
+    ```java
+    String str = "Hello World";
+    System.out.println(str.indexOf('o', 5));
+    ```
+
+    <form>
+      <input type="radio" name="q13" value="a"> 5<br>
+      <input type="radio" name="q13" value="b"> 7<br>
+      <input type="radio" name="q13" value="c"> 4<br>
+      <input type="radio" name="q13" value="d"> 6<br>
+    </form>
+    <details markdown="block">
+      <summary>Answer</summary>
+      7  
+      (Explanation: `indexOf('o', 5)` searches for 'o' starting from index 5, and the next 'o' is at index 7.)
+    </details>
+
+14. What will this code print?
+
+    ```java
+    String str = "Java Programming";
+    System.out.println(str.replace(" ", ""));
+    ```
+
+    <form>
+      <input type="radio" name="q14" value="a"> Java Programming<br>
+      <input type="radio" name="q14" value="b"> JavaProgramming<br>
+      <input type="radio" name="q14" value="c"> Error<br>
+      <input type="radio" name="q14" value="d"> Java<br>
+    </form>
+    <details markdown="block">
+      <summary>Answer</summary>
+      JavaProgramming  
+      (Explanation: `replace(" ", "")` removes all spaces from the string.)
+    </details>
+
+15. What is the output of this code?
+
+    ```java
+    String str = "Java Programming";
+    System.out.println(str.replace("a", "o").substring(5, 15).toUpperCase());
+    ```
+
+    <form>
+      <input type="radio" name="q15" value="a"> OPROGRAMMING<br>
+      <input type="radio" name="q15" value="b"> PROGR OGRAMMING<br>
+      <input type="radio" name="q15" value="c"> PROGR OGRAMMING<br>
+      <input type="radio" name="q15" value="d"> PROGRAMMING<br>
+    </form>
+    <details markdown="block">
+      <summary>Answer</summary>
+      OPROGRAMMING  
+      (Explanation: `replace("a", "o")` replaces "a" with "o", then `substring(5, 15)` extracts "Programming", and `toUpperCase()` converts it to uppercase.)
+    </details>
+
+16. What is the result of the following?
+
+    ```java
+    String str = "Hello";
+    System.out.println(str.substring(1, 3).toUpperCase());
+    ```
+
+    <form>
+      <input type="radio" name="q16" value="a"> EL<br>
+      <input type="radio" name="q16" value="b"> He<br>
+      <input type="radio" name="q16" value="c"> lo<br>
+      <input type="radio" name="q16" value="d"> HEL<br>
+    </form>
+    <details markdown="block">
+      <summary>Answer</summary>
+      EL  
+      (Explanation: `substring(1, 3)` extracts "el", and `toUpperCase()` converts it to "EL".)
+    </details>
+
+17. What will this code print?
+
+    ```java
+    String str = "Java Programming";
+    System.out.println(str.indexOf("Java") == 0);
+    ```
+
+    <form>
+      <input type="radio" name="q17" value="a"> true<br>
+      <input type="radio" name="q17" value="b"> false<br>
+      <input type="radio" name="q17" value="c"> Error<br>
+      <input type="radio" name="q17" value="d"> false<br>
+    </form>
+    <details markdown="block">
+      <summary>Answer</summary>
+      true  
+      (Explanation: `indexOf("Java") == 0` checks if "Java" starts at index 0, which is true.)
+    </details>
+
+18. What does this code print?
+
+    ```java
+    String str = "Java";
+    System.out.println(str.charAt(str.length()));
+    ```
+
+    <form>
+      <input type="radio" name="q18" value="a"> a<br>
+      <input type="radio" name="q18" value="b"> Error<br>
+      <input type="radio" name="q18" value="c"> Java<br>
+      <input type="radio" name="q18" value="d"> IndexOutOfBoundsException<br>
+    </form>
+    <details markdown="block">
+      <summary>Answer</summary>
+      Error  
+      (Explanation: `charAt(str.length())` causes an error because index `str.length()` is out of bounds.)
+    </details>
+
+19. What will the following code print?
+
+    ```java
+    String str = "   Hello ";
+    System.out.println(str.trim().length());
+    ```
+
+    <form>
+      <input type="radio" name="q19" value="a"> 5<br>
+      <input type="radio" name="q19" value="b"> 6<br>
+      <input type="radio" name="q19" value="c"> 7<br>
+      <input type="radio" name="q19" value="d"> 4<br>
+    </form>
+    <details markdown="block">
+      <summary>Answer</summary>
+      5  
+      (Explanation: `trim()` removes the spaces, leaving "Hello", and the length is 5.)
+    </details>
+
+20. What does this code print?
+
+    ```java
+    String str = "Java Programming";
+    System.out.println(str.substring(5, 20));
+    ```
+
+    <form>
+      <input type="radio" name="q20" value="a"> Error<br>
+      <input type="radio" name="q20" value="b"> Progr<br>
+      <input type="radio" name="q20" value="c"> Programming<br>
+      <input type="radio" name="q20" value="d"> Program<br>
+    </form>
+    <details markdown="block">
+      <summary>Answer</summary>
+      Error  
+      (Explanation: The second argument in `substring(5, 20)` is greater than the length of the string, so it throws an error.)
+    </details>
+
+[Back to Top](#top)

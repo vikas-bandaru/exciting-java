@@ -2,7 +2,7 @@
 layout: default
 title: Code Snippets MCQs
 parent: Nested Loops
-nav_order: 3
+nav_order: 7
 grand_parent: Test Yourself
 ---
 

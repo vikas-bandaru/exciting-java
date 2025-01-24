@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Making Decisions
+title: Decisions
 parent: Test Yourself
 nav_order: 3
 has_children: true

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Self Check
-parent: Making Decisions
+parent: Decisions
 nav_order: 1
 grand_parent: Test Yourself
 ---
